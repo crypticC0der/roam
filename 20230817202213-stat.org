@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       530a44c1-3d75-4e62-a2d0-57bd9c9727d3
+:END:
+#+title: stat
+stats are a collection of universal data for normally a [[id:0d84b726-7f7d-4766-a5e5-b311747276f2][combatant]]
+you have a number of stats which are
+- max health
+- hp regen (per second)
+- damage (base damage added to attacks)
+- dmg multiplier (damage multiplier applied after additive effects)
+- [[id:c5684005-e4cf-4783-a6ac-74bbd9226836][attack rate]]
+- [[id:c5684005-e4cf-4783-a6ac-74bbd9226836][attack speed]]
+- shot speed
+- range
+- speed
+- funnel shots -> shots done in a single direction around 5 degrees apart
+- cross shots
+  each set of funnel shots are replicated n times around the shooter,
+  so if you have crossshots=2, then you shoot forward and behind
+  so if you have crossshots=4, then you shoot forward, behind, left and right

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       131c7804-1328-44a8-8e94-406d7b0efe93
+:END:
+#+title: debuffs
+a debuff applies an effect every so often, they can stack in 2 ways,
+either strengthining the debuff or elongating the time left
+debuffs do alot of things, they can stun slot burn and alot more

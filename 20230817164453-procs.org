@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e933feb1-5920-4792-954c-3a5181228e5d
+:END:
+#+title: procs
+a proc is a [[id:7823d424-596e-4a3d-a32d-cd81a9d35c5c][damager]] and is capable of dealing damage when called
+a proc has a perent being an attack

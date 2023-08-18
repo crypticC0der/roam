@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c3ac6284-dbb7-4c97-94da-061ce5938473
+:END:
+#+title: defences
+a defender is just a hex that is capable of taking hits and is owned by the player

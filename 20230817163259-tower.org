@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       caf0ca55-e0b1-47b2-bdd1-bd4c3befe3ff
+:END:
+#+title: tower
+a tower is a [[id:0d84b726-7f7d-4766-a5e5-b311747276f2][combatant]] with a pre-set up [[id:cf56960f-5af8-4816-89dd-0c42a9a7d28f][attack]], they inherit nearby [[id:b01125a1-4a3b-4491-baf4-1c1721c48ebf][modules]]
+based on stability and this gives them new procs debuffs attacks and stats
+these are your main means of defending yourselves static towers are normally alligned to defend you

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b01125a1-4a3b-4491-baf4-1c1721c48ebf
+:END:
+#+title: modules
+a module is the main part of modulo
+you have 5 types of module each does a specific and relatively limited thing
+- [[id:cf56960f-5af8-4816-89dd-0c42a9a7d28f][attack]] module
+- [[id:8b1eedaf-c7e9-41a6-8a59-1e07a56eefd7][special properties]] module
+- [[id:530a44c1-3d75-4e62-a2d0-57bd9c9727d3][stat]] module
+- [[id:131c7804-1328-44a8-8e94-406d7b0efe93][debuffs]] module
+- [[id:e933feb1-5920-4792-954c-3a5181228e5d][procs]] module

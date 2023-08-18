@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       8b1eedaf-c7e9-41a6-8a59-1e07a56eefd7
+:END:
+#+title: special properties
+special properties are things that are interesting to have in a game but cannot be
+univerasally implemented in an easy way such as a [[id:530a44c1-3d75-4e62-a2d0-57bd9c9727d3][stat]]
+
+they are implemented as a bit specific enum, with each bit in a integer being a specific property,
+only the 1st 7 bits are defined and i will not add any more
+
+they are
+- homing
+- predictive
+- rapidFire
+- returning
+- spdUp
+- polar
+
+originally there were going to be a few other for multi shot but i gave them their own [[id:530a44c1-3d75-4e62-a2d0-57bd9c9727d3][stat]]
+
+generally each attack type defines how they deal with these, ie ranged and area and close,
+but each melee attack is so diverse that i have had to implement most all of them individually on each
+generally they dont need to do exactly what it says on the thin but it should be understood to
+lead to a similar effect
+
+the ones that have minimal coverage are returning and polar, due to how they are specifically awkward

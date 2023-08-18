@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7823d424-596e-4a3d-a32d-cd81a9d35c5c
+:END:
+#+title: damagers
+a damager is capable of dealing damage, it has a proc coefficent, a dmg stat
+and a damage overhead function
+damagers arent the only things capable of dealing damage anything can use the damageable.TakeDamage function but damagers deal active damage in a single burst unlike a debuff
+
+a damager is currently either an [[id:cf56960f-5af8-4816-89dd-0c42a9a7d28f][attacks]] or a [[id:e933feb1-5920-4792-954c-3a5181228e5d][proc]]

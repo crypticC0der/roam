@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cf56960f-5af8-4816-89dd-0c42a9a7d28f
+:END:
+#+title: attacks
+an attack is a finite state machine (normally) that will do a thing every time
+that finite state machine is up
+there are 4 types of attacks
+- ranged
+- area
+- melee
+- close (deprecated)
+
+attacks are also children of [[id:7823d424-596e-4a3d-a32d-cd81a9d35c5c][damagers]]

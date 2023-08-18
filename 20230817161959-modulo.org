@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8d039b79-55d6-4a17-b2c9-7fef28893109
+:END:
+#+title: modulo
+modulo is a game im making i really like it!!
+its tower defence but really abstracted
+
+generally you have to defend against waves of enemies and you have to craft defensive items
+
+the way [[id:c3ac6284-dbb7-4c97-94da-061ce5938473][defences]] work will be the main thing, so you get a [[id:caf0ca55-e0b1-47b2-bdd1-bd4c3befe3ff][tower]], these will not attack you but you can get caught in the crossfire, the aim main loop of the game is continuing to upgrade will avoiding being caught

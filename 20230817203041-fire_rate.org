@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       c5684005-e4cf-4783-a6ac-74bbd9226836
+:END:
+#+title: fire rate
+
+ok so when designing attack stuff it needed to be capable of a barrage, the ability to charge up when not used, and the ability to have the overall attack speed increase and the speed it goes down increase
+
+this is a basic version of the finite state machine for specifically ranged
+#+begin_src csharp
+public override void Update() {
+	//if timer over
+    if (timer <= 0) {
+		//if not fully charged charge over 5 seconds of not firing
+        if (chargingPercent < 1) {
+            chargingPercent += Time.deltaTime / 5;
+        }
+		// try find target
+        if (found target) {
+			//shoot them
+			//increse the shotcount
+            rapidFireShotCount = (rapidFireShotCount + 1) % 4;
+			//reset the timer
+            timer = attackRate() + perent.attackSpeed;
+        }
+	//if timer still running decrease the charging percent to 0 over 2.5 seconds of timer running
+    } else if (chargingPercent > 0) {
+        chargingPercent -= 2 * Time.deltaTime / 5;
+    }
+	//decrease the timer by attack rate and timestep
+    timer -= Time.deltaTime * perent.attackRate;
+}
+#+end_src
+
+#+begin_src csharp
+//poorly named function as it has nothing to do with actual attack rate this should be attack speed
+public virtual float attackRate(float rapid, float charge) {
+	//initializes r[ate] to the attacks designated timer value and the additional from the perent
+    float r = perent.attackSpeed + timerMax;
+	//if rapid fire is enabled on the 1st 3 shots shoot with a 4x shorter timer and on the final have the timer 3x longer
+    if ((attackProperties() & SpecialProperties.rapidFire) != 0) {
+        if (rapid >= 3) {
+            r *= 3;
+        } else {
+            r /= 4;
+        }
+    }
+	//if speed up is enabled, it will hugely increase the fire rate up to 5x at max charge, this makes visually quite a good effect
+    if ((attackProperties() & SpecialProperties.spdUp) != 0) {
+        r *= Mathf.Lerp(1, 0.2f, charge);
+    }
+	//ensure you arent firing faster than around 30 per second, this is to ensure shotcounts dont go insane
+    return Mathf.Max(r, 0.03f);
+}
+#+end_src
+
+so the [[id:8b1eedaf-c7e9-41a6-8a59-1e07a56eefd7][special properties]] spdUp and rapidFire will modify the timer value
+the attack speed [[id:530a44c1-3d75-4e62-a2d0-57bd9c9727d3][stat]] modifies the timer value also
+and the [[id:530a44c1-3d75-4e62-a2d0-57bd9c9727d3][stat]] attack rate does the same
