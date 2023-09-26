@@ -8,7 +8,7 @@ the main component to the complexity is the priority queue Q,
 an efficent implementation of Q uses a heap, this allows us to get the min value in O(logn), this key update can be done through a bit of added code complexity and features in the priority queue, also being in O(logn) time,
 this means Dijkstra runs in O((n+m)logn) time,
 
-we can implement [[id:11d6ee08-97c6-418c-920d-1fe148614267][dijkstras algorithm]] in O(mlogn) time though if we make Q use a unsorted doubly linked list, meainng we spend O(n) time removing the key, but allows constant time key updates,
+we can implement dijkstras algorithm in O(mlogn) time though if we make Q use a unsorted doubly linked list, meainng we spend O(n) time removing the key, but allows constant time key updates,
 this mean we can do each update in O(1) time, and therin the running time becomes O(n^2 +m) which simplifies to O(n^2) as G is simple (less nodes than edges)
 
 so we have two implementations for it, one being O(mlogn) and another being O(n^2), the choice depends on how large n is going to be, if you have a sparsely connected graph, then use the O(n^2) implementation though generally O(mlogn) is better
