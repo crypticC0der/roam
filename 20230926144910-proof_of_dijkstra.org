@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d9dfd625-1bef-4348-97ea-819164f5b3fa
+:END:
+#+title: proof of dijkstra
+* hypothosis
+whenever a vertex is pulled into the cloaud, the label of D[u] is the shortest path toward it,
+
+* proof
+suppose D[t] > d(v,t) for some t in V, let u be the first vertex the algorithm pulled into C where D[u] > d(v,u) (the first wrong vertex)
+let P be the real shortest from v to u
+let z be the first vertex of P, that is not in C,
+let y be the predecessor for z in path P,
+we know by our choice of z (first not in the cloud), that y is in C
+moreover, since u is the first wrong vertex we know D[y] is the best path (D[y] = d(v,y))
+when y was pulled into C we had tested and possibly updated D[z] so we know that
+D[z] <= D[y] + w(y,z)) = d(v,y) + w(y,z)
+since z is the next vertex on the shortest path that implies that D[z] = d(v,z) so z is correct and its shortest path
+and when picking the best node we picked u and not z, so D[u] <= D[z]
+
+and as the subset of a shortest path is also a shortest path, since z is on the shortest path from v to u d(v,z) + d(z,y) = d(v,u)
+and d(z,u) >=0 as we dont have negative edges, so
+D[u] <= D[z] = d(v,z) <= d(v,z) + d(z,u) = d(v,u)
+which contradicts the definition of u so u cannot exist

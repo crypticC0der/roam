@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       e7ee3b76-578e-419a-b07d-83845abaa81d
+:END:
+#+title: game theory
+
+this is a important feild of science, despite some beliving its just a theory
+[[https://www.thecelebrityfamilies.com/wp-content/uploads/2020/12/Matthew-Patrick-Family-Wife-Children-Dating-Net-Worth-Nationality-800x445.jpg][a game theory]]
+
+[[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]] theory is a study of how to manipulate events towards our favour,
+
+fun fact alot of game theory reasearch is military funded,
+we assume each agent is rational, ie maximising her own outcome
+game theory only applies where the agents are rational, and unable to cooperate
+
+cooperative game theory is a whole other beast, also game theory heaviliy applies to computing but is a fundementally mathmatical subject
+
+we aim to solve these questions
+- what is a [[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]]
+- how can we descibe a game plan for an agent
+- what is playing a game well
+- how do we find a good game plan
+- what can be modelled with games

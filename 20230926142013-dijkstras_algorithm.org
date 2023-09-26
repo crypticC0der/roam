@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       11d6ee08-97c6-418c-920d-1fe148614267
+:END:
+#+title: dijkstras algorithm
+* basic notes
+dijkstras algorithm uses a priority queue to evaluate nodes in order based on how far away from the initial node they are
+
+this uses a best first algorithm, as in it searches the nodes closest to the source, the priority queue is a large source of complexity
+each node in the priority queue maintains properties of the current shortest path, its distance to the source and its perent
+we relax nodes when a shorter parth is found, the distance and perent data on the node is updated
+
+if all edge weights are the same dijksta is equivelent to breadth first (queue based) search,
+
+this is very useful for finding the minimum distance between all desitnations, ie fastest journey from any city to any other city
+
+[[id:6a18f16d-898c-42c6-9db7-556fb532d610][A* search]] is simpley dijkstras search with a heuristic
+
+dijkstas search is complete and optimal, but uninfomed
+
+* a more formal approach
+given a graph G, with a set of undordered vertex pairs (u,z), with no loops and parellel edges
+G is a weighted directional graph each vertex being from u -> z
+
+we define a label D[u] for each vertex u of G which we use to approximate the distance in G from v to u, D[u] will always store the best distance we have found from v to u *so far*, so initially D[v] = 0 and D[u] = inf
+and we define the set C which is out "cloud" of verticies seen initially being the empty set, each iteration we take the vertex not in C with the smallest D[u] (that being v) and pull it into C, we then update the label D[z] for the adjecent nodes, so for all connected nodes, if D[u] + W(u,z) < D[z], D[z] = D[u] + W(u,z)
+basically if we find a shorter path, we update it as so, this is called relaxation,
+[[/home/mj/Pictures/screenshots/2023-09-26-14:44:52.png][execution of the algorithm]]
+
+[[id:d9dfd625-1bef-4348-97ea-819164f5b3fa][proof of dijkstra]]
+
+[[id:d76b211d-ef1a-4159-90e1-94525ce042f3][djikstras complexity]]

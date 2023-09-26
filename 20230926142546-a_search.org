@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6a18f16d-898c-42c6-9db7-556fb532d610
+:END:
+#+title: A* search
+a star search is simpley a greedy search with a priority queue
+i know this algorithm best as a pathfinding one but it can be used in a great number of situations, it searches the best node based on a heuristic (distance from source + distance from target)
+
+this depending on the heuristic which can be much more complicated can be much faster than any other algorithm and all better algorithms are based around this, though research into the optimal heuristic is interesting to read ON
+
+especially information regarding waypoints
+
+this can be used in more than pathfinding, and can search trees too, specifically descision trees
