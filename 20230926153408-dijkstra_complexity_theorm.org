@@ -3,3 +3,5 @@
 :END:
 #+title: dijkstra complexity theorem
 given a simple weighted graph G, with n verticies and m edges, such that the weight of each edge is non negative, and a vertex v of G, [[id:11d6ee08-97c6-418c-920d-1fe148614267][dijkstras algorithm]] computes the distance from v to all other verticies in G in O(mlogn) time or alternatively O(n^2) time
+
+this defines the [[id:1e186726-998a-422f-91ca-895c2389c5c3][complexity]] of dijksta

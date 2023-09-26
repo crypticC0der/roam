@@ -7,6 +7,6 @@ such as i made her duck,
 and word level is where the word has multiple interpretations such as apple
 
 more formally:
-[[id:cc0115ac-4af9-4d67-841c-3951082890c9][lexical ambiguity]] -> a word with multiple aprt of speach tags, ie verb or noun
-lexical semantic mbiguity -> word with different senses
-syntactic ambiguity -> ambiguity from multiple possible word groupings
+- [[id:cc0115ac-4af9-4d67-841c-3951082890c9][lexical ambiguity]] -> a word with multiple aprt of speach tags, ie verb or noun
+- lexical semantic mbiguity -> word with different senses
+- syntactic ambiguity -> ambiguity from multiple possible word groupings

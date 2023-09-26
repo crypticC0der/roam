@@ -7,6 +7,7 @@ a game is a situation wherin agents interact and have influence of an outcome,
 a great number of situations fall under this from stock market manipulation to simple board games such as hex
 
 we define this as
-- a number of agents interact with one another, these being the players
+- a number of agents interact with one another, these being the players, the number cannot be one
+  - if the number is one it is a puzzle
 - at the end they revice a outcome which we can give a value to, this can be negative and is called a pay-off
 - there are clearly defined rules and the agents have to stick to these, when there are no more descisions to be made the outcome is determined

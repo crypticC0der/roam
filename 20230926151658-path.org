@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c7d1ebed-7ddf-4724-a41d-c45e37d498ae
+:END:
+#+title: path
+a path is a set of moves from one node to another, to get to a final node
+this could be the best set of moves in a game, or the fastest route from A -> B

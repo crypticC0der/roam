@@ -14,9 +14,16 @@ game theory only applies where the agents are rational, and unable to cooperate
 
 cooperative game theory is a whole other beast, also game theory heaviliy applies to computing but is a fundementally mathmatical subject
 
+[[id:cbea59a8-c749-4849-9e1b-a24a081a8ca5][examples of a game]]
+[[id:fefd545c-142e-4199-a7b5-a886156119bd][examples of not a game]]
+
 we aim to solve these questions
 - what is a [[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]]
 - how can we descibe a game plan for an agent
 - what is playing a game well
 - how do we find a good game plan
 - what can be modelled with games
+
+to solve this we aim to find the move where your player is in the best position given any move the other can do
+this can be referred to as finding the best [[id:c7d1ebed-7ddf-4724-a41d-c45e37d498ae][path]] to the victory node, there are a number of algorithms for doing this
+this is exsitensial logic which makes these problems PSPACE which is higher [[id:1e186726-998a-422f-91ca-895c2389c5c3][complexity]] than NP

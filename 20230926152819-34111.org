@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       58b630c3-5b42-4901-893a-fa5ca401c86a
+:END:
+#+title: 34111
+3411 is the [[id:e7ee3b76-578e-419a-b07d-83845abaa81d][game theory]] module
+
+* structure
+** weeks
+*** first 6 weeks
+learn the content to understand game theory
+*** next 5 weeks
+make an agent to play hex as a group
+@ week 9 we need to declare our approach
+*** final week
+demonstrate the agent and explain it
+@ collab
+
+** assesing agent performance
+due to how the number of games is a quadratic equation we have too many students to have a tournement
+
+now we have 5 bots with different agents, and we play as both player 1 and player 2
+the set of results becoming the performance mark,
+the mark is a weighted function developed using linear regression from previous years grades to mark us accurately
+
+** grading
+50% corsework
+50% exam

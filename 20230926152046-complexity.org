@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1e186726-998a-422f-91ca-895c2389c5c3
+:END:
+#+title: complexity
+complexity is the difficulty of a problem, this is put into either big O notation, or space complexity
+ie
+- polynomial space (P)
+- non polynomial space (NP)
+- factorial space (PSPACE)
