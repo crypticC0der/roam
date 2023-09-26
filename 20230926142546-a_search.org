@@ -2,7 +2,7 @@
 :ID:       6a18f16d-898c-42c6-9db7-556fb532d610
 :END:
 #+title: A* search
-a star search is simpley a greedy search with a priority queue
+a star search is simpley a greedy search with a priority queue [[id:c7d1ebed-7ddf-4724-a41d-c45e37d498ae][path]]finding algorithm
 i know this algorithm best as a pathfinding one but it can be used in a great number of situations, it searches the best node based on a heuristic (distance from source + distance from target)
 
 this depending on the heuristic which can be much more complicated can be much faster than any other algorithm and all better algorithms are based around this, though research into the optimal heuristic is interesting to read ON

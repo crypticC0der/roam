@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cbea59a8-c749-4849-9e1b-a24a081a8ca5
+:END:
+#+title: examples of a game
+- the cold war
+- chess
+- auctions
+  item is worth V
+  - bid V, cannot win (get item for less) but cannot loose (get item for too much)
+  - bid less than V, can win (get item for less), but might not get the item
+  - big more than V, can loose (get item for more)
+- prisoners dilemma

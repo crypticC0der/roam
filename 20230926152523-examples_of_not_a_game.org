@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fefd545c-142e-4199-a7b5-a886156119bd
+:END:
+#+title: examples of not a game
+- rubix cube (one player)
+- chess (one player)
+- blackjack (one player, dealer has no choice)
