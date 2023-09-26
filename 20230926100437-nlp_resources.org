@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6f98f2ce-a834-4fc3-931f-734f7f8b1c56
+:END:
+#+title: nlp resources
+- wordnet
+- dictionaries
+- text datasets
+- verb subcategorisation frames
+- corpus
+  - unannotated
+  - annotated (can become quite complex)
+    annotated data is often done manually and is not always agreed apon

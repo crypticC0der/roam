@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       751e6252-e44a-4075-acd4-97892fcb7c72
+:END:
+#+title: nlp uses
+its useful for text summarisation,
+question answering
+document classification
+information retrieva
+statement analysis
+machine translation
+natural langugage generation
+marking tools
+machine translation

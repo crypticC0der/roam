@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e342b150-4efb-4707-8a3e-b4ea8514a51c
+:END:
+#+title: parts of speach
+open class words
+- nouns
+- verbs
+- adjectives
+- adverbs

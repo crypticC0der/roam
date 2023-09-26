@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       af0f8440-c5e2-46db-8295-67be030cf8a0
+:END:
+#+title: basic linguistic concepts
+- [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][parts of speach]] (POS)
+- [[id:03c0a65f-d616-4591-bb4b-06f4640427f1][features and attributes]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       03c0a65f-d616-4591-bb4b-06f4640427f1
+:END:
+#+title: features of text
+- person
+- number
+- tense
+- aspect
+- voice

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0db75828-4a51-43d9-a3fe-c9d7f52c3b40
+:END:
+#+title: nlp examples
+google search in its modern form, pagerank no
+text mining
+text analytics
+computational lingustics
+language technology

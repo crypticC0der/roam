@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       7ae464da-5985-4df1-a402-a75063a38e64
+:END:
+#+title: natural language processing
+
+Natural Language Processing is the aims of understanding and processing a peice of data represented by a language
+this is used in a wide variety of things and has been around since the 1950s
+
+language processing is a wide term, it includes wc (but only when its actually counting words, when its counting lines that doesnt count)
+
+[[id:0db75828-4a51-43d9-a3fe-c9d7f52c3b40][nlp examples]]
+[[id:751e6252-e44a-4075-acd4-97892fcb7c72][nlp uses]]
+
+for a thing to be a nlp all it has to do is process language
+
+nlp is challenging though as text is generally complex especially the english language,
+you could parse the grammar tree but thats much easier said than done,
+its large amount of [[id:06e01287-62e0-4586-9c50-92ffad66698d][ambiguity]] and variability is also a problem
+
+you have to parse [[id:af0f8440-c5e2-46db-8295-67be030cf8a0][basic linguistic concepts]]
+
+there are a number of [[id:6f98f2ce-a834-4fc3-931f-734f7f8b1c56][resources]] to help create nlps
+these are often useful in the training and evaluation parts of nlp development
+as you can use the annoted models to [[id:acc39b8d-dc2c-4c28-bbff-e661dbf8df05][train]] and then test agasint a hardcoded proven good one
+
+generally we want our models to have a high grade on common [[id:d6bc8870-3a32-4fac-a460-f9221c4af322][evaluation metrics]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       acc39b8d-dc2c-4c28-bbff-e661dbf8df05
+:END:
+#+title: nn training
+training a nn is generally done via cross validation iteration,
+so we break up data into n folds, for each fold we train on n-1 of them,
+then we test on the last one,
+we aim to report average performance on the n runs and thats a pretty good metric for how good it is

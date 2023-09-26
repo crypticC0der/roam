@@ -4,3 +4,5 @@
 #+title: combatant
 a combatant is a child of damageable and can get hit and also has a set of [[id:cf56960f-5af8-4816-89dd-0c42a9a7d28f][attacks]]
 it also can apply [[id:131c7804-1328-44a8-8e94-406d7b0efe93][debuffs]] and [[id:e933feb1-5920-4792-954c-3a5181228e5d][procs]]
+
+combatants will attack anything that fall under their attackable layers

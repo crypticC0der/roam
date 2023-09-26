@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       cc0115ac-4af9-4d67-841c-3951082890c9
+:END:
+#+title: lexical catagory
+the wordtype
+- noun
+- verb
+- adjective
+- adverb
+- possesive pronoun
+- dative pronoun

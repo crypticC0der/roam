@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d6bc8870-3a32-4fac-a460-f9221c4af322
+:END:
+#+title: evaluation metrics
+* precision
+    fraction of recieved documents that are relevent
+    P = relevent retrived/retreved
+
+* recall
+fraction of relevent documents that are retrived
+recall = relevent retrived/relevent
+
+* f score
+weighted harmonic mean between P and R
+F = 2PR/(P+R)
