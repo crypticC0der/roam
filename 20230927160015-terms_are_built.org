@@ -8,9 +8,11 @@ base case: $x \in Var$ then $x \in \wedge Term$
 if x is a [[id:a7c940c4-2976-43d0-97b4-1ce78c5cdbce][variable]] then x is a term
 
 step case (Abs): $x \in Var, t \in \wedge Term \rightarrow \lambda x . t \in \wedge Term$
+
 if x is a variable and t is a [[id:cbf234d5-825b-4813-aee1-153b34b9587f][term]] then x wants to be assigned something and ran on t
 
 step case (app): $t,u \in \wedge Term \rightarrow tu \in \wedge Term$
+
 if t and u are terms we can combine them
 
 ** example
