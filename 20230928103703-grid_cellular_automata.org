@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d02216b2-49e8-4269-a289-30ea58f32e01
+:END:
+#+title: grid cellular automata
+the universe generally starts in the same state, except for a finite number of cells in other states,
+the assignment of state values is called a configuration, sometimes the grid is finite, other times not so much
+
+often though if the grid comes off the top you have it come into the bottom, this simulates a infinate periodic tiling
+this is generally done with modular arithmetic

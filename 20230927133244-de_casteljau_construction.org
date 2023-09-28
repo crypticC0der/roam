@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       184d638f-5585-4c1f-ad04-6d7442cdc5ff
+:END:
+#+title: de casteljau construction
+* practially
+given t
+P'1 = lerp(P1,P2,t)
+P'2 = lerp(P2,P3,t)
+P'3 = lerp(P3,P4,t)
+
+P''1 = lerp(P'1,P'2,t)
+P''2 = lerp(P'2,P'3,t)
+
+P''' = lerp(P''1,P''2,t)
+
+C1 = P1,P'1,P''1,P'''
+C2 = P''',P''2,P'3,P4
+
+* formally
+take the middle point of each 3 segments,
+construct the two segments joining them
+take the middle of those two new segments
+join them
+take the middle point p'''
+the curves are defined by [P1,P'1,P''1,P'''] and [P''',P''2,P'3,P4]
+this is 7 control points now

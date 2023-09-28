@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cbf234d5-825b-4813-aee1-153b34b9587f
+:END:
+#+title: terms
+terms are basically operations, like logical and mathematical operations
+so + - $\vee$

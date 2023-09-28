@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       a7c940c4-2976-43d0-97b4-1ce78c5cdbce
+:END:
+#+title: variables in lambda calculus
+variables in lambda calculus can be [[id:3155caf2-4c8f-4dd8-9fa9-3162ca362ea2][bound variables]] or [[id:28e9f12f-9234-41ab-95d7-d039c1136e84][free variables]]
+
+i have touched apon this in other subjects, i think introduction to ai
+
+also note!!! functions can be bound or unbound, if we have lambda x : f(x), f is a free variable
+
+* ambiguity
+the distinction between bound and free variables is interesting to note as it can lead to ambigous statements for example
+
+$\Sigma^{10}_{x=1} fx + xy$ where f is a function
+
+$f(x) = \Sigma^{10}_{x=1}x^2$
+
+now when expanded you have
+$\Sigma^{10}_{x=1}(\Sigma^{10}_{x=1}x^2) + xy$
+
+what the value of x is is now awkward
+we could demand that the variable is the most recently bound version, or just rename the x, we only know to do this as the names of bound variables dont matter
+
+the renaming of the variables requires some precision though is doable but is awkawrd to explain to computers
+
+you can have variables both free and bound
+$x +\Sigma^{10}_{x=1} x +y$
+
+* definition
+lambda variables we define generally as $\lambda x . xy$
+which means x is a [[id:3155caf2-4c8f-4dd8-9fa9-3162ca362ea2][bound variables]] and therin its name can be changed if needed and it is used in the proceeding statement
+
+* functions
+note we have a function freshv, which takes a set of vars and gives a set of variables, with a new "fresh" one not in the inserted set
+
+we have a function bv that gets the bound variables in the term
+we have a function fv that gets the free variables in the term

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e4b02930-78e4-4b61-9fbd-77a241326e13
+:END:
+#+title: interpolating
+this is when we aim to pass through all points linearly, this often doesnt curve but is alot of small lines,
+this is deeply connected with [[id:9236a9bb-9270-46c2-9b5e-efa676fa0490][lerping]]

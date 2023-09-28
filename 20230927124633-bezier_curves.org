@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       13c2bf7a-0918-47ce-84bd-d1b088ba5269
+:END:
+#+title: bezier curves
+* basic explanation
+bezier curves generally are done by having a set of points and using lerps to create a curve
+so like
+#+begin_src python :session :results output
+def lerp(v1,v2,t):
+    return [v1[0] *(1-t) + v2[0]*(t),
+       v1[0] *(1-t) + v2[0]*(t)]
+
+def quadraticbezier(p1,p2,p3,t):
+    a1 = lerp(p1,p2,t)
+    a2 = lerp(p2,p3,t)
+    return lerp(a1,a2,t)
+
+def quadraticbezierExpanded(p1,p2,p3,t):
+    a1 = p1*t + p2*(1-t)
+    a2 = p2*t + p3*(1-t)
+    return p1*(1-t)^2 + p2*2t*(1-t) + p3*(t)^2
+
+
+def cubicbezier(p1,p2,p3,p4,t):
+    a1 = lerp(p1,p2,t)
+    a2 = lerp(p2,p3,t)
+    a3 = lerp(p3,p4,t)
+    return quadraticbezier(a1,a2,a3,t)
+
+def cubicbezierExpanded(p1,p2,p3,p4,t):
+    return p1*(1-t)^3 + p2*3t(t-1)^2 + p3*3(t-1)t^2 + p4*t^3
+#+end_src
+
+the curve is always bound by the [[id:643df090-d31d-415f-a570-3225bfd02b35][convex hull]] of its control points, and due to the simplicity of the lerp equation we can obtain derivitives of it easily to know vecolcities at a point
+
+the weight given to each part of the cuves sum to 1 and its interesting to watch them move
+most of the weight is put on either the last part or the first part, generally not much weight is put on any of the middle parts,
+
+in the expanded versions you can see the t parts that the points are being multiplied by, these are called [[id:ce9f1bc7-1c80-4ac7-9c58-79260d47ab36][bernstein]] polynomials
+interestingly the integer multipliers are the numbers in a row of the fibbonacci triangle
+
+we can express bezier curves as the [[id:7e7d518e-08af-49db-bfef-c0eed976f7f6][GBT matrix]]
+
+* degrees of curve
+[[/home/mj/Pictures/screenshots/2023-09-27-13:22:02.png]]
+a first degree curve is a line
+a second degree curve is a slight bend depending on the control points, this isnt particularly sophisticated though
+a third degree curve is a cubic curve and generally we use these and a great number of them
+higher degree curves can become more awkward to control to two how ctonrol points impact the curve entirely and loose the convex hull, this is also the point in when using lerps becomes inefficent and we use matricies
+
+we do also use matricies in third degree curves too, but thats becuase gpus are good at them
+
+* subdivsion of curves
+we can divide a bezier curve in the middle getting two segments, which combine to be a cubic polynomical in 2t, which when t is normallised retrun to a single curve
+
+we must be reasonable when doing this though as to avoid violating any of the [[roam:bernstein polynomials rules]]
+[[id:184d638f-5585-4c1f-ad04-6d7442cdc5ff][de casteljau construction]] is a more in depth explanation

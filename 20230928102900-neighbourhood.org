@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       7223dc11-20fc-47b7-a74c-2ea5bb7a90ca
+:END:
+#+title: neighbourhood
+the neighbourhood is the adjacent cells, which can be diffined in anumber of ways
+
+* types of neighbourhood
+- moore neighbourhood
+  the 8 surrounding cells, orthogonal and diagonal
+- von neumann neighbourhood
+  the 4 orthogonal cells
+- extended von neumann
+  the 4 orthogonal cells and then the next four, so two in each orthogonal direction

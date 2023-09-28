@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       240c9592-4977-4d6e-88cb-9b39a491ece6
+:END:
+#+title: modelling
+modelling is the creation of geometry which we define as verticies connected by straight lines
+we have a great number of representations we can use
+ - point clouds
+ - polygon meshes
+ - non uniform reational basis splines
+
+[[id:a4b38fea-c770-4bda-82e2-fbfb489ee162][for an example lets model a curve]]

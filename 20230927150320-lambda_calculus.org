@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       cc639b5b-3e71-4e97-8322-7367fceb41ce
+:END:
+#+title: lambda calculus
+* explanation
+lambda calculus is mainly the art of [[id:cb930698-195f-4f30-a0b1-b3f1e9d8c170][programming with functions]], and what subsituting expressions with others means
+
+this has origins in logic, with regard to [[id:3155caf2-4c8f-4dd8-9fa9-3162ca362ea2][bound]] and [[id:28e9f12f-9234-41ab-95d7-d039c1136e84][free]] [[id:a7c940c4-2976-43d0-97b4-1ce78c5cdbce][variables]]
+
+* computation
+we compute lambda calculus via subsitiuting statements for variables and functions for assignments
+** ingredients
+using [[id:a7c940c4-2976-43d0-97b4-1ce78c5cdbce][variables]] {x, y, z} and [[id:cbf234d5-825b-4813-aee1-153b34b9587f][terms]] {+ - v}
+we can buld more complex terms
+[[id:ff4cf2e6-bf43-4d71-b267-4ef7d91ee945][terms are built]] recursively
+
+note again freshv in the roam:variables
+** functions for assingments
+$$f: \reals \rightarrow \reals$$
+
+$$x \mapsto (\sin x)^2 + \log(x+1)^2$$
+
+** calculation by subsitiution
+calculate value of f at a particular input by substuting value for variable

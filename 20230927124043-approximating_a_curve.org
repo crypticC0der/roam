@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a49cd77f-2036-4544-b1b5-89bea59e3395
+:END:
+#+title: approximating a curve
+we dont try and stay exact with the shape but we aim to generate a curve that smoothly approximates the overall shape
+this is normally done with bezier curves

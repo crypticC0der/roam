@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       fd6e5953-086d-48d2-99ee-033ecb0f4022
+:END:
+#+title: conways game of life
+wow, cant belive youre looking at this page, this is normie shit, i thought you were specialising, wow :(
+* states
+[alive,dead]
+* rules
+n = number of alive neighbors
+
+$$(live \wedge n < 2) \rightarrow \lnot live$$
+
+$$(live \wedge (n = 2 \vee n = 3 )) \rightarrow live$$
+
+$$(live \wedge n > 3) \rightarrow \lnot live$$
+
+$$(\lnot live \wedge n = 2) \rightarrow live$$
+
+* notability
+due to its simplicity the system can be either very random, or very ordered
+you have a frequent occuarance of gliders which are cells that move acress the grid
+this is during complete

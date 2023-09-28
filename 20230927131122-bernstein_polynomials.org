@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ce9f1bc7-1c80-4ac7-9c58-79260d47ab36
+:END:
+#+title: bernstein polynomials
+* explanation
+the bernstien polynomials are a power set of a t [[id:ade060c4-b9ec-4e6e-a270-d4edbcfd4e2c][monomial]] used for computing bezier curves
+they are also the four basis functions which are a set of coefficents multiplied by the expansion of the number of ts and (t-1)s for that point
+
+ie B1(t), B2(t), B3(t), B4(t)
+
+* properties
+bernstein polynomials have a set of properties which are useful to consider
+** non negativity
+  all of these values are greater than 0
+** unity sum
+they sum to 1, this ensures they stay in the [[id:643df090-d31d-415f-a570-3225bfd02b35][convex hull]]
+** convex hull
+the convex hull of the control points is the smallest convex [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]] that contains all the control points

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ade060c4-b9ec-4e6e-a270-d4edbcfd4e2c
+:END:
+#+title: monomials
+polynomial where all of the power multipliers are 1

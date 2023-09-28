@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       61f59e99-cc7b-4ed6-ab86-c9d38596c0e9
+:END:
+#+title: tessellation
+tesselation is the process of being given a complex shape and making a set of points from it to create a slightly off but more computable shape

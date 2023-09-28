@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a4b38fea-c770-4bda-82e2-fbfb489ee162
+:END:
+#+title: for an example lets model a curve
+we must define a curve
+it is either
+- a continuous 1d set of points in 2d
+- a mapping from an interval S onto the plane this is generally defined by P(t), where P is an equation in t
+  with this we use a set of descrete values of t and then have points to make a curve, this is called [[id:61f59e99-cc7b-4ed6-ab86-c9d38596c0e9][tessellation]]
+
+either way we have a set of points and we aim to create a [[id:d390ab20-a089-4c98-818f-bfd60dfccb38][spline]]
+
+now when doing curves we have to understand if we are [[id:a49cd77f-2036-4544-b1b5-89bea59e3395][approximating]] it or [[id:e4b02930-78e4-4b61-9fbd-77a241326e13][interpolating]] it

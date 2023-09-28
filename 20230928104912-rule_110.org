@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       4d5390f4-a142-4367-a77c-95f6215bfb41
+:END:
+#+title: rule 110
+rule 110 is a 1 dimensional cellular automaton
+it involves a one dimensional pattern of 0s and 1s
+
+* states
+[1,0]
+* rules
+given the two neighboring cells and itself you have
+
+$111 \rightarrow 0$
+
+$110 \rightarrow 1$
+
+$101 \rightarrow 1$
+
+$100 \rightarrow 0$
+
+$011 \rightarrow 1$
+
+$010 \rightarrow 1$
+
+$001 \rightarrow 1$
+
+$000 \rightarrow 0$
+
+* notability
+this is also turing complete proven by wolfram and the dispisable [[id:bcb2cd99-22da-43ef-975a-f0a6c01275a0][matthew cook]] published his proff and presented it
+a foul deed by a foul genteleman
+
+it is the simplest turing complete system, it is also [[id:a0a4fb04-7f60-4547-ac31-076cd0e0271b][class 4]]

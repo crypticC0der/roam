@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       76ed39e1-b54c-4b9e-80cb-6e7d81375977
+:END:
+#+title: cellular automata
+* basic explanation
+cellular automata are a model of computation studied in automata theory
+
+it consits of a [[id:d02216b2-49e8-4269-a289-30ea58f32e01][grid]] of cells, witch each cell having a finite number of states,
+each cell has a [[id:7223dc11-20fc-47b7-a74c-2ea5bb7a90ca][neighbourhood]] relitive to the cells
+you move t by 1 and update the cells according to some rule, which is generally a mathematical function
+
+the number of possible automata given a the number of states (k) and the number of neighbors (s) is $k^{k^{s}}$
+
+* use cases
+- physics
+- theoretical biology
+- microstructure modeling
+
+* examples
+- [[id:fd6e5953-086d-48d2-99ee-033ecb0f4022][conways game of life]]
+- [[id:4d5390f4-a142-4367-a77c-95f6215bfb41][rule 110]]

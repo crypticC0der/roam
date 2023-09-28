@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       571359fd-484e-452b-9be4-d5abb277d30d
+:END:
+#+title: 37111
+computer graphics is balling
+* corse parts
+- [[id:240c9592-4977-4d6e-88cb-9b39a491ece6][modelling]]
+- animation
+- rendering

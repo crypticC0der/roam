@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a0a4fb04-7f60-4547-ac31-076cd0e0271b
+:END:
+#+title: cellular automata classes
+classes of [[id:76ed39e1-b54c-4b9e-80cb-6e7d81375977][cellular automata]]
+* classifications
+1) automata which stablise to homogenity
+2) automata that stablise into osccilating/repeating structures
+3) automata which evolve into chaos
+4) automata which becomes extremely complex with stable local structures

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       cb930698-195f-4f30-a0b1-b3f1e9d8c170
+:END:
+#+title: programming with functions
+many modern programming languages allow you to use them as first class values
+ie python, delegates, and lambda functions
+
+#+begin_src python :session :results output
+a = lambda x: x+2
+print(a(2))
+
+print((lambda x :x+2)(2))
+#+end_src
+
+#+RESULTS:
+: 4
+: 4
+
+how does this happen?

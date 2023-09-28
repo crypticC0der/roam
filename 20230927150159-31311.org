@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a4d24d0c-733e-4aa1-aac0-b2f9346003d0
+:END:
+#+title: 31311
+this is the giving meaning to programs module, it aims to dive into [[id:cc639b5b-3e71-4e97-8322-7367fceb41ce][lambda calculus]]
+which is the first complex theoretical language we will be looking at

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3155caf2-4c8f-4dd8-9fa9-3162ca362ea2
+:END:
+#+title: bound variables
+bound variables are variables defined in the statement like
+$\Sigma^{10}_{x=1} e^x$
+or
+$x \rightarrow x+2$
+
+bound variables are basically a placeholder for the value coming in

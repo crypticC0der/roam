@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       28e9f12f-9234-41ab-95d7-d039c1136e84
+:END:
+#+title: free variables
+variables undefined in the situation and defined elsewhere, like $\pi$ and $e$ in maths

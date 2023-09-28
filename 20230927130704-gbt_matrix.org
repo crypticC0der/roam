@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       7e7d518e-08af-49db-bfef-c0eed976f7f6
+:END:
+#+title: GBT matrix
+the gbt matrix is a way of defining a bezier curve,
+it stands for 3 things
+- Geometry
+  the matrix including the control points coords
+- spline Basis
+  a matrix which has the coefficents for the basic functions for a bezier curve
+- power basis (T)
+  the [[id:ade060c4-b9ec-4e6e-a270-d4edbcfd4e2c][monomials]] of t up to the needed amount for the curve
+
+
+this matrix demonstrates how the [[id:ce9f1bc7-1c80-4ac7-9c58-79260d47ab36][bernstein]] values are complex and non linear and cant be substitutated with other parts of the equation
+
+[[/home/mj/Pictures/screenshots/2023-09-27-13:05:58.png][GBT]]

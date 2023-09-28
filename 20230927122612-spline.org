@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d390ab20-a089-4c98-818f-bfd60dfccb38
+:END:
+#+title: spline
+a spline is a smooth curve through a set of points
+generally we model these as [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]], we traditionally use either cubic [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]] or quadratic [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]]
