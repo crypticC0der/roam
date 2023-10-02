@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       267ec045-3d7d-4967-8b16-7098ce7a80da
+:END:
+#+title: nurbs
+nurbs are non uniform rational basis splines
+nurbs insted of having control points, they have knots, due to how each one has different weight
+this also follows [[id:643df090-d31d-415f-a570-3225bfd02b35][convex hull]] principle
+
+these are remarkable and used for alot of things due to their strong flexability,
+they are also renouned for their smoothness and have great precision, due to the control over control point weights
+they also use homogeneous coordinates

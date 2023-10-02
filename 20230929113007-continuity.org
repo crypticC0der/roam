@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       ed10711e-effe-4016-9fc3-b84f6258f959
+:END:
+#+title: continuity
+[[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]] being connected need continuity to work properly
+there are multiple types of continuity
+
+* continuity
+this mainly regards [[id:6fe8525a-cc57-49ba-80da-41fcd3837e9d][differential properties of bezier curves]]
+** C0
+the point one ends is where another starts
+** G1
+C0 continuity +
+the normalised tangent at the end is the same as the normalised tangent at the start
+** C1
+C0 +
+the tangents at the end are the same as the tangent at the start
+** G2
+C1 +
+the (unit vector of) normal vector at the end is the same as the (unit vector of) normal vector at the start
+** C2
+C1 +
+the normal vector at the end is the same as the normal vector at the end
+
+* enforcing continuity

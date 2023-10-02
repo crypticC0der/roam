@@ -3,6 +3,7 @@
 :END:
 #+title: 37111
 computer graphics is balling
+
 * corse parts
 - [[id:240c9592-4977-4d6e-88cb-9b39a491ece6][modelling]]
 - animation

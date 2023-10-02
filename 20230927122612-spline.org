@@ -3,4 +3,7 @@
 :END:
 #+title: spline
 a spline is a smooth curve through a set of points
-generally we model these as [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]], we traditionally use either cubic [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]] or quadratic [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]]
+there are a number of representations for a spline
+- [[id:13c2bf7a-0918-47ce-84bd-d1b088ba5269][bezier curves]]
+- [[id:ac4348c7-c1fb-4e10-b25c-854d2f8368fa][b spline curves]]
+- [[id:267ec045-3d7d-4967-8b16-7098ce7a80da][nurbs]]

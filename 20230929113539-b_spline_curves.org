@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ac4348c7-c1fb-4e10-b25c-854d2f8368fa
+:END:
+#+title: b spline curves
+a b spline curve is a type of [[id:d390ab20-a089-4c98-818f-bfd60dfccb38][spline]], which is cubic
+they arent constrained to pass through the control points, though still bounded by its [[id:643df090-d31d-415f-a570-3225bfd02b35][convex hull]]
+
+they are defined as such
+[[/home/mj/Pictures/screenshots/2023-09-29-11:41:47.png]]
+
+the main difference is the [[id:7e7d518e-08af-49db-bfef-c0eed976f7f6][spline basis matrix]]
+[[/home/mj/Pictures/screenshots/2023-09-29-11:45:34.png]]
+note: at the end it is (0,1/6,4/6,1/6) and at the start it is (1/6,4/6,1/6,0)
+
+by doing some simple matrix maths you can convert them back and forth

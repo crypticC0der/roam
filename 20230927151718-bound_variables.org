@@ -8,3 +8,6 @@ or
 $x \rightarrow x+2$
 
 bound variables are basically a placeholder for the value coming in
+
+* renaming
+this requires a operation $ren_v^u$, this would rename v to u

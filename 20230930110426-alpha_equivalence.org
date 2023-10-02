@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       bb40f076-4a7c-4f6c-a855-a7d134d1d227
+:END:
+#+title: alpha equivalence
+* basic definition
+alpha equivalence is a really important part of [[id:cc639b5b-3e71-4e97-8322-7367fceb41ce][lambda calculus]]
+this is the idea that two functions are the same, and do the same thing though the bound variables are named differently
+this is more neatly defined as two functions with the same parse tree
+so $\lambda x . xy$ is alpha equivalent to $\lambda z . zy$
+but $\lambda x .xy$ is alpha equivalent to $\lambda x . xz$
+we say things are alpha equivelent with $\sim$ if we are lazy and $\sim_\alpha$ if we are not
+
+* formal definition
+bc Var α: $x \sim y \leftrightarrow x=y$
+if x and y are the same we can swap them
+
+sc Abs α: $\lambda x.u \sim \lambda x' . u' \leftrightarrow ren^w_x u \sim ren^w_x u'$
+
+    $w  = freshv(vars(\lambda x.u) \cup vars(\lambda x' .u'))$
+x abstracted on u is the same as x' abstracted u' iff when we rename x to w in u, we get the same as if we were to rename x' to w in u', where w is a fresh variable not in x,u,x' or u'
+
+two statements are alpha equivelent if the change in bound variable names is the same in bound variable usage, so if we renamed x in u and x' in u' to say w (that isnt mentioned in the statement) the two statements are alpha equivalent
+
+
+sc App α: $rs \sim r's' \leftrightarrow r \sim r'$ and $s \sim s'$
