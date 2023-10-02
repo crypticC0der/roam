@@ -3,9 +3,9 @@
 :END:
 #+title: A* search
 a star search is simpley a greedy search with a priority queue [[id:c7d1ebed-7ddf-4724-a41d-c45e37d498ae][path]]finding algorithm
-i know this algorithm best as a pathfinding one but it can be used in a great number of situations, it searches the best node based on a heuristic (distance from source + distance from target)
+i know this algorithm best as a pathfinding one but it can be used in a great number of situations, it searches the best node based on a [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] (distance from source + distance from target)
 
-this depending on the heuristic which can be much more complicated can be much faster than any other algorithm and all better algorithms are based around this, though research into the optimal heuristic is interesting to read ON
+this depending on the [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] which can be much more complicated can be much faster than any other algorithm and all better algorithms are based around this, though research into the optimal [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] is interesting to read ON
 
 especially information regarding waypoints
 
