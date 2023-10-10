@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       ce38de81-e8ce-4b55-9a6d-ad705933b3ec
+:END:
+#+title: splines as surfaces
+a simple way to do this is insted of having your [[id:ce9f1bc7-1c80-4ac7-9c58-79260d47ab36][bernstein polynomials]] with t as a 1 dimensional value, you have u,v as a 2 dimensional thing and yeah
+generally you have like 16 control points, and use them to make 4 vertical lines and 4 horizontal lines reusing the points
+due to how its a set of cubics going in both directions we call this a bicubic bezier curve
+
+the equation of this is genreally
+#+begin_src python :session :results output
+P(u,v) = cubic_bezier(
+    cubic_bezier(P1,P2,P3,P4,v),
+    cubic_bezier(P5,P6,P7,P8,v),
+    cubic_bezier(P9,P10,P11,P12,v),
+    cubic_bezier(P13,P14,P15,P16,v),
+    t)
+#+end_src
+
+
+[[/home/mj/Pictures/screenshots/2023-10-04-11:36:09.png]]
+[[/home/mj/Pictures/screenshots/2023-10-04-11:41:30.png]]
+
+spline surfaces are nice as due to having equations for each point, we can differentiate curves easily, see [[id:6fe8525a-cc57-49ba-80da-41fcd3837e9d][differential properties of bezier curves]]
+we do though need to partially differentiate though
+
+we have a different way of defining this with matricies [[/home/mj/Pictures/screenshots/2023-10-04-11:53:41.png]], which is basically the same but extended
+so instead of a [[id:7e7d518e-08af-49db-bfef-c0eed976f7f6][GBT matrix]] we have a $P^x(u,v) = T(u)^TB^TG^xBT(v)$
+
+tensor product splines are awkward to render, as they need to be convert to a mesh, and maintaining [[id:ed10711e-effe-4016-9fc3-b84f6258f959][continuity]] is hard

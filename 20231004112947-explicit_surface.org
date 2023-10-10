@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       81b87675-7669-4c8a-a943-4da258933402
+:END:
+#+title: explicit surface
+this is generally done with a bunch of points and polygons to make a mesh
+they can be rough or not and yeah

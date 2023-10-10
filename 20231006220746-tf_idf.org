@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       612bd427-cc49-4550-b51d-d9f3f1017f7d
+:END:
+#+title: tf.idf
+tf idf is the product of its tf weight and its idf weight
+$if.idf_{t,d} = (1+\log_{10}tf_{t,d}) * \log_{10} (N/df_t)$
+this increses with the number of occurences within a document, and its rarity in the collection

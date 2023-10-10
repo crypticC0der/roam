@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a3533342-42ac-4dad-913d-7422291d4084
+:END:
+#+title: overfitting
+overfitting is where a nn trains very hard and gets really good at the training data due to how the training data is structred
+this is like fitting a complex polynomial to a simple curve, this is generally done due to a too complex nn or a shitty dataset
+
+often to combat this we add regularisation parameters to the models cost function to punish it if it tries to get too smart

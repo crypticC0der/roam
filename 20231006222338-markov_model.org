@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       16d50cf1-7957-4c37-a3bf-2ed615fdaa65
+:END:
+#+title: markov model
+a may of probabilisitc determination for n grams in a corpus

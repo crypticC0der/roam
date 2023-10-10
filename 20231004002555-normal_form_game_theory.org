@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a1c85953-c0b9-4a8f-a4ac-341ae2945ea7
+:END:
+#+title: normal form game theory
+this is where you have a table of the moves each player can take and the associated payoff, this falls apart with multiple players and a sequence of moves

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       a6593dd3-6def-412f-85f6-6f435512fa2e
+:END:
+#+title: capture avoiding substitution
+
+* informal definition
+    y[a/x] replaces x with a in y
+* formal definition
+- base case (where y is a variable)
+  y[a/x] = if y=x then return a, else return y
+  $$\left\{\begin{array}{ll} a  & if y = x \\ y & else \end{array} \right.$$
+
+- step case abstraction (where y is a lambda)
+
+  $$(\lambda y . u ) [a/x] = \left\{\begin{array}{ll} \lambda y.u & if y = x \\ \lambda w . (ren^w_y u)[a/x] & else \end{array} \right. $$
+  $$\\ where w =fresh v(vars(\lambda y.u) \cup vars(a)$$
+
+  often the renaming isnt needed, but sometimes it is and the definition would get much more complex if we had to check for more conditions
+  doing it this way means a little more renaming but it is much more clear reasoning
+
+
+  - step case application
+    $$(rs)[a/x] = (r[a/x])(s[a/x])$$
+
+** example
+[[/home/mj/Pictures/screenshots/2023-10-04-20:19:33.png]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       541316b6-8018-4a6c-bb87-bd134cc0b880
+:END:
+#+title: luhns hypothosis
+this is wherin take the rank order of words and care about only the ones in a sort of middle area, the idea is that the lower ones arent important as they dont appear much, and the higher ones must be common words so dont matter much either

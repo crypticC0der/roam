@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       91d0ccb4-4ba6-43ec-8601-1a741ba2dde7
+:END:
+#+title: byte pair encoding
+this has two parts, a token learner and a token segmenter
+it aims to generate a useful vocabulary for you
+
+what you do is choose to symbols that are the most frequently adjacent, add a new symbol to the vocabulary and replace every adjacent occuarance of those symbols in the corpus with the new symbol, until k merges have been done, with a reasonable k most words will be represented and less common words will still have subwords identified

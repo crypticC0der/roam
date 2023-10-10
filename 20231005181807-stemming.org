@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       07fab1bf-737e-453b-8b48-f7fc4b3bd61f
+:END:
+#+title: stemming
+stemming is when you chop off the ends of words, and maintian the needed parts,
+this largely gets rid of detail for the sake of simplicity, it can yeaild forms that arent words yet convey meaning
+
+under stemming fails to conflate similar words, yet over stemming conflates related forms
+
+dont really make a stemmer cos alot of good ones exist, ie a porter stemmer
+[[/home/mj/Pictures/screenshots/2023-10-05-18:20:09.png]]

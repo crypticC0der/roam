@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e8d7619e-720a-48ed-afd7-b8cfc21acf4b
+:END:
+#+title: chain rule
+
+the chain rule is where insted of doing
+$p($ cat in the hat $) = p(cat) \cdot p(in) \cdot p(the) \cdot p(hat)$
+we do
+$p($ cat in the hat $) = p($ cat $) \cdot p($ in|cat $) \cdot p($ the|in the $) \cdot p($ hat|cat in the $)$
+often insted of caring about all of the previous words, we only care about n previous words, generally 3 is good
+
+we work out these probabilities using a [[id:16d50cf1-7957-4c37-a3bf-2ed615fdaa65][markov model]] or a neural network

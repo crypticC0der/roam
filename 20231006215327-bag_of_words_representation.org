@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a1cc2b61-ff87-4b99-a333-6c022514a4fd
+:END:
+#+title: bag of words representation
+bow is where we basically put the text in just a set of words, or character n-grams and use them as [[id:17e48b88-86b8-46f6-ab20-f4a832ee0b8a][tokens]] and deal with it without order, this sounds shit but it somehow works pretty well for analysisng documents as a whole
+
+we can refine this by using vector representation, so you have a vector of booleans for each word in the dictionary and then yeag
+
+though insted of booleans maybe having a weight would be better, though we dont want a linear weight as like if a word appears 10x more its not 10x more important its like 4x more important, what we want is [[id:945d4762-ac5f-4032-b4c1-8632a5cbcf71][idf]]
+
+the only issue with this model is its quite sparse as a not many words in the doc will be in the vocab

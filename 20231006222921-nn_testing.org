@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       12dbca09-f6f5-43cb-b439-b3c27e590980
+:END:
+#+title: nn testing
+there are a number of ways of testing a neural network, but generally you aim to determine the accuracy of the developed model and have a metric for this
+
+often we reserve a part of the data for testing, to ensure it cant train to do well in the test
+
+testing is good at finding [[id:a3533342-42ac-4dad-913d-7422291d4084][overfitting]] in a nn
