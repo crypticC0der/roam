@@ -11,6 +11,15 @@ you move t by 1 and update the cells according to some rule, which is generally 
 
 the number of possible automata given a the number of states (k) and the number of neighbors (s) is $k^{k^{s}}$
 
+for a standard automaton, given 8 neighbors and 2 states
+2^2^8 = 2^128 = big
+
+the set of general cellular automatons are
+2^129 - 2^16
+as there are 2^128 cellular automata with a grid of 4 orthognal and 4 diagonal
+as there are 2^128 cellular automata with a grid of 8 orthoganal range 2 cells
+and there are 2^16 cellular automata with a grid of 4 orthognal cells, that appear twice so we subtract on of its apperences
+
 * use cases
 - physics
 - theoretical biology

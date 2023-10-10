@@ -9,3 +9,13 @@ we have a great number of representations we can use
  - non uniform reational basis splines
 
 [[id:a4b38fea-c770-4bda-82e2-fbfb489ee162][for an example lets model a curve]]
+
+* there are 3 forms or modelling:
+- implicit
+  when its in the form f(x,y,z)=0
+- explicit
+  when all variables are defined together as in x = sqrt(y^2 + z^2 + 3)
+- parametric
+  when each variable is independantly defined
+  x= sint
+  y=cost
