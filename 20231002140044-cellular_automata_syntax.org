@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       30a67e6d-7515-4359-81e1-e3224e3ff07d
+:END:
+#+title: cellular automata syntax
+what would a general syntax for this sorta thing entail?
+how would it describe the general systems
+
+would it cater for n dimensions
+
+cellular automata on non standard grids, are there any actual rules on what a cellular atomata can be
+are there inverse forumlas for cellular automatas, this though needs a bijective cellular automata
+
+i could plausably have a kernel for summation, run the kernel on each cell and have a lua function that is ran for the output of each kernel,
+better yet i could have a kernel for each state and then i could run based on that
+the function could take a number for the state (uint) return a number (uint) which would be the new state
+
+research into fuzzy automatons
+aim to make a simple thing that can do a simulation
+
+conways game of life
+termites
+seed
