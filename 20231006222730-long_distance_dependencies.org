@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       aec03604-64a3-4a49-9555-52d4e6a8b058
+:END:
+#+title: long distance dependencies
+this is where you care about things a couple words back, like "i was in manchester when i bought you this new computer, in the hardware store, yeah the one you reccomended"
+
+see how manchester is a decent way back

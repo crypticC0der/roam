@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       505534fe-7d7b-4cd5-a77d-3ba18694a8cb
+:END:
+#+title: paralell reduct
+paralell reduct is basically doing [[id:c669b4ea-7b72-42ab-9cab-47f636ca4f8e][beta reduction]] on everything similtaniously, it is defined simply as
+
+$$\diamond tu = \left\{\begin{array}{ll}\diamond t' [\diamond u / x] & if t = \lambda x.t' \\ \diamond t \diamond u  & otherwise \end{array}\right.$$
+
+what it does simply is if you have an application on an abstraction it does beta reduction on it, this avoids the question of what order to do thingd in
+
+
+we use this to perform proof that beta reduction is confluent and leads to the same outcome

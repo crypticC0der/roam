@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f27a4c47-dcec-4dcc-a2ca-437d1b6a3e7f
+:END:
+#+title: shannon game
+how well can we predict the next word ie "i saw a _", "i always order pizza with cheese and _"
+
+unigrams suck at this

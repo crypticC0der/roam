@@ -6,3 +6,5 @@ training a nn is generally done via cross validation iteration,
 so we break up data into n folds, for each fold we train on n-1 of them,
 then we test on the last one,
 we aim to report average performance on the n runs and thats a pretty good metric for how good it is
+
+this is often paired with [[id:12dbca09-f6f5-43cb-b439-b3c27e590980][nn testing]] to create a good nn

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7d09f559-89dd-4b0c-b2f0-aeb32f049ced
+:END:
+#+title: morphological analysis
+this is when we analyse the subwords we generally look at the stem, prefix and suffix
+this is useful for analysing sentiment, and notes about the word, like singular vs plural, tense, person (1st, 2nd, 3rd) and case, and grammatical mood
+
+often we need context and rely on a regex or finite state automata to figure this out
+
+it is easy in english, but in languages it can get very complex, though even in simple languages it is really complex

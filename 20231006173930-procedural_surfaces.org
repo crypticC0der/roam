@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       48e7cf55-0cc1-43c5-b875-2e2fb735b4da
+:END:
+#+title: procedural surfaces
+* revolution
+you have a 2d surface and then revolve it around its axis
+this is defined as s(u,v) = R(v)q(u) where q is the 2d surface and R is the rotation matrix
+
+* generalised cylinders
+s(u,v)=M(c(v))q(u)
+where basically we take a 2d shape and turn the lines into circles basicalley

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       945d4762-ac5f-4032-b4c1-8632a5cbcf71
+:END:
+#+title: idf
+idf is inverse document frequency,
+you have $df_t$ which is the number of words with term t, which is basiacally the inverse measure of its informativeness
+we define idf of t by $idf_t = \log_{10} (N/df_t)$
+where N is the number of occurences in the document
+this is high for terms that appear in few documents and low for ones that appear in many, this is good as things specific to the document stand out
+you could probably make a pretty okay document sorter by just getting the top 10 idf terms and tagging the document like that
+
+[[id:612bd427-cc49-4550-b51d-d9f3f1017f7d][tf.idf]] is a adaption on this

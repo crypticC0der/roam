@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       72097ffd-d774-4ebb-89b5-1cf89ff102dd
+:END:
+#+title: n gram language models
+this is like a [[id:05a5cbe0-3519-40a1-8609-f8ec605b0b01][unigram langauge model]] but with n words in the [[id:e8d7619e-720a-48ed-afd7-b8cfc21acf4b][chain rule]]
+
+interestingly n gram language models are generative, not amazingly though as it doesnt account for [[id:aec03604-64a3-4a49-9555-52d4e6a8b058][long distance dependencies]]
+
+we can [[id:12dbca09-f6f5-43cb-b439-b3c27e590980][test]] how good this is by using the [[id:f27a4c47-dcec-4dcc-a2ca-437d1b6a3e7f][shannon game]]
+
+sometimes interpolating these models is a fun idea, and can lead to more powerful models
+
+[[/home/mj/Pictures/screenshots/2023-10-06-22:35:27.png]]

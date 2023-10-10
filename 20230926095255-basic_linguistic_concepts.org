@@ -4,3 +4,4 @@
 #+title: basic linguistic concepts
 - [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][parts of speach]] (POS)
 - [[id:03c0a65f-d616-4591-bb4b-06f4640427f1][features and attributes]]
+- [[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]]

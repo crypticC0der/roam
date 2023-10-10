@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       05c33001-9ec5-4e2d-ba28-0fc386486870
+:END:
+#+title: game tree
+* basics
+a game tree is how we express the set of moves either player can do, at the end state of any game a score is perscribed to the players, indicating wether they have won and by how much, so in like poker that could be the amount of money gained and lost by the players in a round and in chess it could just be 1 for win -1 for loose and 0 for stalemate,
+games where the numberic values for how well players are performing sum to zero are called zero sum games
+
+when dealing with random events on a game tree we express this with another player, chance whos actions have probabilities and gains no rewards
+
+game trees are time consuming to draw and not particularly helpful, though computers can make graphs of them very fast and traverse them well, rendering them isnt always amazing though
+
+if you want to make a thing use [[id:a1c85953-c0b9-4a8f-a4ac-341ae2945ea7][normal form]]
+
+* imperfect information
+with imperfect information games become no longer solveable and we cannot make a refined strategy for the best play style, in 21 we can make a winning set of moves easily, wheras in poker, this cannot be done as we dont know what the other player is doing
+with chance we cannot make a certain best choice, but we can make a strategy that has the highest probability of being the best choice

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       17e48b88-86b8-46f6-ab20-f4a832ee0b8a
+:END:
+#+title: tokenisation
+tokenisation is when you split terms into smaller parts, so insted of a tweet we care about each word at a time, we can like look at the thing as a whole
+there are no firm rules but it has to be consistent
+
+sometimes insted of caring about words, we can use subwords, or character n grams, though this complicates things
+
+the difficulty generally lies in dealing with a bunch of edge cases, like odd parts of punctuation and languages without spaces,
+its mainly about knowing when to split and not when to combine
+
+normally to make the tokens useful we [[id:e423ceb3-21c1-4d43-b63b-9aadf45f33cf][normalise]] them
+
+sometimes we can fail to tokenise words and end up with [[id:d16b9454-c502-4313-b8f0-05ac35d5e95e][OOV]] words
+
+often to obtain meaning we use [[id:91d0ccb4-4ba6-43ec-8601-1a741ba2dde7][byte pair encoding]]

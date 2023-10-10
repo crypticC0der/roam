@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       05a5cbe0-3519-40a1-8609-f8ec605b0b01
+:END:
+#+title: unigram langauge models
+a unigram lanaguage model is based around single words, and we use word frequencies for probabilities basically
+the function is $P(w) = \frac{#w+1}{\Sigma_{w'\in D}(#w' +1)$
+which adds a bit of smoothing and gives a out of value word a small probability
+
+though this model has minimal ordering unless you use the [[id:e8d7619e-720a-48ed-afd7-b8cfc21acf4b][chain rule]],

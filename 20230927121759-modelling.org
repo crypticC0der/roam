@@ -9,3 +9,13 @@ we have a great number of representations we can use
  - non uniform reational basis splines
 
 [[id:a4b38fea-c770-4bda-82e2-fbfb489ee162][for an example lets model a curve]]
+
+there are 3 ways to model a surface
+- [[id:81b87675-7669-4c8a-a943-4da258933402][explicit]]
+- [[id:ce38de81-e8ce-4b55-9a6d-ad705933b3ec][splines as surfaces]]
+- parametric
+- [[id:ccab0316-77fa-4e49-8c49-4a52577a4533][implicit]]
+- [[id:48e7cf55-0cc1-43c5-b875-2e2fb735b4da][procedural]]
+
+
+we can improve models and make them smoother by using chaikins algorithm, this produces quadratic b spline surfaces

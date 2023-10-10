@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d16b9454-c502-4313-b8f0-05ac35d5e95e
+:END:
+#+title: OOV
+out of vocabulary
+ie an unknown word

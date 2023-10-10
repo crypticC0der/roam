@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8faaec76-bdd1-4772-aecf-3177ffe321ee
+:END:
+#+title: language models
+a model is an abstract form of representing something in computational form,
+often we use a probablistic language model and have a function that assigns a probability over a piece of text so that natural peices have higher probability
+
+
+one way of representing text is a [[id:a1cc2b61-ff87-4b99-a333-6c022514a4fd][bag of words representation]],
+
+we have a lot of tools to help with dealing with documents and discovering important words
+- [[id:3d767057-7bc1-470e-93ca-3b1192811fc7][zipfs law]]
+- [[id:541316b6-8018-4a6c-bb87-bd134cc0b880][luhns hypothosis]]
+- [[id:b0cd264b-4b34-4178-bb53-bd6eec2808d2][stop words filtering]]
+
+there are a couple of types
+- [[id:05a5cbe0-3519-40a1-8609-f8ec605b0b01][unigram langauge models]]
+- [[id:72097ffd-d774-4ebb-89b5-1cf89ff102dd][n gram language models]]

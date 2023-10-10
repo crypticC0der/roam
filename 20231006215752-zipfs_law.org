@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3d767057-7bc1-470e-93ca-3b1192811fc7
+:END:
+#+title: zipfs law
+some words though are more important, and some are less,
+what we do is use zipfs law, and have each terms rank be based of the inverse of its frequency
+
+this helps identify the words we deem important

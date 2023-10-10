@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3482b9e4-be86-4b0f-9141-4e59bcb0c85c
+:END:
+#+title: dictionary headword
+the base word
+life, lives -> life
+horse, horses,horse's,horses' -> horse

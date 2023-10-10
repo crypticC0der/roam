@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e0914981-5080-4f10-98e5-1798974b503f
+:END:
+#+title: case folding
+case folding is when converting everything to a case,
+this is good for collecting stats and behavior of words, so like search enginges,
+but this looses things like identification of entitiy names and peoples names, and also acronyms
+
+like CAT scan and cat scan are very different

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c669b4ea-7b72-42ab-9cab-47f636ca4f8e
+:END:
+#+title: beta reduction
+beta reduction is really the core of [[id:cc639b5b-3e71-4e97-8322-7367fceb41ce][lambda calculus]], and is heavily linked with [[id:bb40f076-4a7c-4f6c-a855-a7d134d1d227][alpha equivalence]]
+one important thing to understand is when one term is applied to another that isnt two terms multiplied, if you have $ab$ you assume a is a free function and b is its argument into it
+
+what beta reduction is, is when you actually put the value into a function so $(\lambda x . t )a \rightarrow^\beta t[a/x]$
+so $(\lambda y.\lambda x. yx)(\lambda x.bx)(c) \rightarrow^\beta (\lambda x.yx)[bx/y](c) \rightarrow^\alpha (\lambda w.w bx)(c) \rightarrow ^\beta (wbx)[c/w] \rightarrow^\alpha (cbx)$
+where cbx are free variables, there are a number of ways to reach this conclusion though

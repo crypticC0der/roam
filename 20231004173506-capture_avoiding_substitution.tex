@@ -1,0 +1,40 @@
+% Created 2023-10-04 Wed 17:44
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{MJ Ponsonby}
+\date{\today}
+\title{capture avoiding substitution}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{informal definition}
+\label{sec:orgbbcf3fa}
+y[a/x] replaces x with a in y
+\section{formal definition}
+\label{sec:org695fa26}
+\begin{itemize}
+\item base case (where y is a variable)
+y[a/x] = if y=x then return a, else return y
+$$\left\{ \begin{array}{11} a & \mbox{if } x \eq y \\ y & \mbox{else }\end{array}\right.$$
+
+\item step case abstraction (where y is a lambda)
+(λy.u)[a/x] = \{
+if (y=x)\{
+
+\}
+\end{itemize}
+\end{document}

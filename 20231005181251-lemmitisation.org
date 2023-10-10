@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2797080d-9001-47ae-a2df-5cb07422ebb6
+:END:
+#+title: lemmitisation
+this is when we reduce words to their "[[id:3482b9e4-be86-4b0f-9141-4e59bcb0c85c][dictionary headword]]", we do this either by doing a dictionary lookup or [[id:7d09f559-89dd-4b0c-b2f0-aeb32f049ced][morphological analysis]]

@@ -17,7 +17,7 @@ nlp is challenging though as text is generally complex especially the english la
 you could parse the grammar tree but thats much easier said than done,
 its large amount of [[id:06e01287-62e0-4586-9c50-92ffad66698d][ambiguity]] and variability is also a problem
 
-you have to parse [[id:af0f8440-c5e2-46db-8295-67be030cf8a0][basic linguistic concepts]]
+you have to parse [[id:af0f8440-c5e2-46db-8295-67be030cf8a0][basic linguistic concepts]], this can be done with [[id:17e48b88-86b8-46f6-ab20-f4a832ee0b8a][tokenisation]]
 
 there are a number of [[id:6f98f2ce-a834-4fc3-931f-734f7f8b1c56][resources]] to help create nlps
 these are often useful in the training and evaluation parts of nlp development

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ccab0316-77fa-4e49-8c49-4a52577a4533
+:END:
+#+title: implicit surfaces
+you have a forumla in the form f(x,y,z)=0
+this is very useful cos you can check if a point is in it by seing if f(x,y,z)<0
+
+it is good at handling weird topology
+
+annoyingly it doesnt allow us to find points on it and it doesnt allow us to change it easily
+it generally is very awkward to find and modify

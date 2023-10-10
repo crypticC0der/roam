@@ -35,3 +35,6 @@ note we have a function freshv, which takes a set of vars and gives a set of var
 
 we have a function bv that gets the bound variables in the term
 we have a function fv that gets the free variables in the term
+
+* renaming
+we want to be able to safely be able to rename variables and we do this via [[id:a6593dd3-6def-412f-85f6-6f435512fa2e][capture avoiding substitution]]

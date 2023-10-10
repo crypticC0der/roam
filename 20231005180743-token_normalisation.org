@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e423ceb3-21c1-4d43-b63b-9aadf45f33cf
+:END:
+#+title: token normalisation
+this is the art of combining multiple words into a common lingustic perent ie
+- removing capitals
+- making singular
+- changing tense
+- formatting acroyms
+- sorting out apostrophies
+- fixing umlouts
+
+generally the two principal apporaches are [[id:2797080d-9001-47ae-a2df-5cb07422ebb6][lemmitisation]] and [[id:07fab1bf-737e-453b-8b48-f7fc4b3bd61f][stemming]], [[id:e0914981-5080-4f10-98e5-1798974b503f][case folding]] is important too
