@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7e3be4c4-870f-4836-bcfa-fda09f6d3f21
+:END:
+#+title: minimax
+minimax is a worst case algorithm and it aims to maximise the minimum score you can get
+it works via going down the game tree and evaluating the end nodes and then finding the node that leads to the highest lowest value

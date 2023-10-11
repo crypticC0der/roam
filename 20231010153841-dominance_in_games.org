@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       533cd1a1-602b-4079-b3f9-74ca608e4f48
+:END:
+#+title: dominance in games
+a dominant strategy is a strategy wherin for each action the other player can take this strategy is still best
+some straegies arent generally dominant but are domiant some subset of strategies, this though is useful for eliminating strategies not worth considering
+you can continously remove strategies and often this can be good for finding [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]]

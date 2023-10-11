@@ -4,7 +4,7 @@
 #+title: game tree
 * basics
 a game tree is how we express the set of moves either player can do, at the end state of any game a score is perscribed to the players, indicating wether they have won and by how much, so in like poker that could be the amount of money gained and lost by the players in a round and in chess it could just be 1 for win -1 for loose and 0 for stalemate,
-games where the numberic values for how well players are performing sum to zero are called zero sum games
+games where the numberic values for how well players are performing sum to zero are called [[id:7171bcf3-82f5-4c9a-a7bd-a8769fc7f772][zero sum]] games
 
 when dealing with random events on a game tree we express this with another player, chance whos actions have probabilities and gains no rewards
 

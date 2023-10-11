@@ -7,7 +7,7 @@ how would it describe the general systems
 
 would it cater for n dimensions
 
-cellular automata on non standard grids, are there any actual rules on what a cellular atomata can be
+[[id:76ed39e1-b54c-4b9e-80cb-6e7d81375977][cellular automata]] on non standard grids, are there any actual rules on what a cellular atomata can be
 are there inverse forumlas for cellular automatas, this though needs a bijective cellular automata
 
 i could plausably have a kernel for summation, run the kernel on each cell and have a lua function that is ran for the output of each kernel,

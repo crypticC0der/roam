@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       876b42c8-4cfa-4a91-8266-ca05aae3af9b
+:END:
+#+title: mixed strategies
+often [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]] arent able to be found
+
+this is where they play a probalistic combination of pure stratiegies, and recives a combination of payoffs based on this
+these are mainly used when there are extensive games with hidden information

@@ -24,7 +24,14 @@ we aim to solve these questions
 - each node of the tree is associated with a move that a player can do from a position
 * how can we descibe a game plan for an agent
 * what is playing a game well
+generally playing well is when you play the best strategy meaning for any move the opponent you make the move that leads to you winning the most, ie you find the move which gives the highest outcome for any of their moves
+
+solving the game is finding the [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]]
 * how do we find a good game plan
+given $a_{ij}$ which is the payoff where p1 plays i and p2 plays j
+you aim to maximise this if you are player 1 and minimise it if its player 2
+
+[[id:7e3be4c4-870f-4836-bcfa-fda09f6d3f21][minimax]] is good at this, though we often improve it by pruning the game tree as game trees for complex games can get very big
 * what can be modelled with games
 * note
 

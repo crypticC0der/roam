@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       7171bcf3-82f5-4c9a-a7bd-a8769fc7f772
+:END:
+#+title: zero sum games
+a zero sum game is where the sum of the cells are 0, so any gain for player 1 is the same of loss for player 2

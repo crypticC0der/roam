@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       c64312ea-bf3f-45ba-a557-342320f70c04
+:END:
+#+title: nash equilibrium
+a nash equilibrium is wherin each strategy is a best response to the other strategies, ie each strategies are equally as good at beating the other
+this means noone has any reason to change their strategy really
+
+in solving the game we look for the best strategy for each players given the other players strategies
+
+you are in a nash equilibrium wherin no change to your strategy can benifit you, given the strategies of the opponent
+given the prisoners dillema where they both defect, this is the only nash equilibrium
+
+
+often finding these is done by searching ever strategy pair or use [[id:7e3be4c4-870f-4836-bcfa-fda09f6d3f21][minimax]] or [[id:533cd1a1-602b-4079-b3f9-74ca608e4f48][dominance in games]]
+
+* 1950 theorem
+in any game with a finite number of players in which each player has a finite number of pure stragies has at least one nash equlibrium plausably involving mixed stragies
+this does not require [[id:7171bcf3-82f5-4c9a-a7bd-a8769fc7f772][zero sum games]]
+
+vonn neuman figured this out but nash made this much more generalised
