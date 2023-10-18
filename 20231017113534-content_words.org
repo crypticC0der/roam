@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8f295d32-5b2c-45d4-b460-f368b3b29af7
+:END:
+#+title: content words
+generally these are lexical words that carry the meaning of the sentance
+so often they are nounds verbs and adjectives, and almost always are [[id:e5190657-4222-4239-b0b8-7c94b060ca86][open class words]]
+these are the things we care about for deriving meaning

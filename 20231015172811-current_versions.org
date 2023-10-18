@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       29dc1472-4288-4c4f-85c2-0dc345e600aa
+:END:
+#+title: current versions
+- old.lua
+  was only "slower" due to more functions to profile and the functions in question being called alot
+
+- new.lua (main.lua)
+  warg
+
+- instanced.lua
+  despite using gpu instancing it seems to actually be slower
+  2s draw vs 0.77s draw
+
+- main.c
+  no strong comparisons have been made but currently is running at 5x speed of the lua version
+  *but* the lua version is not slow (60~) fps, plausably using gpu isnt a bad idea but who knows
+  the thing about the lua version is getting it to work better would not be hard at all
+
+  lua doesnt have bitwise operators though!!!

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4ec14a74-0526-4e8f-b588-60154e4413b4
+:END:
+#+title: agreement contraints
+when i talk about "dave has 2 cars" and then later in the sentance if i said "dave and his 3 cars" this would be wrong
+the [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][parts of speach]] need to agree on contraints that hold in rules and set of rules, we could make much more complex rules that manage this but thats silly

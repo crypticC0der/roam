@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       24c950e0-9a00-4d78-863e-6e0d39a3d540
+:END:
+#+title: nominals
+Nominal -> Noun | Adj Noun | Num Noun | Nominal Noun ...
+Nominal -> Nominal PP
+Nominal -> Nominal GerundVP
+Nominal -> Nominal RelClause
+
+norminals follow [[id:92985529-268d-45f2-9985-3d4b3829e63a][determiner]]s they contain the head of the [[id:b4b829c4-9d06-4bdd-8504-5e788c8eee68][Noun Phrases]] and then any pre and post modifiers
+
+pre modifers are generally quantifiers cardinals and ordianls, like "big" and "three"
+
+post modifiers are either
+- prepositional
+  ie "from seattle"
+
+- non finite clauses
+  "arriving before noon"
+
+- relative clauses
+  "that serve breakfast"

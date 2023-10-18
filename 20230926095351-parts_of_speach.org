@@ -2,8 +2,7 @@
 :ID:       e342b150-4efb-4707-8a3e-b4ea8514a51c
 :END:
 #+title: parts of speach
-open class words
-- nouns
-- verbs
-- adjectives
-- adverbs
+we have a number of ways of defining parts of speach
+[[id:e5190657-4222-4239-b0b8-7c94b060ca86][open class words]] / [[id:38a51e7a-b8ab-440a-9625-a9a106ed205d][closed words]]
+[[id:8f295d32-5b2c-45d4-b460-f368b3b29af7][content words]] / [[id:c92d5821-5e61-4790-9edb-8697368d715b][function words]]
+

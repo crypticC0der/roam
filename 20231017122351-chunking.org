@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       77aeb87b-d5bc-462c-8532-5b1bc5181eec
+:END:
+#+title: chunking
+chunking is part of stuff into [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][parts of speach]] and it aims of finding groups of words that spew a narrative

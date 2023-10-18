@@ -2,6 +2,8 @@
 :ID:       76ed39e1-b54c-4b9e-80cb-6e7d81375977
 :END:
 #+title: cellular automata
+ .
+
 * basic explanation
 cellular automata are a model of computation studied in automata theory
 
