@@ -26,7 +26,9 @@ we aim to solve these questions
 * what is playing a game well
 generally playing well is when you play the best strategy meaning for any move the opponent you make the move that leads to you winning the most, ie you find the move which gives the highest outcome for any of their moves
 
-solving the game is finding the [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]]
+[[id:b1bce81b-221e-46d8-9005-a09cf7bfc8e1][solving the game]] is finding the [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]]
+
+as a note though, there is only a best response in finite space
 * how do we find a good game plan
 given $a_{ij}$ which is the payoff where p1 plays i and p2 plays j
 you aim to maximise this if you are player 1 and minimise it if its player 2
