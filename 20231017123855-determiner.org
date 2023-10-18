@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       92985529-268d-45f2-9985-3d4b3829e63a
+:END:
+#+title: determiner
+noun phrases start with determiners, which are simple lexical terms, or simple possessives, or complex recursive possessives
+they are followed by [[id:24c950e0-9a00-4d78-863e-6e0d39a3d540][nominals]]

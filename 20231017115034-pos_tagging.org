@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       507c4753-11a4-4ea2-abdf-b82b9b031fc5
+:END:
+#+title: POS tagging
+* general explanation
+sometimes as part of preprocessing for [[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]] we can do [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][POS]] tagging, wherin you tag the various parts and then this can help us better analyise the words
+
+often tagging is done after [[id:17e48b88-86b8-46f6-ab20-f4a832ee0b8a][tokenisation]]
+
+* types
+this is generally done in either
+** rule based
+generally a large set of hand written rules
+
+to do this you start with a dictioinary, assign all possible tags to words,
+then you make rules to selectively remove tags
+** stochastic based
+we use a training dataset and then estimate the probability of giving any tag to a given part of speach
+
+we generally pick the single tag sequence where p is highest given a word and its previous sequence of words
+page 36, of week 3 lecture 1
+** transformation based
+is part of both architectures
+tules are automatically induced by a hang tagged dataset
+
+* accuracy mesurement
+we want to do a confusion table so we see which classes are being given which labels and then we can see the errors and where various errors are higher

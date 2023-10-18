@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b4b829c4-9d06-4bdd-8504-5e788c8eee68
+:END:
+#+title: Noun Phrases
+NP -> [[id:92985529-268d-45f2-9985-3d4b3829e63a][Determiner]] [[id:24c950e0-9a00-4d78-863e-6e0d39a3d540][Nominal]]
+
+noun phrases are about like a single noun in the phrase, like all the morning *flights* from denver to tampa leaving before 10
+you can map out a noun phrase pretty easily, which is useful, though it isnt all capable as it doesnt capture the [[id:4ec14a74-0526-4e8f-b588-60154e4413b4][agreement contraints]]

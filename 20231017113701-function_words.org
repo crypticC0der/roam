@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c92d5821-5e61-4790-9edb-8697368d715b
+:END:
+#+title: function words
+these are articles or conjunctions such as "the" and "and", they are often found everywhere and mean very little, they help form the meaning through grammatical relationships
