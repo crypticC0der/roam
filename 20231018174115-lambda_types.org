@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       a99e0567-5962-4cb8-b223-393541a9acd8
+:END:
+#+title: lambda types
+
+in [[id:cc639b5b-3e71-4e97-8322-7367fceb41ce][lambda calculus]], having types can be kind of useful
+we want to add them in a way where we dont have primative types to avoid complicating beta reduction and stuff
+
+bc -> set of types, in some cases these are primative types
+sc -> $\sigma,\tau \in Types^\rightarrow \rightarrow \sigma \rightarrow \tau \in Types^\rightarrow$
+
+we need to ensure abstraction has suitable types , so we need to know the inputs and outputs, enforcing this is awkward though
+so we need another step much like in compilers how you have type checking we need to figure this out
+
+also we may have the situation of several assumptions for the same variable name as say
+$x \lambda x : \sigma .x$
+where the outer x is of type $(\sigma \rightarrow \sigma ) \rightarrow \sigma$ and the inner x is of type $\sigma$
+
+we aim to store these type assumptions in a set
