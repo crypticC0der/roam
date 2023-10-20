@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       338e9334-1bc9-4452-b857-14d1d7ff7e56
+:END:
+#+title: ODE
+ordinary differencial equations

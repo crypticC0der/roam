@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       aa5edd31-a54f-4004-81c2-394225cf40a2
+:END:
+#+title: kinematics
+* forward
+given a set of angles we find positions for the bones
+
+* inverse kinematics
+given a end position we find the angles for the bones, this is much much more useful
+this cant get bones anywhere though

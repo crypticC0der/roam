@@ -6,5 +6,5 @@ computer graphics is balling
 
 * corse parts
 - [[id:240c9592-4977-4d6e-88cb-9b39a491ece6][modelling]]
-- animation
+- [[id:9888f659-4ffb-4bff-b0d1-9384d221d475][animation]]
 - rendering

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c0c74873-c46e-402c-9fc7-4d912254c0eb
+:END:
+#+title: rigging
+rigging is generally the process of giving a mesh a skeleton with bones, these bones have fixed lengths and a range of angles
+
+generally we attach skin to bones and skin can be attached to more than one bone
+the skin is the mesh, this works by having each vertex being attached to bones via various weights
