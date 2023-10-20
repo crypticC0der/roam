@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5191f1c1-8bcb-4a4b-ad0e-31d226099aac
+:END:
+#+title: node evaluation metrics
+generally this comes down to [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristics]],
+we aim to evaluate the state at a node so it an be used in an algorithm of some sort, generally minmax, the figuring out of this is awkward because its a very arbitrary problem, and finding a single value for how you are doing is hard, often in games we have static tables that mesure how well you are doing given the places you have on the board but computing this is awkward
+
+one of the best ways to figure out a good algorithm or table is adjust the values randomly and fight the old bot vs the new and keep the best, you can keep doing this until you are satisfied with the output, though this is slow

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       03435114-7914-4a09-8cd0-2758b24eb1f2
+:END:
+#+title: alpha beta pruning
+alpha beta pruning is wherin you avoid nodes that we know cant really be that good, uuhhh i dont really understand this much so ill come back to it later
