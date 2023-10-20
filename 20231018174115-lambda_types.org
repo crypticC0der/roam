@@ -16,4 +16,17 @@ also we may have the situation of several assumptions for the same variable name
 $x \lambda x : \sigma .x$
 where the outer x is of type $(\sigma \rightarrow \sigma ) \rightarrow \sigma$ and the inner x is of type $\sigma$
 
-we aim to store these type assumptions in a set
+we aim to store these type assumptions in a set which we call $\Gamma$
+
+* cases
+the way computing types work is simple
+
+$x = ax: \Gamma \vdash x : \sigma$
+
+$ab = app: \Gamma \vdash a: y \rightarrow z \| \Gamma \vdash b:z$
+
+$\lambda x : \sigma . y = abs: \Gamma, x:\sigma \vdash y:z$
+
+as a note insted of doing the statement equals the thing you do it as the statement and then a line covering the types above it
+this is only really well explained by doing it
+often you will need to deal with things being of the same type like g might appear twice and you goota figure that shit out
