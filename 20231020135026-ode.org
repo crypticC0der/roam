@@ -3,3 +3,28 @@
 :END:
 #+title: ODE
 ordinary differencial equations
+
+* correct solver
+
+$F=ma = m\frac{d^2x}{dt^2}$
+
+we then go
+
+$\frac{d}{dt}x = v$
+$\frac{d}{dt}v =\frac{F}{m}$
+
+which is 2 equations with 2 unknown those being x and v
+
+we do this via
+
+$X = \begin{pmatrix} x \\ v\end{pmatrix}$
+
+
+$\frac{d}{dt}X = f(X,t) = \begin{pmatrix} v \\ F(x,v)/m \end{pmatrix}$
+
+sometimes making a texture of the solutions for these via precomputation is a decent idea
+
+* good solver
+$t_1 = y_0 + h \\ X_1 = X_0 + hf(X_0,t_0)$
+
+often we dont get super correct things in some places, but this, this is moreso updating things in a [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] sort of method, which is fine unless you want circular motion

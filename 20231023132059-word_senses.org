@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4515b390-32f5-455f-a79c-cf0e05332e70
+:END:
+#+title: word senses
+word sence refers to the meaning of a word, like how run has multiple meanings, so does duck
+the task of figuring out which is which is [[id:a95aafec-a2ff-4aba-8bce-2f5fde4fa6b1][word sense disambiguation]]

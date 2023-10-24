@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       698d19e9-5bec-4edd-9f42-e10e5206df65
+:END:
+#+title: big libraries for it
+these calculate word embeddings by performing prediction tasks based on cooccurence information
+* word2vec
+
+this approach uses a continous [[id:a1cc2b61-ff87-4b99-a333-6c022514a4fd][bag of words representation]] and a simple neural network
+
+[[/home/mj/Pictures/screenshots/2023-10-24-14:58:01.png]]
+
+* gloVe
+glove is a regression based model and it utilises the frequency that a word appears in another context given a corpus

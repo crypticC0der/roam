@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d5255899-0661-4e75-9761-3f2e19bdc15e
+:END:
+#+title: PCFG
+a probabilistic [[id:b975aad6-dc69-497b-9b4c-33c730d989d2][context free grammar]] is a version of a cfg where each rule has a probabilitiy
+we can make these probabilities quite easily using a [[id:42fa925b-202f-41bf-a785-e6729e0c075a][treebank]] this allows [[id:77aeb87b-d5bc-462c-8532-5b1bc5181eec][chunking]] to be probalisitic and allows generation of simple messages easily

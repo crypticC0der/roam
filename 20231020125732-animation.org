@@ -12,3 +12,5 @@ we can do alot of physics based animation with things like particals and smoke, 
 this get more complex if we have things like collision within the particles, because alot of the stuff we have is in parallel
 
 sometimes we dont aim to have it look entirely accurate we just want it to be close enough, and normally use [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]]s
+
+sometimes you can do similar things but with the verticies on the mesh, such as in water simulation and fabric simulation

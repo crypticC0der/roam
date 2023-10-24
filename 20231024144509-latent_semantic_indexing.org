@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       738c989c-c505-4d77-a379-08f09d8120ea
+:END:
+#+title: latent semantic indexing
+this is another way of giving information for words, it is muche denser than a [[id:2f880923-c749-47ee-9d9f-34b226ef0a67][vector space model]], mathematically it is basically just single value decomposition, you give a document matrix (d) and then put that through svd and get [u,s,v]
+then the document vector becomes u * d, and the term vectors become v*d
+
+we can truncate the svd via finding the number of distinct vectors (k) and then only taking the first k collumns of u and v
+
+these can be plotted in k dimensional space and this is generally quite useful
+
+!!! read up on single value decomposition

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       30dd2fe7-5fd7-40a5-88f3-6da56a7135ab
+:END:
+#+title: distributional semantic model
+a dsm is a model for creating multi dimensional feature vectors to characterise meanings of words, this means you can then mesure similarity via vector similarities, ie cosine similarities and such
+
+the simplest model is a [[id:2f880923-c749-47ee-9d9f-34b226ef0a67][vector space model]], but there are also [[id:738c989c-c505-4d77-a379-08f09d8120ea][latent semantic indexing]] models and then [[id:698d19e9-5bec-4edd-9f42-e10e5206df65][big libraries for it]]
+
+more advanced models are generally obtained via neural networks

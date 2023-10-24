@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9bc9fe4b-3d11-431f-8d45-5466b88eea15
+:END:
+#+title: lesk algorithm
+
+the lesk algorithm examples overlap between the definitions and its current context
+firstly you retrieve the sense definitions
+then you calculate the overlap between each definiton
+then you choose the sense that leads to the highest overlap

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       a95aafec-a2ff-4aba-8bce-2f5fde4fa6b1
+:END:
+#+title: word sense disambiguation
+this is the task of selecting which word to use in a given peice of text from a [[id:74b0ad0e-25fb-452f-bdc5-bc9e054d9ce4][set of known posibilities]]
+
+there are a great number of examples of this, one of such is machine translation and another is a search engine
+
+they either work via:
+- knowledge based approach
+
+  most dictionaries are machine readable now, and we can generally either use them or a semantic network
+  the [[id:9bc9fe4b-3d11-431f-8d45-5466b88eea15][lesk algorithm]] is good for this
+
+- supervised machine learning approaches
+
+* building a wasd classifier
+given a [[id:4515b390-32f5-455f-a79c-cf0e05332e70][word senses]] corpus, characterise each word pattern with a set of features, using a [[id:a1cc2b61-ff87-4b99-a333-6c022514a4fd][bag of words representation]] for vectorisation
+
+then you use typical [[id:acc39b8d-dc2c-4c28-bbff-e661dbf8df05][machine learning approaches]] to train and then [[id:12dbca09-f6f5-43cb-b439-b3c27e590980][test]] the model
+we could simply do this with a naive bayes classifier model and use conditional probabilities to figure this out
+
+a good useage is then have it output the correct labels for the right [[id:4515b390-32f5-455f-a79c-cf0e05332e70][word senses]] and then you can simply have much more accurate [[id:16d50cf1-7957-4c37-a3bf-2ed615fdaa65][markov model]]s

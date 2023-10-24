@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2f880923-c749-47ee-9d9f-34b226ef0a67
+:END:
+#+title: vector space model
+a vector space model is a simple representation of information about words
+
+we can make a simple vsm via how freqently they appear in a set of works, though this seems arbitary this can work
+you could also make another vsm based on words that appear around it in the same sentance, this can give meaning through context, which as any 15 year old who reads must know is very powerful
+
+the smaller the context size the more syntactic the relations will be and the less semantic, the GPT language model uses 8195 tokens of context 🤯
+
+vsm matricies are often of very large dimensionality and very sparse,
+we would prefer a dense model as it has less noise and is easier to compute with (in theory)
+an example of this is [[id:738c989c-c505-4d77-a379-08f09d8120ea][latent semantic indexing]]

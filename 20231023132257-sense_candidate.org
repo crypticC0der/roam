@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       74b0ad0e-25fb-452f-bdc5-bc9e054d9ce4
+:END:
+#+title: sense candidate
+given a word it can be any of its possibilities of [[id:4515b390-32f5-455f-a79c-cf0e05332e70][word senses]], the candidate for the true sense of the word is the sense candidate

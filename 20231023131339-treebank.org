@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       42fa925b-202f-41bf-a785-e6729e0c075a
+:END:
+#+title: treebank
+treebanks are corpora in which each sentance has been paired with a parse tree and then we figure out the rules based on this instead of annotated data
