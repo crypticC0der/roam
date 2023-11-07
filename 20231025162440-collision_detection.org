@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3ce04c19-7e0f-48f8-9fed-fda00e430d43
+:END:
+#+title: collision detection
+[[id:b0aae41e-7067-4ceb-ac05-81c404f1966e][collision]] detection is very important for [[id:3b837d60-bc96-4be6-98d7-2ec56814dbe5][physics based animation]] and specifically [[id:a3a6359a-7184-4b14-8f2a-41e648f41b7f][rigidbody simulation]]
+generally for n objects the big O is n^2, which is not great, we often use simpler proxies like bounding boxes or test only nearby parts, which is a [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] but this generally works okay

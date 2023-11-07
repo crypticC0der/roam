@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       65e40cae-055c-44a8-ac4f-c0f1205b01de
+:END:
+#+title: sequence classification
+you aim to learn a representation of a sequence and be able to classify it, like sentiment analysis and spam filtering, this is doable with niaive Bayes

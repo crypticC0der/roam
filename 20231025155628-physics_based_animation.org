@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3b837d60-bc96-4be6-98d7-2ec56814dbe5
+:END:
+#+title: physics based animation
+we can do alot of physics based [[id:9888f659-4ffb-4bff-b0d1-9384d221d475][animation]] with things like particals and smoke, we have to use alot of [[id:338e9334-1bc9-4452-b857-14d1d7ff7e56][ODE]]s but yeag
+this get more complex if we have things like collision within the particles, because alot of the stuff we have is in parallel
+
+sometimes we dont aim to have it look entirely accurate we just want it to be close enough, and normally use [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]]s
+
+sometimes you can do similar things but with the verticies on the mesh, such as in water simulation and fabric simulation

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b0aae41e-7067-4ceb-ac05-81c404f1966e
+:END:
+#+title: collision
+collision is when two things collide blah blah blah

@@ -30,3 +30,6 @@ $\lambda x : \sigma . y = abs: \Gamma, x:\sigma \vdash y:z$
 as a note insted of doing the statement equals the thing you do it as the statement and then a line covering the types above it
 this is only really well explained by doing it
 often you will need to deal with things being of the same type like g might appear twice and you goota figure that shit out
+
+* usage
+this aims to prove that computations no longer diverage and that computations no longer can be indefinate

@@ -29,6 +29,7 @@ $x +\Sigma^{10}_{x=1} x +y$
 * definition
 lambda variables we define generally as $\lambda x . xy$
 which means x is a [[id:3155caf2-4c8f-4dd8-9fa9-3162ca362ea2][bound variables]] and therin its name can be changed if needed and it is used in the proceeding statement
+this definition can also define the [[id:a99e0567-5962-4cb8-b223-393541a9acd8][lambda types]] of the variable
 
 * functions
 note we have a function freshv, which takes a set of vars and gives a set of variables, with a new "fresh" one not in the inserted set

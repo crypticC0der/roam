@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0b1032af-a0f6-45e5-ba4e-7c758135efb3
+:END:
+#+title: articulated rigigbody simulation
+this is where we have components of [[id:78ee996e-d936-4914-a9fb-38fe8833a24c][rigidbody]]s and they are connected as a part of [[id:3b837d60-bc96-4be6-98d7-2ec56814dbe5][physics based animation]]
+their possible movements are expaneded based apon the rotations of the individual parts and then the position and rotation of the body as a whole

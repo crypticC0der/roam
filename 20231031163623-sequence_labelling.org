@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       53c76706-eeca-4a31-a957-e21134826176
+:END:
+#+title: sequence labelling
+this is where you aim to learn a representation for each element and then use it to predict a lebal for each bit
+this is like [[id:507c4753-11a4-4ea2-abdf-b82b9b031fc5][POS tagging]]

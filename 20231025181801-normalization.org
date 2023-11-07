@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       efc229ae-a9b0-4651-bd83-c52c604ac0c2
+:END:
+#+title: normalization
+a $\lambda$ term t is normalizing if $t=t_0 \rightarrow t_1 \rightarrow t_2 \rightarrow ... \rightarrow t_n \rightarrow t_n$
+so we have a non infinate [[id:c669b4ea-7b72-42ab-9cab-47f636ca4f8e][beta reduction]]
+all terms in [[id:cc639b5b-3e71-4e97-8322-7367fceb41ce][lambda calculus]] with [[id:a99e0567-5962-4cb8-b223-393541a9acd8][lambda types]] are strongly normalized

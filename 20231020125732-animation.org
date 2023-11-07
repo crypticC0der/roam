@@ -6,11 +6,3 @@
 animation is done through a number of means, generally you have a [[id:c0c74873-c46e-402c-9fc7-4d912254c0eb][rigged]] mesh and animate it through keyframes, we have a bunch of stuff that can go through each of the keyframes properly and interpolate between them well
 
 one method of moving around bones is [[id:aa5edd31-a54f-4004-81c2-394225cf40a2][kinematics]]
-
-* physics based
-we can do alot of physics based animation with things like particals and smoke, we have to use alot of [[id:338e9334-1bc9-4452-b857-14d1d7ff7e56][ODE]]s but yeag
-this get more complex if we have things like collision within the particles, because alot of the stuff we have is in parallel
-
-sometimes we dont aim to have it look entirely accurate we just want it to be close enough, and normally use [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]]s
-
-sometimes you can do similar things but with the verticies on the mesh, such as in water simulation and fabric simulation

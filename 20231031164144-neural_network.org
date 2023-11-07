@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       8b2e5265-a983-45f4-ab57-a4ccd869e89b
+:END:
+#+title: neural network
+okay so like nns are useful and shit, i should explain how they work
+so youve got a bunch of inputs, and a bunch of weights, you multiply the weights by the (inputs+bias) and then throw this through a activation function and boom you have a normalised output
+
+a neural network is a bunch of these, each layer might have say 20 neurons and there might be a bunch of layers, so neurons feeding into neurons and neurons feeding into neurons and whatever
+
+typically we use the [[id:3548bec2-37ac-4f94-a1d2-4d461426d5c6][sigmoid]] function but we could use like tanh or relu or elu or whatever
+
+if a nn has only one layer its called a single layer perception

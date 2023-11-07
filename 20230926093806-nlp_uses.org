@@ -6,7 +6,7 @@ its useful for text summarisation,
 question answering
 document classification
 information retrieva
-statement analysis
+[[id:65e40cae-055c-44a8-ac4f-c0f1205b01de][statement analysis]]
 machine translation
 natural langugage generation
 marking tools

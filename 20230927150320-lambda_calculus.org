@@ -2,6 +2,7 @@
 :ID:       cc639b5b-3e71-4e97-8322-7367fceb41ce
 :END:
 #+title: lambda calculus
+
 * explanation
 lambda calculus is mainly the art of [[id:cb930698-195f-4f30-a0b1-b3f1e9d8c170][programming with functions]], and what subsituting expressions with others means
 

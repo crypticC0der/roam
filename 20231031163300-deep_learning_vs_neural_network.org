@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       691152df-8834-4b21-9907-2fed2e9acc4e
+:END:
+#+title: deep learning vs neural network
+a deep learning approach is the same as a [[id:8b2e5265-a983-45f4-ab57-a4ccd869e89b][neural network]] but it just has a much larger number of hidden layers
+neural networks often have some work done to deal with the inputs and outputs and deep learning approaches dont really
