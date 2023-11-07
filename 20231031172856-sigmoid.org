@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3548bec2-37ac-4f94-a1d2-4d461426d5c6
+:END:
+#+title: sigmoid
+the sigmoid function is like 1/(1+e^-x)

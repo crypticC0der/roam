@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       43d82a86-3d13-4f6c-80b1-6b8875252ac2
+:END:
+#+title: rnn
+a reccurant [[id:8b2e5265-a983-45f4-ab57-a4ccd869e89b][neural network]] is where you have a input (generally words in some vector form like [[id:738c989c-c505-4d77-a379-08f09d8120ea][latent semantic indexing]]) and then a hidden representation of its internal state, you can keep adding input and shit into it and itll keep processing it which is neat
+this is VERY good for [[id:7ae464da-5985-4df1-a402-a75063a38e64][natural language processing]]
+
+the method of updating the input model is basically you take the previous state, the new input and then a matrix W put all of this into a function which spits out the new state/representation of the model, the cell operation function is generally either [[id:51a8182e-9274-47ca-b714-5a8abd7fd40a][LSTM]] or GRU
+
+if you do simple approaches with things like [[id:3548bec2-37ac-4f94-a1d2-4d461426d5c6][sigmoid]] this can suffer with vanishing gradient problems though, as features far back loose weighting on current context which is awkward which is why we use [[id:51a8182e-9274-47ca-b714-5a8abd7fd40a][LSTM]]
+
+we can simply feed the state into a new machine which has a new set of matricies and shit
+initially we input "<start>" and then we use a extra prediction layer to get an output, and then we feed the output into the next input
+this works pretty well and this is a seq2seq model
+
+you can make rnns better by giving shit hidden layers and shit, the way we do this is have a sorta multi layer thing going down which is easiest to explain in like diagram form so [[/home/mj/Pictures/screenshots/2023-11-01-14:27:51.png]]

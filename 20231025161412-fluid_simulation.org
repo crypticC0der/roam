@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ec229f07-de7f-49f2-bae2-8907f683025b
+:END:
+#+title: fluid simulation
+this is a type of [[id:3b837d60-bc96-4be6-98d7-2ec56814dbe5][physics based animation]]
+this is generally done with a great number of particles and then we wrap them around a mesh and render
+we have to use langrangian differential equations to deal with this, its awkward
+
+we can also used grid based fluid simulation, like in noita, this is generally done with voxel based cellular automaton
+it looks more blocky but thats cool

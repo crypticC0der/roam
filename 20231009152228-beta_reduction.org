@@ -8,3 +8,5 @@ one important thing to understand is when one term is applied to another that is
 what beta reduction is, is when you actually put the value into a function so $(\lambda x . t )a \rightarrow^\beta t[a/x]$
 so $(\lambda y.\lambda x. yx)(\lambda x.bx)(c) \rightarrow^\beta (\lambda x.yx)[bx/y](c) \rightarrow^\alpha (\lambda w.w bx)(c) \rightarrow ^\beta (wbx)[c/w] \rightarrow^\alpha (cbx)$
 where cbx are free variables, there are a number of ways to reach this conclusion though
+
+some beta reductions are infinate but we can avoid this with [[id:a99e0567-5962-4cb8-b223-393541a9acd8][lambda types]]

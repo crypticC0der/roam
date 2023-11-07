@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5034258c-ae3e-4684-a0e8-13a5167b5a4f
+:END:
+#+title: heirical bounding volumes
+this is where we have bounding volumes and then subvolumes so we can test if they are near and then recuirsevly find exactly where the intersection is
+
+this is useful for simple interpreations of advances shapes where we want the speed of simple versions but need accuracy

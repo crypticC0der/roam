@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       308e6ea7-ccdb-437c-bf95-3dfdeaca809e
+:END:
+#+title: deformable object simulation
+* elastic
+this is a type of [[id:3b837d60-bc96-4be6-98d7-2ec56814dbe5][physics based animation]] where the body is elastic and yeag
+to simulate this we use the finite element method (FEM), first we convert it into tetrahedrals (as hey are the simplest object for a volume), we then know its rest shape and can deform it easily, we generally simulate this similar to a mass spring model
+
+* cloth
+cloth has a number of springs and joints and is also used with the mass spring model,
+
+* fracture
+this is also done with the mass spring model

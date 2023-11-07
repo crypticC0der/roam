@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7d4fc9c5-2f71-4189-af0c-ef9af338bece
+:END:
+#+title: bounding volumes
+a bounding volume is the area of an object that we care about for [[id:b0aae41e-7067-4ceb-ac05-81c404f1966e][collision]] and [[id:3ce04c19-7e0f-48f8-9fed-fda00e430d43][collision detection]]
+the simplest method is spherical and then axis alligned bounding boxes and then
+sometimes we have [[id:5034258c-ae3e-4684-a0e8-13a5167b5a4f][heirical bounding volumes]]

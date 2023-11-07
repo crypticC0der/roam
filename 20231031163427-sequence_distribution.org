@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5d8c2d82-3d06-4739-b402-4b07d130cf4f
+:END:
+#+title: sequence distribution
+this is where you work out the probability of a given sequence of words, or the probability of a word given a sequence of words
+
+this can be used for generative models,[[id:72097ffd-d774-4ebb-89b5-1cf89ff102dd][n gram language models]] are like this

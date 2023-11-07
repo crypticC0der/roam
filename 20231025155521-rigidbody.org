@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       78ee996e-d936-4914-a9fb-38fe8833a24c
+:END:
+#+title: rigidbody
+a rigidbody is a body with 6 degrees of freedom, those being xyz of position and xyz of rotation

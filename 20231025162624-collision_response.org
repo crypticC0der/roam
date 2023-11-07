@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       733bdc1e-6448-4312-be93-9359440e9df9
+:END:
+#+title: collision response
+generally after [[id:3ce04c19-7e0f-48f8-9fed-fda00e430d43][collision detection]] we make a response
+we can either work out exactly where the objects [[id:b0aae41e-7067-4ceb-ac05-81c404f1966e][collided]] and continue with updated forces, or we can just go to the nearest point on the outside of the collided object and change the velocity, this is a shitty hack, but its faster

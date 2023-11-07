@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       51a8182e-9274-47ca-b714-5a8abd7fd40a
+:END:
+#+title: LSTM
+
+$o_k = \sigma(W^o_xx_k + W^o_h h_{k-1} + b^o)$
+$f_k = \sigma(W^f_x x_k + W^f_h h_{k-1} +b^f)$
+$i_k = \sigma(W^i_x x_k + W^i_h h_{k-1} +b^i)$
+$c_k = \tanh(W_x x_k + W_h h_{k-1} +b)$
+$h_k = o_k \circ \tanh(f_k \circ c_{k-1} +i_k \circ c_k)$
+
+
+f is basically working out which to forget, o is which to remember in the mixed content vector, and i is what to use in the currenct vector
+
+we aim to have f, i, o be basically vectors of binary values
+the c vector is basically the updated encoded information about the current state
+
+this just basically has 3 vectors for figuring out what to keep, and then 1 vector for figuring out how to deal with the old stuff and then an output vector which is the new state
