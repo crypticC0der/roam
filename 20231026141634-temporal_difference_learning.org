@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d4c92343-8395-44f3-9e19-b8f97e6ab490
+:END:
+#+title: temporal difference learning
+this is much like q learning but faster
+it is about using a parameter lambda to assign reward or blame to previous actions
+so with lambda and gamma you have the winning move updated by the reward*1,
+then the previous move by $\lambda \gamma r$
+then the previous move by $\lambda^2 \gamma^2 r$
+then the previous move by $\lambda^3 \gamma^3 r$
+then the previous move by $\lambda^4 \gamma^4 r$
+then the previous move by $\lambda^5 \gamma^5 r$
+then the previous move by $\lambda^6 \gamma^6 r$
+then the previous move by $\lambda^7 \gamma^7 r$
+
+and so on, this is very good at actually learning

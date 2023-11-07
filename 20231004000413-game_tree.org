@@ -16,15 +16,3 @@ if you want to make a thing use [[id:a1c85953-c0b9-4a8f-a4ac-341ae2945ea7][norma
 with imperfect information games become no longer solveable and we cannot make a refined strategy for the best play style, in 21 we can make a winning set of moves easily, wheras in poker, this cannot be done as we dont know what the other player is doing
 with chance we cannot make a certain best choice, but we can make a strategy that has the highest probability of being the best choice
 
-* navagating
-generally we aim to manage solving a game tree by navagating the best course through it, what we could do is have it go all the way to the end of the game and pick the choice that gives us the best chance of winning or the opponent the least chance of winning, these are the same thing really,,,,
-
-generally though this sucks balls and makes me want to kill myself, so we should figure out another way around this
-we can minimise the number of nodes we look at through a number of methods
-
-1) [[id:03435114-7914-4a09-8cd0-2758b24eb1f2][alpha beta pruning]]
-2) others
-
-now we still might have a very large game tree so a good solution is to try and stop at a point, but we need to return a value so we use [[id:5191f1c1-8bcb-4a4b-ad0e-31d226099aac][node evaluation]] which helps,
-
-navigating trees and using min max doesnt get us everywhere though, much like with go where the board is large and the number of moves is high, and there are like no methods of evaluating the board state, so we need another approach
