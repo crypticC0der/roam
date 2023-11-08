@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8a24b1c7-5e3d-4237-8b47-97951101e110
+:END:
+#+title: rendering
+rendering is the art of basically having a thing be it a [[id:9888f659-4ffb-4bff-b0d1-9384d221d475][animation]], a [[id:240c9592-4977-4d6e-88cb-9b39a491ece6][model]] or a [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]] with simple [[id:35f989c2-6410-4ad3-9370-34167335950c][colours]] these can be anything really and yeah it basically ties together the module

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9e5ba733-f923-41a8-9b7f-82a5557610ad
+:END:
+#+title: the rendering equation
+$L_o(x,\omega_o,\lambda,t) = L_e(x,\omega_o,\lambda,t) + \int_\Omega f_r (x,\omega_i,\omega_o,\lambda,t)L_i(x,\omega_i,\omega_o,\lambda,t)L_i(x,\omega_i.\lambda,t)(-\omega_i,n)\delta w_i$
+
+this equation descirbes all possible graphical scenes, and its very cool
+it is the backbone of [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]] and one of the most important things in [[id:571359fd-484e-452b-9be4-d5abb277d30d][37111]]
+
+$L_e(x,w_o)$ is the light emmitted by point x if its a light source
+the integral aims to add up all of the incoming light that is being bounced off the surface
+$L_i(x,w_i)$ is the incoming light coming into the point and being bounced off
+the f function is the bidirectional reflectance distribution function which modifies the incident light coming in
+the dot product part is dot product between the normal and the negative vector of the light comes in, this is a [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] but it works well

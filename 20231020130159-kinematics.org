@@ -2,6 +2,7 @@
 :ID:       aa5edd31-a54f-4004-81c2-394225cf40a2
 :END:
 #+title: kinematics
+kinematics is a type of [[id:3b837d60-bc96-4be6-98d7-2ec56814dbe5][physics based animation]] and generally is very cool for simulating skeletons that have been [[id:c0c74873-c46e-402c-9fc7-4d912254c0eb][rigged]]
 * forward
 given a set of angles we find positions for the bones
 
