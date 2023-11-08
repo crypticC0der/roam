@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       66b2e2fc-30b4-4222-9d8b-ca2e950945a7
+:END:
+#+title: attention rnn
+an attention rnn is a [[id:43d82a86-3d13-4f6c-80b1-6b8875252ac2][rnn]] that can care about previous values
+
+$$s_i^1 = similarity(h_i,\tilde h_1),i=1,2,3$$
+
+$$[a_1,a_2,a_3]=softmax(s_1^1, s_11,s_3^1)$$
+
+$$\tilde h^a_1 = a_1h_! + a_2h_2 a_3h_3$$
+
+$$\hat h_1 [\tilde h_1^a,\tilde h_1)$$
+
+this basically takes in each of the previous things and combines them into a single vector based on how similar it is to the current output state, then this combined vector is stuck alongside the ouput state vector and then fed into a layer to compute the output
+
+this is useful for
+- performance
+- solve bottleneck problem
+- help vanishing gradient
+
+have 2 repesentations for each input in the output seq part, one for multiplication and one for similarity
+[[/home/mj/Pictures/screenshots/2023-11-07-10:40:21.png]]
+
+add 3 more matricies to do linear projection which should help the computation
+[[/home/mj/Pictures/screenshots/2023-11-07-10:40:47.png]]
+
+you can have multiple heads and these mean more linear projection, and this means more parameters and shit
+[[/home/mj/Pictures/screenshots/2023-11-07-10:44:17.png]]
+then you have a final matrix to combine the matricies into a single output matrix

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       389ec427-daf9-4910-b1a1-f5b0e21c33b5
+:END:
+#+title: seq2seq model
+seq2seq is where we have a seqence of inputs and aim to get a sequence of outputs
+this is based of large [[id:43d82a86-3d13-4f6c-80b1-6b8875252ac2][rnn]] machines
+
+the issue with this is we have a bottleneck when we go from the end of one seqence to the next
+the way you solve this is with an [[id:66b2e2fc-30b4-4222-9d8b-ca2e950945a7][attention rnn]]

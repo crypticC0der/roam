@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       3ae0e914-3579-447e-88dc-23255e89d561
+:END:
+#+title: monte carlo tree search
+monte carlo tree search is a pretty good method of doing this, it was able to cope with go
+it is a method of searching a [[id:05c33001-9ec5-4e2d-ba28-0fc386486870][game tree]] and is good at [[id:42cb1694-ac94-4265-aace-22ce148be358][navigating game trees]]
+it is sometimes better than [[id:7e3be4c4-870f-4836-bcfa-fda09f6d3f21][minimax]] when it doesnt work but its very [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]]al
+
+we aim to build the tree incrementally and asymetrically
+we find the most urgent node to expand
+give a node we run a simlulation and update the tree
+
+while(time) do:
+    Treepolicy(v0) to find next node
+    Defualtpolicy(v1) to simulate from v1 to a terminal node T
+    backup(v1,T)
+
+return mode = bestChild(v0)
+v0 is the board position
+
+[[/home/mj/Pictures/screenshots/2023-11-07-16:22:40.png]]
+* phases
+** selection
+start at root, child selection is recurively applied to traverse and looking fro the most important expandable node
+** expansion
+increse the tree by expanding nodes
+** simulation
+run a simulation on the node by random play
+** backup
+the stats of the node and its ansestors are updated
+
+* uct
+uct generally chooses pretty well, and occasionally chooses bad options to explore
+each node v stores two quantities:
+1. Q(v) - sum of all payoffs recived (simulations on a node)
+2. N(v) - a count of the times visited
+
+so Q(v)/N(v) is a good estimate
+
+at node v choose child v' that maximises
+
+$$\frac {Q(v')} {N(v')} + C \sqrt{\frac{2 \ln N(v)}{N(v')}}$$
+
+this aims to visit nodes that are okay, it works pretty well when there are no real good [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]]s or [[id:5191f1c1-8bcb-4a4b-ad0e-31d226099aac][node evaluation metrics]]
+
+* picking
+- max  -> highest Q(v)/N(v)
+- robust -> highest N(v)
+- max-robust -> highest N(v) and highest Q(v)/N(v)
+- secure -> $$\frac {Q(v')} {N(v')} - C \sqrt{\frac{2 \ln N(v)}{N(v')}}$$
