@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       aa52ac04-4745-4d1c-a8a9-b6485c12a993
+:END:
+#+title: learning in gaming
+AI in gaming is much harder to do than minimax and only overtakes it when very advanced
+
++poker is one of the first things where actual ai was beating minimax due to information loss+
+
+it generally beats [[id:7e3be4c4-870f-4836-bcfa-fda09f6d3f21][minimax]] when:
+    the game tree opens very fast
+    imperfect information
+
+this is generally done via [[id:21328912-ddf9-43ac-98be-2b43b2d12792][reinforcement learning]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d24a7d0d-eb05-4ff3-940c-25b0108bfd9c
+:END:
+#+title: future reward
+we workout the future reward by summing the reward and discounting later rewards so
+$fr_t = \gamma r_{t+1} + \gamma r_{t+2} + \gamma r_{t_2} + ... + \gamma r_{end}$
+
+we discont later rewards to encourage shorter paths and generally rewards devalue over time with account to the descision

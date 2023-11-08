@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       42cb1694-ac94-4265-aace-22ce148be358
+:END:
+#+title: navigating game trees
+generally we aim to manage solving a [[id:05c33001-9ec5-4e2d-ba28-0fc386486870][game tree]] by navagating the best course through it, what we could do is have it go all the way to the end of the game and pick the choice that gives us the best chance of winning or the opponent the least chance of winning, these are the same thing really,,,,
+
+generally though this sucks balls and makes me want to kill myself, so we should figure out another way around this
+we can minimise the number of nodes we look at through a number of methods
+
+1) [[id:03435114-7914-4a09-8cd0-2758b24eb1f2][alpha beta pruning]]
+2) others
+
+now we still might have a very large game tree so a good solution is to try and stop at a point, but we need to return a value so we use [[id:5191f1c1-8bcb-4a4b-ad0e-31d226099aac][node evaluation]] which helps,
+
+navigating trees and using [[id:7e3be4c4-870f-4836-bcfa-fda09f6d3f21][min max]] doesnt get us everywhere though, much like with go where the board is large and the number of moves is high, and there are like no methods of evaluating the board state, so we need another approach

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       b674eb9b-4115-4934-a409-89ef89b9a57d
+:END:
+#+title: transformer
+basically this is based over using [[id:66b2e2fc-30b4-4222-9d8b-ca2e950945a7][attention rnn]] but without its [[id:43d82a86-3d13-4f6c-80b1-6b8875252ac2][rnn]] elements
+[[/home/mj/Pictures/screenshots/2023-11-07-11:05:51.png]]
+
+one of the big things of this is able to take into a positional embedding
+we do this in to ways, with odds and evens
+$$p_i(2k) = sin(\frac i {10000^{\frac {2k}{d_{model}}}})$$
+$$p_i(2k+1) = cos(\frac i {10000^{\frac {2k+1}{d_{model}}}})$$
+
+as one thing though this doesnt like output a bunch of things at once,
+
+the multi head [[id:66b2e2fc-30b4-4222-9d8b-ca2e950945a7][attention rnn]] used doesnt use any of the rnn elements in it
+you can stack the last couple levels of the encoder
+likewise you can stack the multi head attention -> norm -> attention -> norm -> feed forward -> norm in the output part
+
+the feed forward is just a simple 1 hidden layer simple [[id:8b2e5265-a983-45f4-ab57-a4ccd869e89b][neural network]] netork

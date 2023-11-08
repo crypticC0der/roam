@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9591f9b2-077f-4234-9ccd-ae62f60bf236
+:END:
+#+title: function approximation
+generally you have a state and a action and a weight and then we output a reward for this action
+the function that takes these inputs is generally trained using gradient descent or some machine learning approach

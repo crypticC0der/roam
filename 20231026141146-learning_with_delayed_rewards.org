@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7a4e3def-d613-4e7c-9851-0b2da91b2a22
+:END:
+#+title: learning with delayed rewards
+in problems with delayed rewards [[id:21328912-ddf9-43ac-98be-2b43b2d12792][reinforcement learning]] needs to be adjusted so it can punish actions that caused the player to loose say 5 turns later
+
+one thing we do is [[id:d4c92343-8395-44f3-9e19-b8f97e6ab490][learn to predict expected future rewards]]
+so we have the value of a state
+V(s) = current reward + predicted [[id:d24a7d0d-eb05-4ff3-940c-25b0108bfd9c][future reward]]
+Q(s,a) = current predicted reward + future predicted reward by making that move from that state
+
+we estimate the future reward by using the estimate of the future state in V

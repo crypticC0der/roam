@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       21328912-ddf9-43ac-98be-2b43b2d12792
+:END:
+#+title: reinforcement learning
+
+have competing agents and use the best agents to evolve and make new agents
+
+this is generally a trial and error approach
+
+reward good play and punish bad play with numerical rewards
+they dont get deep [[id:d6bc8870-3a32-4fac-a460-f9221c4af322][evaluation metrics]] or exactly what they did wrong
+this leads to incremental learning, this is good at falling into local maxima with few competing agents
+
+have two independent learning agents play against eachother
+they start improving incrementally, and they basically make an arms race against eachother
+this is very good at falling into local maxima
+they recive rewards for how they play
+
+this is very good when actual labels dont exist and we dont know what the best action is, but we know wether an action is good or bad
+
+sometimes only good information on how good an action can be is available afterwards
+
+there is the [[id:e7f04bae-3271-49f6-b5e6-716e23e4e2ac][explore vs exploit]] problem though
+
+
+too many states or actions requires some sort of [[id:9591f9b2-077f-4234-9ccd-ae62f60bf236][function approximation]]
+
+* concept
+after each action, we look at the enviroment, and change the state and give a reaction accordingly
+
+
+* tabular reinforcement learning (one shot game)
+with probabily 1-e choose best performing machine so far
+with probability e choose random machine
+
+$V[i] = V[i]+ a(r_t - V[i])$
+we update the value by the learning rate*(difference between the reward and expected reward)
+
+a could be a function (1/t) if the learning rate is unchanging, as this is more stable
