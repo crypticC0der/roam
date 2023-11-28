@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2f6e47e0-df6e-480b-b1a5-6779329b37a2
+:END:
+#+title: path tracing
+raytracing is very all or nothing with lighting and shadows, this is due to light being a single point, and while [[id:2093f6be-8f12-4e22-b372-70b92d19cb90][radiosity]] is good it is bad at shadows in [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]]
+light is more an object with a surface and so there are a bunch more rays
+we can work out an estimate of how many of the rays will hit the object by shooting a few and seeing how few hit the light fully and then taking a fraction
+this is similar to the [[id:3ae0e914-3579-447e-88dc-23255e89d561][monte carlo tree search]] method
+
+we can generally make a pretty good estimate with this for even complex things
+
+we send a ray to a pixel and then let it bounce off in a random direction or towards a light and then we basically [[id:3ae0e914-3579-447e-88dc-23255e89d561][monte carlo tree search]] this for a while until we have a good estimate whcih is nice
+these need to be uniformly random around the hemisphere to ensure accuracy
+this is pretty good at picking all of the effects that matter,
+but it requires alot of samples per pixel (hundreds)
+
+i personally think this method of rendering looks really nice
+also b good when [[id:ff5a0679-b865-4b60-ba96-02b532ce0b4a][baked]]

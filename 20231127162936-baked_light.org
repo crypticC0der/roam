@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ff5a0679-b865-4b60-ba96-02b532ce0b4a
+:END:
+#+title: baked light
+baked light is when you store the lighting for the scene as a texture, this is very useful on static things with static lighting
+
+this is very used in games like half life and like there are few cases where your light needs to be dynamic

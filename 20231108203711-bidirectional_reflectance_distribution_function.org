@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2a07f116-fd24-42de-8c1b-a30e3dcad84f
+:END:
+#+title: bidirectional reflectance distribution function
+
+this aims to model how light bounces off a individual point and the direction it goes
+
+in radiometry radience is the radiant flux emitted reflected transmitted or recived by a given surface per unit solid angle per unit projected
+the brdf simply aims to get how much light is bounced off at a point and there are a great amount of brdfs for

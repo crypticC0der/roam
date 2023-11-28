@@ -10,5 +10,7 @@ it is the backbone of [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]] and
 $L_e(x,w_o)$ is the light emmitted by point x if its a light source
 the integral aims to add up all of the incoming light that is being bounced off the surface
 $L_i(x,w_i)$ is the incoming light coming into the point and being bounced off
-the f function is the bidirectional reflectance distribution function which modifies the incident light coming in
+the f function is the [[id:2a07f116-fd24-42de-8c1b-a30e3dcad84f][bidirectional reflectance distribution function]] which modifies the incident light coming in
 the dot product part is dot product between the normal and the negative vector of the light comes in, this is a [[id:96f807c0-393f-4c88-803b-d00be72a0937][heuristic]] but it works well
+
+this though is muchhhh to complex to actually do

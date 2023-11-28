@@ -22,4 +22,4 @@ there are 3 ways to model a surface
   when each variable is independantly defined
 
 
-we can improve models and make them smoother by using chaikins algorithm, this produces quadratic b spline surfaces
+we can improve models and make them smoother by using chaikins algorithm, this produces quadratic [[id:ac4348c7-c1fb-4e10-b25c-854d2f8368fa][b spline surfaces]]

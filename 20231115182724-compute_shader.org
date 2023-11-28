@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       39c1c1bb-9074-4452-9fd8-dbb0c6a32ac0
+:END:
+#+title: compute shader
+have source

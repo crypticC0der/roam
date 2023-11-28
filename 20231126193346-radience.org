@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cf7e3c9a-f1b9-406a-a8f7-52177e409641
+:END:
+#+title: radience
+radience is a concept used in [[id:2093f6be-8f12-4e22-b372-70b92d19cb90][radiosity]] where it is the flux leaving a surface at point x
