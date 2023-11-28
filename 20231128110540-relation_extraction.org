@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3d4c8a18-8612-40a8-8efb-11a05e8734c9
+:END:
+#+title: relation extraction
+relation extraction is part of [[id:b70b1d9c-706b-4ba7-bfce-3cea5cd930aa][information extraction]]

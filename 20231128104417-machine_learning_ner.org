@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       9837139f-8c2d-47ac-b401-d5e0bb5c44e9
+:END:
+#+title: machine learning NER
+you can geterate iob encoding based of this and get [[id:16d50cf1-7957-4c37-a3bf-2ed615fdaa65][markov model]]s to get pretty decent estimates
+we can generate a okay classifier based off a large database and then have more features for sequence labelling
+
+you can input a bunch of things like its short shape, chunk and [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][parts of speach]] and this can help make labels pretty well
+
+some people have used bert for this and its not awful at doing that
+
+the deeper the learning the less future maintinance but the more incomprehenceable it becomes

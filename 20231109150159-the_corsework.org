@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9ff1d193-be7f-4a8d-b83e-dcf1d97de7f3
+:END:
+#+title: the corsework
+
+
+how would one plausably go about making a cnn generate a board evaluation function
+5 min time limit
+11x11 board
+connect to a websockeet

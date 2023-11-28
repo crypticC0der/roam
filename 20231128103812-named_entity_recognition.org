@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c4788f53-0ba8-4e1e-a256-ba1ec8a21cb1
+:END:
+#+title: named entity recognition
+this is a method of [[id:b70b1d9c-706b-4ba7-bfce-3cea5cd930aa][information extraction]] wherein you find and classify names in text
+there are many types of named entities but luckily a number of methods to do this
+
+we can use dictionary based ([[id:b7ad58b5-b691-4057-8aac-8ca25d13e300][gazetters]]), [[id:c530d098-9d38-42bc-9608-036c4df71e12][rule-based]], [[id:9837139f-8c2d-47ac-b401-d5e0bb5c44e9][machine learning]], and hybrid approaches

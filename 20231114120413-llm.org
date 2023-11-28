@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       2202fb81-f041-4738-a6a6-bdc8149a7a2d
+:END:
+#+title: llm
+a large language model is typically very advanced but needs abominable amounts of data
+
+typically you use a [[id:b674eb9b-4115-4934-a409-89ef89b9a57d][transformer]] encoder and then a [[id:b674eb9b-4115-4934-a409-89ef89b9a57d][transformer]] decoder
+this is generally a [[id:389ec427-daf9-4910-b1a1-f5b0e21c33b5][seq2seq model]]
+
+training these is awkward due to how many parameters we have
+we aim generally to find a good objective function such as maximizing log likelyhood or minimising cross entropy loss
+we aim to gradually improve the parameters, due to th large amount of data initially we use mini batch gradient descent and then increase the batch size as accuracy improves
+
+due to the large model we have quite a few of very important hyper-parameters to deal with and modifying these will dirastically change the performance
+
+generally preparing the data and constructing the tasks is pretty hard and a major thing for how well it goes
+
+if you give the tokens some extra [[id:8f295d32-5b2c-45d4-b460-f368b3b29af7][content words]] then that should help
+
+[[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]] keep getting bigger and bigger
