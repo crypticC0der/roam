@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       2093f6be-8f12-4e22-b372-70b92d19cb90
+:END:
+#+title: radiosity
+
+is where we consider light as energy being transferred, this allows nice comfy lighting but fails on harder stuff like transparency
+it is much better at rendering the regular diffuse enviroments we live in insted of the shiny enviroments raytracing can do
+
+we do this by looking at transfer of energy and this is exchanged by the components in the scene until it hits a stedy state
+we split [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]]s down into smaller components when the state is stedy and keep doing this
+
+radiosity isnt used anymore really which is sad but its a good method of [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]]
+it isnt used because it is also a [[id:699d9524-add7-4179-9dd4-975f5583417c][fredholf equation of the 2nd kind]] we can deal with this by turning it into lots of descrete things such as fragment sizes [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]]s
+
+this is then solvable by doing $B_i = E_i + p \Sigma^n_{j=1} F_ij B_j$
+
+meaning the light at a point is the emmisive light + the surface absorbtion of each other part of the light on the scene
+this has to be iterated a few times so its super expensive computationally
+you can also compute this by iterative bounces of light
+as patches get smaller this becomes similar and similar to ray tracing

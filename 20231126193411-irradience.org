@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       216839be-f054-4660-b635-f95749123288
+:END:
+#+title: irradience
+irradience is the opposite of [[id:cf7e3c9a-f1b9-406a-a8f7-52177e409641][radience]] and it is the flux arriving at point x

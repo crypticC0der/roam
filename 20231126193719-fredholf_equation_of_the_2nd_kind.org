@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       699d9524-add7-4179-9dd4-975f5583417c
+:END:
+#+title: fredholf equation of the 2nd kind
+[[id:9e5ba733-f923-41a8-9b7f-82a5557610ad][the rendering equation]] is an example of this
+it is where x depends on x' and x' depends on x
+these are very hard to exactly solve

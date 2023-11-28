@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       dbbfdfc2-0b5f-42f5-b7a4-76d62ea8b801
+:END:
+#+title: lambertian reflection
+this model assumes that light bounces off in a bunch off in specular and diffuse, diffuse being light going everywhere and specular being light in a single direction
+the ratio of this depends on the reflexivity of the service
+
+it is a simple model of the [[id:2a07f116-fd24-42de-8c1b-a30e3dcad84f][bidirectional reflectance distribution function]]
