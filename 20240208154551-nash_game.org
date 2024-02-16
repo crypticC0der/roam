@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       537c43e3-e4bc-49be-adb6-25fb2674fb9f
+:END:
+#+title: nash game
+nash games are where the players select their strategies simultaniously unlike a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]]
+the players all have the same roles, and the equilibriums are often easier to compute

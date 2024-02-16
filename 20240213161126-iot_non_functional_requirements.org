@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d484e348-bf0a-4d86-ac7f-a9ee8a332641
+:END:
+#+title: iot non functional requirements
+in constrast to [[id:eaa1ffe8-ecbc-4e3a-85b2-eaf5718733af][iot functional requirements]] you have non functional requirements such as
+- regulations
+- installation
+- maintinence
+- physical constraints
+- cost

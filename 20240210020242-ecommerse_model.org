@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       341d774a-c0a1-4462-b13b-8bf15565c1d9
+:END:
+#+title: ecommerse model
+this is focused around ensuring sale of goods goes well, we have a trusted third party and we use dispute resolution measures
+we aim to avoid fraud and faking sites and misbehaving merchants (people on ebay who send fake cpus and gpus)

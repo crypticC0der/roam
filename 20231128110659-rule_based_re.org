@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b9e399d9-bae4-4a64-8d41-082d54bf95da
+:END:
+#+title: rule based re
+rule based [[id:3d4c8a18-8612-40a8-8efb-11a05e8734c9][relation extraction]] is quite good and are high precision and can be tailored well, but theyre often low recall and there are so many patterns so it can be hard to keep up

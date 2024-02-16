@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       fa555da0-59d2-4df5-b482-25bd255bb2fd
+:END:
+#+title: communication security model
+we aim to protect the data over the channel and deal with authenticity
+generally done with secret/public keys
+this is how https works
+we protect data and services against attacks which are unauthorised
+have multi level security measures

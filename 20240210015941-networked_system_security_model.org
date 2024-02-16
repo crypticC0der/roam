@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b06f0165-2f57-418b-addb-6ec33a8ba50f
+:END:
+#+title: networked system security model
+we aim to protect data and services
+we aim to minimise the threat of a user being hacked which is pretty likely
+we assume dumb users, and have multi level securiy mesures (2fa) + multiple systems to be taken down

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       8dc3964e-2fe2-4f86-8c33-3ba32e12459a
+:END:
+#+title: iot design method
+in [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] we design things a special way
+1) objective and [[id:eaa1ffe8-ecbc-4e3a-85b2-eaf5718733af][requirements]]
+2) process model specification
+3) [[id:a2ecde37-209a-4116-9027-1bc19218fa11][domain model]] specification
+4) information model specification
+5) [[id:c01200d5-8c2c-4ae7-ab30-c4a6abe0d7a8][service]] speficiations
+6) iot level specification
+7) [[id:7aaee3ae-8574-494f-877a-5983547ba424][functional model]] specification
+8) operational view specification
+9) [[id:e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d][entity]] integration/ device integration
+10) development

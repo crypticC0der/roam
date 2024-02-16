@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       45dfaaf7-5791-4a73-8745-eff2534dff32
+:END:
+#+title: stackelberg game with imperfect information
+often you dont have full information and that sucks and it means you cant make the best choices as a leader, as a follower you basically have all the info that you need which is dope
+but this means [[id:36014300-181e-49f0-a082-96e9356647bf][solving an optimization problem]] and [[id:b1bce81b-221e-46d8-9005-a09cf7bfc8e1][solving the game]] and finding [[id:f0afdd4f-60aa-4cb1-a652-e3e13ccc76e5][stackelberg equilibrium]] are awkward here
+now you can just try to be the follower but the game may be built so that the leader has a huge advantage and missing out on that advantage can suck!!
+also if both players try be followers you will have a [[id:537c43e3-e4bc-49be-adb6-25fb2674fb9f][nash game]] and not a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]] which can be awkward
+
+you have options though
+- try be a follower
+- you can do minmax and thats fine but is often far too conservative
+- [[id:3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895][find the best estimation of the followers reaction]] and work from there
+  this is hard and you have to generally have alot of information about followers reaction functions
+
+  often using a linear function does a good enough job and is solvable pretty fast

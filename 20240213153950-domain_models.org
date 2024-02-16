@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a2ecde37-209a-4116-9027-1bc19218fa11
+:END:
+#+title: domain models
+a domain model displays the interactions between [[id:e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d][entity]]s and [[id:d6209cab-bea9-4186-9e07-84f367c65951][resources]] and [[id:c01200d5-8c2c-4ae7-ab30-c4a6abe0d7a8][services]] in a given iot application
+sometimes this is called an information model
+generally it includes all the information for virtual entities on a conceptual level

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       eaa1ffe8-ecbc-4e3a-85b2-eaf5718733af
+:END:
+#+title: iot functional requirements
+devices often have requirements to be good under [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]]
+- lifetime of devices
+- responsiveness
+- robustness
+- sensor related
+- actuator related

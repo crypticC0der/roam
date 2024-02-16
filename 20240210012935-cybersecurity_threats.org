@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       9f2d1579-ce25-437d-be71-1a7168c56eca
+:END:
+#+title: cybersecurity threats
+the set of [[id:05003b59-f57f-4345-90d1-5157e0029581][threats we analyse]] in [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]]
+* types
+** information warfare
+motivated by military reasoning, aims critical infrastructure and military asssets, aims to attack corrupt and take down systems, no material gain aside from land and power and a distraction
+cant shoot you if their missiles are offline
+
+** cyber espionage
+motivated by gain of intellectual property and secrets, often targetting goverments, companies and individuals often persistent and sophisticated, lots of relationship hacking, phishing and social manipulation
+
+** cyber crime
+done generally for ca$h mon£y, generally targeting individuals and companies, often done via ransomware or walletcracking,fraud and extorsion/explot
+
+** cracking
+done to be cool (cos it is) this is aims to just attack exploit and make themselves known
+
+** hacktivism
+often done to expose goverment and lead to political change, doesnt generally lead to much as a form of protest but is useful
+
+** cyber terror
+done for marketing, violence and fear tactics
+
+
+* means
+- malware
+- ransomware
+- adware
+- hacking
+- spoofing
+- phishing
+- pharming
+- ddos
+- identiy theft
+- SQL injection
+- social engineering
+- cryptojacking

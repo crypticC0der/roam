@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b7ad58b5-b691-4057-8aac-8ca25d13e300
+:END:
+#+title: gazetters
+this only recognises entities in lists, which is fast and simple, but its very hard to be good and very bad at ambiguity, and also list maintinance is hard

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d9b3c19b-4368-4b24-a243-e116bf3cb869
+:END:
+#+title: reducing hallucinations
+often large [[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]] such as [[id:b674eb9b-4115-4934-a409-89ef89b9a57d][transformer]] models can hallucinate information and learning to say that it doesnt know

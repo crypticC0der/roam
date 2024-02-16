@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       82015cef-ac3d-4138-b802-e40b18d4517e
+:END:
+#+title: cybersecurity
+whoah this is comp 38412
+its about hacking and dope shit wowowowowo
+
+we focus on [[id:8d66cc65-083e-4334-a7a4-8947dc5bb485][cybersecurity domains]] and [[id:9f2d1579-ce25-437d-be71-1a7168c56eca][cybersecurity threats]] and [[id:2c698e56-74fb-4e63-8206-31c6d115d6ff][cyberspace]] and how to deal with them through [[id:47e2daee-202d-4fbb-9cd7-49f3a40190b8][security models]]

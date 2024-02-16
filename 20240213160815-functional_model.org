@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7aaee3ae-8574-494f-877a-5983547ba424
+:END:
+#+title: functional model
+the functional model is [[/home/mj/Pictures/screenshots/2024-02-13-16:08:36.png]]
+it aims to help the integrations of the [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] model with traditional buisness

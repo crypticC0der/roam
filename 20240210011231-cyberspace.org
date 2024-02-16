@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2c698e56-74fb-4e63-8206-31c6d115d6ff
+:END:
+#+title: cyberspace
+cyberspace is the connection of cyber infrastructure ([[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]]), critiacal infrastructure (banking, transport, communication) and physical infrastructure (farms, fibre cables, hospitals)

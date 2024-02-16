@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c530d098-9d38-42bc-9608-036c4df71e12
+:END:
+#+title: rule-based ner
+this is generally pretty good but the code to make this is very very complex and often is filled with tons of edge cases
+often is bad at recognising awkwardly named companies like "goldman sachs" and "all american bank"

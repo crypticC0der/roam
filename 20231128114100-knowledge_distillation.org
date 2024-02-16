@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cca2ca63-f68c-4ca8-8618-76a281a5cd80
+:END:
+#+title: knowledge distillation
+we are capable of decresing the size of a model by around 40% and making it 60% faster while only loosing 3% of its undersanding capabilites
+this is very useful in alot of cases as it is smaller faster and cheaper
+
+tinyBERT and distiliBert are examples, this is very good for compressing [[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]] such as [[id:b674eb9b-4115-4934-a409-89ef89b9a57d][transformer]] models like bert and chat gpt

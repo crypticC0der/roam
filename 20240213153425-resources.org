@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d6209cab-bea9-4186-9e07-84f367c65951
+:END:
+#+title: resources
+a resource in [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] are components that provide data from or are used in the actuation on physical [[id:e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d][entity]]s
+- on device resources
+  software locally accessable on the device,
+- network resources
+  cloud based databases

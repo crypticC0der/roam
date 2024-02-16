@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c01200d5-8c2c-4ae7-ab30-c4a6abe0d7a8
+:END:
+#+title: services
+services in [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] expose [[id:d6209cab-bea9-4186-9e07-84f367c65951][resources]] and offer the functionalities for interacting with devices and [[id:e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d][entity]]s
+they generally have standardised interfaces
+at the lowest level they expose the [[id:d6209cab-bea9-4186-9e07-84f367c65951][resources]] on device
+relations between [[id:d6209cab-bea9-4186-9e07-84f367c65951][resources]] and virtual [[id:e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d][entity]]s are modelled as associations

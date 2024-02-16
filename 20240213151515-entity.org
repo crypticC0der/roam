@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       e3416826-4ff0-4fd6-9c80-3a7ab2bbae9d
+:END:
+#+title: entity
+an entity in [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] is a:
+- user
+  human or software
+- physical entity
+  a thing that is real, items in a logistic chain, computer, applicances
+- virutal entity
+  something that represents phyiscal things via informations
+  passive digital aretefacts are passive things such as database entires
+  active digital artefacts are running applications that access other services or resources
+- device
+  a device typically attached to a physical entity related an object to a virtual entity
+  ie sensors or tags or actuators

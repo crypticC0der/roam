@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a203defd-a577-4859-a7b9-4382c3a7d291
+:END:
+#+title: man in the middle
+a form of system manipulation wherin you have a middleman communicating between the client and the server, appending the queries both ways, plausably allowing you to view information the client has access to but is portrayed somewhat nontrivially to the user

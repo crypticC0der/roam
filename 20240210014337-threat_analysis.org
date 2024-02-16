@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       05003b59-f57f-4345-90d1-5157e0029581
+:END:
+#+title: threat analysis
+look at [[id:9f2d1579-ce25-437d-be71-1a7168c56eca][cybersecurity threats]] to your system, ensure you can cope with them and assure you have minimal vunerabilities, minimise low cost attacks that yeild high gains, some assets arent worth protecting
+
+do attack tree analysis:
+    diagram the goal and the means of getting to it
+    diagram the means of getting to each means of getting to it
+    and so on and so forth, and then plot out methods of entry, relationships may be "and" or "or"
+
+    plausably add likelyhood of succedding attacks and costs of doing attacks (ie compute cost, time cost)

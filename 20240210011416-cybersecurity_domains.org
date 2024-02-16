@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8d66cc65-083e-4334-a7a4-8947dc5bb485
+:END:
+#+title: cybersecurity domains
+this is the set of things we aim to protect in [[id:2c698e56-74fb-4e63-8206-31c6d115d6ff][cyberspace]] via [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]]
+- critical infrastrucutre
+- network/internet
+- applications
+- cloud/data
