@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c47ae052-7cbc-440e-962c-422180303a45
+:END:
+#+title: modern "hacking"
+in [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]] hacking has gone from sophisticated attacks by intelligent hackers to systems being taken down by 14 year olds (me circa 2017) to kittens (circa 2023), this is more a joke than a judgement though crimew is cool
+
+hacking though moreso is finding a weak link in a very good chain, generally though this weak link allows you to do interesting stuff, ie get staff medical information and bank info from a teachers login (violation of gdpr) and the nofly list from a poorly secured end of a server (violation of gdpr)
+
+hacking really has always been about being nosy and manipulating people, ie the router scene in hackers, this doesnt mean widespread systems cannot be taken down, though as the right person in the wrong place can make all the differnce in the world, and often a weak link in a chain may simply be a library used (leftpad) that allows systems to go down worldwide

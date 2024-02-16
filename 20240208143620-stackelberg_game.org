@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       77f29b42-993c-466a-acbe-553990120957
+:END:
+#+title: stackelberg game
+stackelberg games are leader follower games
+one player goes first and then follower players go afterwards
+
+to be a leader all you need to do is act first
+
+this applies pretty well to pricing especially when one seller has significant market share over another
+
+another example is how suppliers announce their prices to retailers and then the retailers decide their orders, suppliers can also set pricing intervals
+
+a players strategy space is the set of all possible strategies for the player, the leader has space Ul and the follower has space Uf
+Ul and Uf can include a finite set of strategies or an infinite set of strategies
+
+the pay offs are built in terms of Jl(ul,uf) for the leader and Jf(ul,uf)
+
+* payoff example
+leader sale: S_l = D_l(u_l,u_f) = a_1+b_1u_l + c_1u_f
+follower sale: S_f = D_l(u_l,u_f) = a_2+b_2u_l + c_2u_f
+
+leader profit: J_l(u_l,u_f) = (u_l - c_l) * D_l(u_l,u_f)
+leader profit: J_f(u_l,u_f) = (u_f - c_f) * D_f(u_l,u_f)
+
+the follower aims to maximise his strategy which isnt particularly hard given the leaders fixed srategy
+the leader aims to find the followers reaction function uf = R(uf), then she can maximize her profit function
+
+* to go first?
+typically due to having more choice and power over others being a leader is generally better, given a fair cost function (which is generally not the case), picking options as a follower is very easy
+
+* does a solution exist
+** continuous
+in a continuous stakelberg game, a [[id:f0afdd4f-60aa-4cb1-a652-e3e13ccc76e5][stackelberg equilibrium]] exists, often being a leader has a worse solution though

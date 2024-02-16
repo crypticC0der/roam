@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       47e2daee-202d-4fbb-9cd7-49f3a40190b8
+:END:
+#+title: security models
+- [[id:4e6df03c-df0f-4b0e-b4d2-20894ba18890][distibuted system security model]]
+- [[id:fa555da0-59d2-4df5-b482-25bd255bb2fd][communication security model]]
+- [[id:b06f0165-2f57-418b-addb-6ec33a8ba50f][networked system security model]]
+- [[id:341d774a-c0a1-4462-b13b-8bf15565c1d9][ecommerse model]]

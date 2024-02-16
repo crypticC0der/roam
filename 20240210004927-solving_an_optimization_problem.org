@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       36014300-181e-49f0-a082-96e9356647bf
+:END:
+#+title: solving an optimization problem
+solving an optimization problem is only really as hard as differentiation, you aim to find the local minima/maxima of a equation as the global one often doesnt apply, to do this you differentiate and then set to zero and then pick the biggest maxima/smallest minima
+
+this can become more awkward in more complex sitations where the reward function depends on information you dont know, ie a followers reaction function in a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]]
+
+to solve as a leader in a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]], you must first work out the followers reward function, and then find a function that takes your action and returns theirs, and then with that in your reward function you can optimize it the typical way and get a solution, though typically quite complex

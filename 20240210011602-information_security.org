@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ca1a6401-c096-4e3d-b001-44f4ee137f3a
+:END:
+#+title: information security
+securing sensitive data (gdpr) and preventing unauthorized access is a big part of [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]]
+this is done with design protocols and cryptographic methods, monitoring and secure programming

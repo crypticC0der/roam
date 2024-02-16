@@ -8,6 +8,6 @@ solving a [[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]] is an integreal part
 given a simple game often we can work out a solution by plotting the payoff by the probability for each choice and find the probabilties where the maxiumum of the minimum is highest
 or in more advanced byt still two player [[id:7171bcf3-82f5-4c9a-a7bd-a8769fc7f772][zero sum games]] cases by using simple linear algebra, though for games with large game trees this gets complicated
 
-the fact that we can find [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]] for all players in a game is interesting
+the fact that we can find [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]] for all players in a game is interesting often solving a game is much like [[id:36014300-181e-49f0-a082-96e9356647bf][solving an optimization problem]], because thats often what some games are
 
 we can also try and do this by navigating a [[id:05c33001-9ec5-4e2d-ba28-0fc386486870][game tree]]

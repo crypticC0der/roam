@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       720d125d-c405-4e35-bb62-32794ce7a93b
+:END:
+#+title: security properties
+the list of properties we should maintain for [[id:8d66cc65-083e-4334-a7a4-8947dc5bb485][cybersecurity domains]] in [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]]
+- confidentiality
+  keeping data and resources hidden
+- integrity
+  making sure data is authentic
+  making sure logins are authntic
+  making sure modification of data can be detected
+  ensuring origin
+- availability
+  ensure services are avaiable to authorised users
+- freshness
+  ensuring data is not 'old' data
+- non-repudiation
+  protectuing against false denial
+- fairness

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       e1025b01-4b0a-4deb-a0e4-ebb9ebfc3047
+:END:
+#+title: demand consistency
+for [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]]s you often have price leaders and price followers,
+given two demand models for the follower and leader
+
+$S_l = D_l(u_l,u_f) = a_1 + b_1 u_l +c_1 u_f$
+
+$S_f = D_f(u_l,u_f) = a_2 + b_2 u_l +c_2 u_f$
+
+* consistency 1
+if ones price decreases, then the sales increases, if the competitors price increses then the sale will decrease, therefore
+b_1 < 0, c_1 >0; b_2>0,c_2<0
+
+* consistency 2
+if ones price decreases and the other price remains the same then the total sale for both will increase
+this implies b_2 < -b_1, c_1 < -c_2

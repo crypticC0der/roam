@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       bb75854c-84cf-4a04-bc12-420281cfd618
+:END:
+#+title: internet of things
+iot is the collections of things connected together, most things even toothbrushes are connected to the net

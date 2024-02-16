@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895
+:END:
+#+title: learning reaction functions
+oh boy shits gonna get complicated
+we know that to find a [[id:f0afdd4f-60aa-4cb1-a652-e3e13ccc76e5][stackelberg equilibrium]] and [[id:36014300-181e-49f0-a082-96e9356647bf][solve the optimization problem]] we just need the reaction function and nothing else
+suppose an unknown reaction function is $u^R_F$
+
+we have historical data $[u_l ( t), u^R_F (t) ]$ which is the moves made over time
+we aim to find  $\hat u^R_F$ which is as close as possible
+
+we cannot know the actual error, but we can know the error in terms of past examples, we normally find this by summing the squares
+then we have a standard problem solved by learning using linear regression,
+by getting the mean squared error and then getting the 1st order partial derivative for a and for b
+then set the both equal to 0 and then you have an equation for each variable and you can therefore solve this via similtanious equations

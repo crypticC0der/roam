@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4e6df03c-df0f-4b0e-b4d2-20894ba18890
+:END:
+#+title: distibuted system security model
+server and user are disconnected and physical access is minimal
+the connection is done wirelessly
+
+problems
+- how can we be sure about the user identiy
+- how can we be sure about the channels security ([[id:a203defd-a577-4859-a7b9-4382c3a7d291][man in the middle]])
+- how can we be sure about the server reposnse ([[id:a203defd-a577-4859-a7b9-4382c3a7d291][man in the middle]])

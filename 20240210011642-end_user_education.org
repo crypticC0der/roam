@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3f75e7fe-fbdd-4211-978b-8009d9b691f2
+:END:
+#+title: end user education
+increase familiarity with computers and educate on basic pitfalls for users such as phishing and relationship [[id:c47ae052-7cbc-440e-962c-422180303a45][hacking]]
+
+this is done by physical education and training and making the policies and procedures clear,
+need for it is minimized by increasing physical security too

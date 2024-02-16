@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       41504aed-f18d-4749-bb5f-581135d1d2b6
+:END:
+#+title: supervised ml for relations
+this is where you use ml for it
+i cba

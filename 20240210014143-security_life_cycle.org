@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       9ef364d9-936e-439a-ad5e-a81443a799d3
+:END:
+#+title: security life cycle
+[[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]] is done via managing risk, there are three steps
+1) define your goal and do [[id:05003b59-f57f-4345-90d1-5157e0029581][threat analysis]]
+   identify what you are protecting stuff from
+   define what is and is not allowed
+2) design and implement your security measures
+   setup security protcols and preventitive methods
+   document them thoroughly
+   setup recovery and response methods
+   do pentestng and when hacked increase security
+   have honeyposts to avoid takig down important targets and catch hackers
+
+   have detective mesures and cost benifit analysis, dont spend 1000 pounds protecting a 10 quid note
+3) security assurance
+   assess how well the implementation has achived the goal
+   formally evaulate the implementation via the [[id:9c4e7431-7cf0-41d1-b4fa-cc533bb45fd8][orange book]] and the [[id:0669468a-e0bd-49ac-b17c-0311cc3c45e1][itsec]]
+   look at the system in terms of organisational usage and problems and benifits,
+   [[id:3f75e7fe-fbdd-4211-978b-8009d9b691f2][inspect people problems and social enginerring and how it can/if it can topple your system]]
+
+remember secuirty from the start is much easier than adding it after the fact

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9c4e7431-7cf0-41d1-b4fa-cc533bb45fd8
+:END:
+#+title: orange book
+the us security evaluation critera
+seen in hackers

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0669468a-e0bd-49ac-b17c-0311cc3c45e1
+:END:
+#+title: itsec
+information technology security evaluation critera
+made the european itsec book

@@ -3,3 +3,7 @@
 :END:
 #+title: relation extraction
 relation extraction is part of [[id:b70b1d9c-706b-4ba7-bfce-3cea5cd930aa][information extraction]]
+[[id:b9e399d9-bae4-4a64-8d41-082d54bf95da][rule based re]] is an example of this
+you can use [[id:41504aed-f18d-4749-bb5f-581135d1d2b6][supervised ml for relations]] too
+
+this is really really useful especialy for helping large language models with relations in text and even rule based can go a long way

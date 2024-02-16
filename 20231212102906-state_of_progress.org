@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e5907dc8-cf76-4c4d-b616-231de2ee44b6
+:END:
+#+title: state of progress
+the issues right now are that i dont care this wont be on the test

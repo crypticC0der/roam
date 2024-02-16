@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3be507e1-6c16-47a8-b0a5-5814742bd7d6
+:END:
+#+title: disaster recovery
+tools for responding to unplanned events such as
+- natural disasters
+- power outages
+- [[id:82015cef-ac3d-4138-b802-e40b18d4517e][cybersecurity]] incidents

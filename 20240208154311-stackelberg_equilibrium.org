@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f0afdd4f-60aa-4cb1-a652-e3e13ccc76e5
+:END:
+#+title: stackelberg equilibrium
+similar to a [[id:c64312ea-bf3f-45ba-a557-342320f70c04][nash equilibrium]] in a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]], a stackelberg equilibrium is where there is a leader strategy that given the followers reaction strategy is the highest profit
+ie there is no better pick for the follower and no better pick for the leader
