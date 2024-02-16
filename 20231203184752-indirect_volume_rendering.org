@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2aa770d9-1294-401b-9a23-f2e1cd403f97
+:END:
+#+title: indirect volume rendering
+[[id:1dd9da14-76b1-4c4b-8be4-3a20b6af41f7][direct volume rendering]] is a very costly form of [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]] as gpus are very good with pixels and textures and [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]]s
+
+we would like to generate polygons out of our volumes
+
+a simple solution is to use an [[id:e05908a2-dae6-4aea-9435-4b3438fc7ff0][iso line]] which can be compilcated to draw in 3d but not awful
+we can then render this pretty easily

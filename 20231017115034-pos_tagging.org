@@ -2,6 +2,7 @@
 :ID:       507c4753-11a4-4ea2-abdf-b82b9b031fc5
 :END:
 #+title: POS tagging
+
 * general explanation
 sometimes as part of preprocessing for [[id:8faaec76-bdd1-4772-aecf-3177ffe321ee][language models]] we can do [[id:e342b150-4efb-4707-8a3e-b4ea8514a51c][POS]] tagging, wherin you tag the various parts and then this can help us better analyise the words
 

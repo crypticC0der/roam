@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       6ded0fe6-a024-4124-8c0f-3d3c8c1cefb2
+:END:
+#+title: irregular spacial enumeration
+this is a form of [[id:dbca48e0-23ea-4635-a303-335ec90b6653][spacial enumeration]], wherin we enumerate spaces in arkward methods
+
+objects are often clustered together, they generally arent spaced regularly
+this is called spacial cohesion, this is what makes an octtree efficient
+this cant take into account how its not evenly spread accross the spaces
+
+this is like with [[id:5034258c-ae3e-4684-a0e8-13a5167b5a4f][heirical bounding volumes]] and [[id:78e616ec-97fd-4454-b7b6-56d5d1ae55fd][binary space partitioning]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dbca48e0-23ea-4635-a303-335ec90b6653
+:END:
+#+title: spacial enumeration
+this is when you have a structure to basically enumerate the data structures
+this allows you to create indexes for various sorts somewhat easily
+
+this can be extended to [[id:3ce04c19-7e0f-48f8-9fed-fda00e430d43][collision detection]] and basically we can say what objects are in each partition in space so testing for [[id:b0aae41e-7067-4ceb-ac05-81c404f1966e][collision]]s is much faster
+this makes it very fast to lookup objects, but this is cubed in terms of space complexity, a simple solution is by bunching together simple cells, such as how i did in my pathfinding thing in [[id:8d039b79-55d6-4a17-b2c9-7fef28893109][modulo]], this can either be done by having things group to a bigger size like i did, or use a octtree (a 3d version of a quadtreee), we continue splitting until we hit the threshold, this could be minimum size or maxiumum number of objects, depending on the implementation

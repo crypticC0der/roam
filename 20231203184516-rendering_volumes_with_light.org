@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1513787f-e86e-4c86-9690-a5581190ee9e
+:END:
+#+title: rendering volumes with light
+as part of [[id:1dd9da14-76b1-4c4b-8be4-3a20b6af41f7][direct volume rendering]] we aim to generate lighting, so we generate normals based off the value gradients and then add in simple light sources pretty easily

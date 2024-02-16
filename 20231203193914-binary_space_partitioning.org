@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       78e616ec-97fd-4454-b7b6-56d5d1ae55fd
+:END:
+#+title: binary space partitioning
+this is when we divide space by bisecting lines into smaller shapes, they dont need to be regular cubes and can become awkward rectangles, this is very good at making a simple object tree
+we can do this without regard for the world axis to have a slightly better method but leading to more complex shapes making computation alot more awkward
+
+this though is a very very good method
