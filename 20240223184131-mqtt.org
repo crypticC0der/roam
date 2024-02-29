@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8d7d0dcf-b277-4235-ae62-e52b97c4827d
+:END:
+#+title: MQTT
+generally one of the oldest m2m protocols
+uses [[id:12195dc5-2015-41c0-995c-2d9cdf682167][publish/subscribe]]
+also a binary protocol
+great for low power machines and supports QoS levels 0 1 and 2

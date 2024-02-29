@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       bebe6fb8-81c7-4c61-849a-34449b93b664
+:END:
+#+title: psuedo noise sequence generator
+simply a binary sequence that have an autocorrelation that over a period of time resembles the autocorrelation of randomness

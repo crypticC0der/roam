@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       0573e4d6-a8af-4b43-9135-fa0cfca0b124
+:END:
+#+title: multivariable regression
+multivariable regression rocks kinda
+typically we have a bunch of past data, and we aim to [[id:7d3488ee-ff15-493f-a5db-3d998a934867][approximate a function as well as possible]]
+
+* linear
+generally of the form $y = \hat R (X,\theta) = a_0 + a_1 x_1 + ... + a_n x_n$
+
+where X represents the inputs
+
+and $\theta$ represents the outputs
+
+you can do funny matrix shenanigens
+
+$$\theta^* = arg min_\theta \Sigma^T_{t=1} \{ y(t)-[a_0 + a_1 x_1(t) + ... + a_n x_n (t) ]\}^2$$
+this only works if the matrix is non singular, which it will be a majority of the time to be honest
+if this is not the case it means the best parameter is not unique and even in 3d space there are a set of reasonings for this, realistically you will be operating greatly outside 3d space
+
+* nonlinear
+$\hat R$ is generally much more compilcated, and we need to incorperate some nonlineararity
+some can be linearised like simple polynomical regression but those are generally special cases and to allow every variable be polynomial means we need so many parameters, [[id:8b2e5265-a983-45f4-ab57-a4ccd869e89b][i wonder how we solve this]]

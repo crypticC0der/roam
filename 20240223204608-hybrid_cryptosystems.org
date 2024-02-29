@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e16a40d8-c1d3-4e31-b823-336496ea04a8
+:END:
+#+title: hybrid cryptosystems
+[[id:622d2212-97e9-413c-a09a-583ee7ce074e][public key cryptography]] is slow
+[[id:5fb5fc5c-d6e5-4f25-a33c-c299d2aa4cb0][symmetric cryptography]] needs too many keys
+so we combine them both, public key cipher for symmetric key establishment and transportation and signiture generation
+symmetric ciphers for bulk encryption
+[[/home/mj/Pictures/screenshots/2024-02-23-20:48:12.png]]

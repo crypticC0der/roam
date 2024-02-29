@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f240f663-33b4-4e0a-9067-0c7b3e648163
+:END:
+#+title: CRUD
+how we interact with databases
+CREATE READ UPDATE DELETE

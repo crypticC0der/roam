@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f5fc94cb-8931-4adf-9c5b-9a37ae303234
+:END:
+#+title: achieve confidentiality
+$C = f(M,E)$
+
+$M = f^{-1}(C,D)$
+
+where D is bobs public key, and
+D is bobs private key
+
+this is only good for short messages

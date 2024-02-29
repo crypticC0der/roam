@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       9cef3b0d-7e02-484f-ac7f-22a28f813110
+:END:
+#+title: HTTP
+hypertext transfer protocol
+http 1.1 is mostly used but we are moving to http 2.0
+uses TCP at the transport layer, https uses TLS
+http 1.1 added keep alive mechanisms to avoid constantly making new connections
+
+* pros
+- secure
+- enables rest
+- appropriate for large data transfer
+- json gets big fast and is not optimised well
+- combined with rest devices can state information easily
+* cons
+- high overhead
+  fixed by http2.0
+- doesnt support push notifications
+- header and message payloads depend on the server

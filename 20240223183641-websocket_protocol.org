@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c5f8a104-8228-4193-a894-934a57141561
+:END:
+#+title: websocket protocol
+this doesnt follow [[id:95c66228-7fd3-4097-a3cd-cad16c2a9339][request/response]] or [[id:12195dc5-2015-41c0-995c-2d9cdf682167][publish/subscribe]]
+uses tcp and allows two way communication
+fully asynchronous
+wayyy lower latency compared to [[id:9cef3b0d-7e02-484f-ac7f-22a28f813110][HTTP]]
+typically it resembles http but without the headers after the handshake

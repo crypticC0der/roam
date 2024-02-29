@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       db4adde3-52d6-4b82-b6a5-f15eb5d2bb4e
+:END:
+#+title: dummy player axiom
+i is a dummy player and contributes 0 to every [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][coalition]]
+therein for all S such that
+
+$i \notin S, v(S \cup \{ i \} ) = v(S)$
+
+the dummy player should recive nothing in this scenario

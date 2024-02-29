@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       19298fce-529a-4e51-96f4-e9f64426f1b4
+:END:
+#+title: key storage
+key storage is an important part of [[id:667e02d8-e41e-4f23-8bed-83a1f744e552][key management]] as any security is only as good as its weakest link and often that is [[id:9f2d1579-ce25-437d-be71-1a7168c56eca][social engineering]], like why spend hundreds of millions building a supercomputer when they can just give a bribe or use a [[https://imgs.xkcd.com/comics/security.png][5 dollar wrench]]
+attackers may defeat access control mechanisms so the file containing keys should be encrypted
+
+keys should never really leave the device generating them
+keys should never appear unencrypted outside of the device
+keys should not be on a networked device
+keys can be split in half one on a physical object and the other in the machine
+memory the key existed in should be cleared to avoid obtaining it
+keys should be updated
+keys should be deleted
+keys should be used properly
+
+typically we have a heirarchy of keys, one the master key to establish session keys, one a [[id:7db17d03-01c5-4efd-8206-bb21efc0b6d6][session key]] to send messages and such and only used for one session

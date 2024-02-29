@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       07aaef79-3b43-40ca-8735-5ce8825dc8bc
+:END:
+#+title: shapley value
+the shapley value is the division of payoffs under the [[id:e65a1bee-8bb6-455c-b099-662a2d1b2be4][fairness axioms]] in a [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][coalitional game]]
+
+given a game (N,v) there is a unique division of payoffs $x(v) = \phi^* (N,v)$ that divides the full payoff of the grand coalition and satisfies its axioms
+
+the shapely value of a player is given by
+
+$\phi^*_i (N,v) = \frac 1 {| N | !} \Sigma_{S \subseteq N \backslash \{i \}} | S | ! ( | N | - | S | - 1) ! [v(S \cup {i}) - v(S)]$
+
+if we define $MC_i (S)= v(S \cup \{i\} ) - v(S)$
+
+we can rewite the shapely value to be
+
+$\phi^*_i (N,v) = \frac 1 {| N | !} \Sigma_{S \subseteq N \backslash \{i \}} | S | ! ( | N | - | S | - 1) ! MC_i(S)$
+
+the shapely value is the fair split of the reward for the grand coalition and sums to the grand coalition

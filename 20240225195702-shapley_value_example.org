@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       bc7d764d-3a13-45da-9330-88cc647563e7
+:END:
+#+title: shapley value example
+an example of finding a [[id:07aaef79-3b43-40ca-8735-5ce8825dc8bc][shapley value]] in the taxi sharing [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][coalitional game]]
+
+[[/home/mj/Pictures/screenshots/2024-02-25-19:58:08.png]]
+[[/home/mj/Pictures/screenshots/2024-02-25-20:05:14.png]]

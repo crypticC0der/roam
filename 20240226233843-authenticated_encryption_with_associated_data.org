@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ecb6c262-0415-4ce7-8def-77c3e6eb05b5
+:END:
+#+title: authenticated encryption with associated data
+typically the header of a message doenst need to be encrypted so we can minimize [[id:5ab1400a-4d83-488f-b729-f8df4d6e57b6][cryptography]] here
+CCM does this via [[id:0d2fe800-cfe6-4359-aed6-93d2cd9ba105][counter mode]] with CBC [[id:ea7cc591-bd02-4462-9be2-e1b741131392][MAC]]
+[[/home/mj/Pictures/screenshots/2024-02-26-23:41:34.png]]
+
+CCM can be heavily parrelised if it uses counter mode insted of [[id:2e212b32-e480-4eea-a5ff-e0944dc18152][cipher block chaining mode]]

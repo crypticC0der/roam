@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c54adae1-9cad-4702-8c47-252e6db360a9
+:END:
+#+title: general communication system
+in [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] we generally have things conencted via channels ie
+information source -> transmitter -> channel -> reciver -> destination
+
+in the channel part generally noise occurs and we loose data in various ways, we need to figure out how to deal with this

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ae7d0381-f6f6-4056-a60a-ba4544c1be39
+:END:
+#+title: iot protocols
+we have a great number of protocols, but specifically for the transport layer in [[id:9e499bae-9e44-4914-8d6c-61eb7292fa41][iot stack model]]
+- [[id:8d7d0dcf-b277-4235-ae62-e52b97c4827d][Message Queue Telemetry transport]]
+- Constrained Application Protocol
+- Extensible Messaging and Presence Protocol
+- Data Distrbution Service
+- [[id:c50fff15-78fd-4512-85ab-e2902e8fb9ae][Representational State Transfer Hypertext Transfer Protocol]]
+
+some of these are [[id:95c66228-7fd3-4097-a3cd-cad16c2a9339][request/response]] (client/server), others are [[id:12195dc5-2015-41c0-995c-2d9cdf682167][publish/subscribe]], most of these evolve and may support both models
+
+[[/home/mj/Pictures/screenshots/2024-02-23-18:38:20.png]]
+
+the protocols that can deal with higher size generally have higher overhead, tcp adds alot of overhead
+typically power consumption and resource requirement also increases linearly

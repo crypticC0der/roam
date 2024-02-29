@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7d3488ee-ff15-493f-a5db-3d998a934867
+:END:
+#+title: measuring error
+we have a numebr of ways to mesure error
+- Root Mean Square Error
+  easy
+- Log Error
+  good for probabilities
+- Mean Absolute Errors
+  yeah
+- Mean Absolute Percentage Errors

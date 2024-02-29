@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       a834840e-253b-4065-8788-fd10f048828c
+:END:
+#+title: RSA
+Rsa is commonly used for [[id:f5fc94cb-8931-4adf-9c5b-9a37ae303234][confidentiality]] and [[id:6bf48a27-7816-4db5-b89b-5cc825a6fe61][authenticity]]
+it uses modular arithmetic like most things
+it is easy to understand and implement, it had withstood years of pen testing and cryptanalysis
+it is well trusted
+the algorithm consistes of two numbers, n and e (n being the modulus and e being the public exponent)
+the modulus is the product of two very large prime numbers (100 - 400) digits, represented by p and q
+rsa is a [[id:76d9b7d2-75d0-4b90-9090-8e6e70902928][block cipher]] the block length is limited by some integer n
+
+[[/home/mj/Pictures/screenshots/2024-02-23-20:18:38.png]]
+
+this is secure as finding d given {e,n} is very hard and similar to factorising n
+
+the algorithm has three functions
+* key generation
+- select two large primes p and q, which should differ in length by only a few digits
+- calculate n = p.q and $\phi(n)=(p-1)(q-1)$
+- select integer e, relatively prime to $\phi(n)$ & $1<e<\phi(n)$
+- calculate $d = e^{-1} \mod \phi(n)$
+- private key = {e,n}
+- public key = {d,n}
+* encryption
+- represent the plaintext as an integer M in [0 , n-1]
+- $C = M^e mod n$
+* decryption
+- $M = C^d mod n$

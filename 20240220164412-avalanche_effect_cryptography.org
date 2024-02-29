@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d1419fbe-b051-49b2-b0da-501c18fd38d7
+:END:
+#+title: avalanche effect (cryptography)
+changing one bit in the input should change many bits in the output
+changing one bit in the key should change many bits in the output

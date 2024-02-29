@@ -9,7 +9,13 @@ suppose an unknown reaction function is $u^R_F$
 we have historical data $[u_l ( t), u^R_F (t) ]$ which is the moves made over time
 we aim to find  $\hat u^R_F$ which is as close as possible
 
-we cannot know the actual error, but we can know the error in terms of past examples, we normally find this by summing the squares
+we cannot know the actual [[id:7d3488ee-ff15-493f-a5db-3d998a934867][error]], but we can know the error in terms of past examples, we normally find this by summing the squares
 then we have a standard problem solved by learning using linear regression,
 by getting the mean squared error and then getting the 1st order partial derivative for a and for b
 then set the both equal to 0 and then you have an equation for each variable and you can therefore solve this via similtanious equations
+
+* multiple variables
+given multiple variables you need more reaction functions and this is a problem
+surely we are getting to a point where a neural network would be useful
+
+nope!! we are using [[id:0573e4d6-a8af-4b43-9135-fa0cfca0b124][multivariable regression]], this is the same as single variable just with multiple variables (duh)

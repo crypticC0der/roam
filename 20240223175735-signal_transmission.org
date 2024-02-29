@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       c3f36734-ab9f-4660-b15e-a59e3a6ad536
+:END:
+#+title: signal transmission
+signals are transmitted with a wavelength and frequency, with
+
+$c = \lambda f$
+where c is the speed of light
+
+antennas are how we recive a frequency, and they should normally be 1/4 of the size of the wavelength
+so wifi (2.4Ghz)
+
+$c = \lambda * 2.4 * 10^9$
+
+$(3* 10^8) / (2.4*10^9) = \lambda$
+
+$\frac{3}{24} = \lambda = \frac 1 8$
+
+many frequencies have been allocated for a specific use, and the general use is [[id:03b209d2-3f68-4bf2-89d2-ccfcc9459e49][communication over internet]]
+
+the higher the decibel of the signal the less of it will be lost to noise, which is generally why you want your device to be outputting at 100% and then turning it down on your speakers
+also decibels are logarithmic, so you cant just add them
+
+decibels are defined by
+$dB = 10 \log_{10} (\frac {P_1}{P_0})$
+
+$dBW = 10 \log_{10} (\frac {P_1}{1})$
+
+$dBm = 10 \log_{10} (\frac {P_1}{10^{-3}})$

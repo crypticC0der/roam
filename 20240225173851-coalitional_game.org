@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e3ad08aa-0725-4d3c-8b72-09ecbb32225c
+:END:
+#+title: coalitional game
+a coalitional [[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]] is where you aim to work together as a form of strategy while still aiming to maximise your reward similar to a [[id:537c43e3-e4bc-49be-adb6-25fb2674fb9f][nash game]] but with collabing
+
+they have a finite set of players N
+
+and set of all possible coalitions which is the power set of N (size $2^N$)
+
+and a valuation/characteristic function $2^n \rightarrow R$ which associates with each coalition $S \in N$ a real values payoff $v(S)$ and assume that $v(\empty) = 0$
+
+this payoff can be freely redistributed among its members
+
+often the game is denoted as $G = (N,v)$
+
+* the puzzle
+- the aim is to find which coalition will form
+  depends heavily on the 2nd question
+- and how to divide the coalition payoff
+  this is the more interesting question

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5b8580e0-e317-46d1-af7e-0587114381de
+:END:
+#+title: random numbers
+a random number should be unpredictable ie
+even if the observer knows all random numbers preceeding the next one it cannot predict it, normal random functions generally arent good enough
+a good thing to do is take a bunch of sources of randomness ie stock markets and physical phenomena and put it through a good mixing function, like a hash

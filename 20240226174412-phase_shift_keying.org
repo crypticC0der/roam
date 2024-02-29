@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8e747ecd-d4a2-413a-be47-2ebcfd2bc243
+:END:
+#+title: phase shift keying
+in psk the phase of a constant amplitude carrier is modified to present different symbols
+for binary psk two phase values encode the 1 and 0 logic values, typically the difference is 180
+this is a way of carrying binary over [[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal transmission]]

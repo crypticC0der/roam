@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       667e02d8-e41e-4f23-8bed-83a1f744e552
+:END:
+#+title: key management
+in [[id:5ab1400a-4d83-488f-b729-f8df4d6e57b6][cryptography]] we have keys and transferring them and ensuring they remain secret/trustworthy is hard
+there are only so many possible keys and they can be brute forced
+computing power increases so be prepared lol
+generally its best for keys to be computer generated but how to truly generate [[id:5b8580e0-e317-46d1-af7e-0587114381de][random numbers]]

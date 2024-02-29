@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       03b209d2-3f68-4bf2-89d2-ccfcc9459e49
+:END:
+#+title: communication over internet
+the internet is generally seen as a black box in the [[id:34c1e227-88bc-4730-9068-0012678701f4][iot communication model]], some systems have highspeed connectivity and some have very low speed connectivity due to being very low powered devices, which is fine
+
+often you have a constrained network connected via a gateway to another network, or maybe a constrained network -> gateway -> internet -> gateway -> constrained network
+
+generally we tranmit things via [[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal transmission]], who coulda guessed

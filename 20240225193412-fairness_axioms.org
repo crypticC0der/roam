@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e65a1bee-8bb6-455c-b099-662a2d1b2be4
+:END:
+#+title: fairness axioms
+the fairness axioms are
+- the [[id:a5ce6ffa-3c42-4245-a29c-532874d81807][symmetry axiom]]
+- the [[id:db4adde3-52d6-4b82-b6a5-f15eb5d2bb4e][dummy player axiom]]
+- the [[id:0ad97c21-427a-41f6-87c2-bd4ebf8da918][additivity axiom]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       07e7561f-e849-4eba-8a77-523aef510371
+:END:
+#+title: spread spectrum modulation
+this is where you spread the signal onto many frequencies and then the reciver can peice it back together, this means it isnt succptable to a single frequency being down helping [[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal transmission]]
+this is done by either [[id:657fbe9b-6ae1-4592-8734-e4af14da9f53][direct sequence spread spectrum]] or [[id:7ca257a1-118d-4262-82fe-53244dc46a22][frequency hopped spread spectrum]]
+we usually use [[id:b6f022be-fc4b-44b1-addf-b5489e791338][channel coding]] for this

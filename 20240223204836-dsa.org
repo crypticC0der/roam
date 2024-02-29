@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       e504d6cc-d882-4e37-a820-07b5c70fbc9f
+:END:
+#+title: DSA
+dsa is for digital signatures and is its useful for [[id:6bf48a27-7816-4db5-b89b-5cc825a6fe61][achieving authenticity]]
+it associates a mark unique to an individual and a body of text,
+it is
+- message dependant
+- time dependant
+- signer dependant
+- verifiable
+- infeasable to forge
+
+DSA unlike [[id:a834840e-253b-4065-8788-fd10f048828c][RSA]] doesnt encrypt the message but only ensures authenticity
+[[/home/mj/Pictures/screenshots/2024-02-23-20:55:19.png]]
+
+it works via discreate logarithms, and requires a random number per message, generally its faster than [[id:a834840e-253b-4065-8788-fd10f048828c][RSA]]

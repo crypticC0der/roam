@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       12195dc5-2015-41c0-995c-2d9cdf682167
+:END:
+#+title: publish/subscribe
+this is typically used with things like irc and xmpp
+[[/home/mj/Pictures/screenshots/2024-02-23-18:25:40.png]]

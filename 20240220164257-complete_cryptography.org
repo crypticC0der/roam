@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9a5a11ea-74fd-4be9-8231-3450c336e907
+:END:
+#+title: complete (cryptography)
+each bit of the output should depend on every bit of the input and every bit of the key

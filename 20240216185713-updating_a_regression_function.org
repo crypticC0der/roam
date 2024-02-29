@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       8876efd5-258b-4ed8-b5e3-5fb919be0754
+:END:
+#+title: updating a regression function
+we can modify the data we are training apon and retrain entirely
+* moving window
+only take into account the last n peices of information
+this discards old data which could still be useful, but is generally lighter on processing power
+we can have a modified approach wherin we try to minimise change to the parameters which acts like remembering the old information
+* weighting factor
+we have a variable $\lambda$ which we set to be somewhere between 0.99 and 0.95 and then the error for training data number t out of T peices of data is multiplied by $\lambda ^ {T + 1 -t}$ which equates to the most data peice n steps in the past gets multiplied by $\lambda ^ {n}$, this is very simple and good
+* recursive least square updating formula
+given
+
+$\phi [X(t) ]$ being the vector X(t) with 1 at the start
+
+$\theta_t$ being the vector of a variables $[a^t_0 , a^t_1 ... a^t_n ]$, so the predicted variables at time t
+
+we can do
+
+$$\theta ^* _{T+1} = \theta ^* _T + L_{T+1} [ y(T+1) - \phi^\tau [ X( T + 1)]\theta ^ * _T]$$
+
+where L is the adjusting factor
+
+$$L_{T+1} = \frac{P_T \phi[X(T+1)]}{\lambda + \phi^\tau[X(T+1)]P_T\phi[X(T+1)]}$$
+
+$$P_{T+1} = \frac 1 \lambda \left[ P_T - \frac{P_T \phi [X(T_1)]\phi^\tau[X(T+1)]P_T}{\lambda + \phi^\tau [X(T+1)]P_T \phi [X(T+1)]} \right]$$
+
+you can have good initial conditions for values or you can have $P_0$ be the identy matrix multiplied by a large constant and $\theta_0$ be random values
+[[/home/mj/Pictures/screenshots/2024-02-16-19:49:47.png]]

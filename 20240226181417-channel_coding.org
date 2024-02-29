@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b6f022be-fc4b-44b1-addf-b5489e791338
+:END:
+#+title: channel coding
+this is where you introduce redundant bits ie parity bits to detect and maybe correct error

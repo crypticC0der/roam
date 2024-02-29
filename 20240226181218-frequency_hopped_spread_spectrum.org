@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7ca257a1-118d-4262-82fe-53244dc46a22
+:END:
+#+title: frequency hopped spread spectrum
+this is where you periodically change your transmission frequency
+each signal on the wideband reciver may be seen as modulated bursts of data with time varying carrier frequencies
+the sequence of frequencies is only known to the desired receiver

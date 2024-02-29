@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0ad97c21-427a-41f6-87c2-bd4ebf8da918
+:END:
+#+title: additivity axiom
+given two games with the same set of agents but two charateristic functions $v_1$ and $v_2$
+if we remodel the [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][game]] with $v(S) = v_1(S) + v_2(S)$
+the agents payments should be the sum of what they would achive in each individal game
+
+$\phi_i(N,v_1 +v_2) = \phi_i(N,v_1) + \phi_1(N,v_2)$
