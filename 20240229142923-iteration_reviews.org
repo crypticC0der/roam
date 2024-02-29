@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f2554af5-fc38-4bd3-8ce5-8e2fb1f9a582
+:END:
+#+title: iteration reviews
+we meet with the customer after each [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]] and look at the [[id:ef4e5cd1-15e9-4677-91fd-f121a206720d][taskboard]]
+we showcase the completed [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]] to decide if theyre done done

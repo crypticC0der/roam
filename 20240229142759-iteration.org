@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6d8ea5cc-701d-452b-97bb-194782871d00
+:END:
+#+title: iteration
+these last about a week and we focus on the [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]] we are doing and preplan it on the [[id:ef4e5cd1-15e9-4677-91fd-f121a206720d][taskboard]]

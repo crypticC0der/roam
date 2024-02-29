@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       52df9ed1-88dd-46cb-95d1-65b7e15cd491
+:END:
+#+title: interation planning
+you work out what items on the [[id:ef4e5cd1-15e9-4677-91fd-f121a206720d][taskboard]] in the this release collumn you are going to do in the following sprint

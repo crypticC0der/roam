@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1a190ea8-f18d-4942-bd40-0c09a7d02a3f
+:END:
+#+title: agile planning
+agile planning is about multiple stages of checkups and gracefully dealing with changes to requirements from the bastard customer
+we have [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]]s [[id:f2554af5-fc38-4bd3-8ce5-8e2fb1f9a582][iteration reviews]] and [[id:5317c9d9-584f-4f46-98bb-6ea8e3614a48][daily standup]] and weekly standup and a buncha shit
+ its fucked!!!!

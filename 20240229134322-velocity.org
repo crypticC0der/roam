@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0ad0dd6c-dc03-4dcb-9972-2a0be9f7d989
+:END:
+#+title: velocity
+velocity is the sum of effort required for the [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]] chosen for this [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]]

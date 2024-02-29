@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       5317c9d9-584f-4f46-98bb-6ea8e3614a48
+:END:
+#+title: daily standup
+you stand up around the [[id:ef4e5cd1-15e9-4677-91fd-f121a206720d][taskboard]] and evaluate how your [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]]
+and move them around
+we do this between weekly standups to monitor blockages and ensure progress, the customer isnt there
+the customer is there in the [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]] planing though
+we call them standups because we stand up around the board and by standing we can keep the meeting short

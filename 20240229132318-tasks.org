@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       297987f6-2708-4503-b082-3d08b64aa22c
+:END:
+#+title: tasks
+a task is from user story in agile software pipelines with a value and an effort
+it should take around 1-2 hours

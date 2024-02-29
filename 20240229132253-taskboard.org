@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ef4e5cd1-15e9-4677-91fd-f121a206720d
+:END:
+#+title: taskboard
+this shows where all of the [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]] are and allows the customer to see the progress on various tasks
+
+typically you have a set of collums
+- backlog
+- this release
+- this [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]]
+- doing
+- done
+- done done
+  like done but with the customers approval
