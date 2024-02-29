@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       dce3d4b0-49bb-42ac-a003-afe8f65ed1db
+:END:
+#+title: incentive strategy
+in a [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]] the leader can instead of [[id:3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895][learning reaction functions]], they can announce an incentive strategy
+
+the strategy is of the form $u_L = S^* (u_F)$, the strategy is announced before the followers move, and then they act after the followers strategy according the to incentive strategy
+
+the followers will typically react via $u^*_F(S) = argmax_{u_F \in U_F} J_F[S(u_F),uF]$
+
+then the leader plays $u^* _L (S) = S(u^* _F)$
+
+the problem is then how to design the best incentive strategy such that:
+
+$J_L[u^*_L(S^*),u^*_F(S^*)] = max_{all S} J_L[u^*_L(S),u^*_F(S^]$
+
+this is a mechanism design problem,
+ie the leader designs an award and a penalty scheme to induce his desired outcome
+
+the incentive strategy is always better, you can build a good team strategy

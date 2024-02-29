@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       76d9b7d2-75d0-4b90-9090-8e6e70902928
+:END:
+#+title: block ciphers
+a block cipher is where plaintext is split into blocks of lengths, these are encrypted one at a time
+you have a function to encrypt and decrypt given a key
+
+the cypher should be [[id:9a5a11ea-74fd-4be9-8231-3450c336e907][complete]], have the [[id:d1419fbe-b051-49b2-b0da-501c18fd38d7][avalanche effect]], and be [[id:feae217f-6dca-42cd-a420-66dc38d4a86e][statistically independant]]
+
+a complex function can be built out of simple operations by repeatedly using them, ie
+subsitutions, permutations, xor, modular multiplication
+
+larger block size, key size mean slower encryption/decryption but are generally stronger
+
+AES is a notirious block cipher
+
+if a message is longer then a block size, block cipher can one of three things
+- [[id:ead1af72-9a5b-4449-ac83-b01990ae3226][electronic code book mode]]
+- [[id:2e212b32-e480-4eea-a5ff-e0944dc18152][cipher block chaining mode]]
+- [[id:0d2fe800-cfe6-4359-aed6-93d2cd9ba105][counter mode]]

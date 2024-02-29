@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0d2fe800-cfe6-4359-aed6-93d2cd9ba105
+:END:
+#+title: counter mode
+ctr mode
+this is where you use a block cipher as the random number generator for the keystream
+a counter value equal to the block size is used
+the counter is incremented by 1 per block
+
+basically converts a [[id:76d9b7d2-75d0-4b90-9090-8e6e70902928][block ciphers]] to a [[id:5e0ecce3-9d09-492e-aa90-67ce24b90b53][stream ciphers]]
+each block can be decypted independantly, and is parallelizable
+the counter needs to be synchronized
+if a block is inserted or deleted then the plaintext is lost
+no error propagation

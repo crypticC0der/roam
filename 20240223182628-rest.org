@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c50fff15-78fd-4512-85ab-e2902e8fb9ae
+:END:
+#+title: REST
+this is the basic client server protocol used by the web, it focused on standardising [[id:f240f663-33b4-4e0a-9067-0c7b3e648163][CRUD]] functionality
+typically json is used for data representation, and it has a keep alive mechanism

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       75ad7710-d3fa-44ad-aa05-1db2697238e1
+:END:
+#+title: offline learning
+offline [[id:aa52ac04-4745-4d1c-a8a9-b6485c12a993][learning in gaming]] is a type of learning that is used often when you are doing [[id:0573e4d6-a8af-4b43-9135-fa0cfca0b124][multivariable regression]] in [[id:3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895][learning reaction functions]]
+
+you do this by doing learning to all historical data and then play your move

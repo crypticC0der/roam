@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6eff2713-94d4-4e52-9084-c59f323d925a
+:END:
+#+title: interoperability for iot stacks
+the physical aspect needs to be there for interoperability, so we can abstract away alot of old protocols into new protocols with software to interface
+the [[id:9e499bae-9e44-4914-8d6c-61eb7292fa41][iot stack model]] uses the link layer to ensure that there is heterogenity support of networking solutions, this layer relies on the upper layers to give standarised interfaces for the iot technology
+
+each layer has a number of protocols that it supports really, and therefore the iot stack model is very capable of supporting everything

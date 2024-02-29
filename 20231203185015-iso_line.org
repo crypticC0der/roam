@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e05908a2-dae6-4aea-9435-4b3438fc7ff0
+:END:
+#+title: iso line
+iso lines are methods of indicating a set of values and we can generally use them quite easily
+see maps or weather charts

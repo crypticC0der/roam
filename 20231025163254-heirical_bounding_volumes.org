@@ -2,6 +2,21 @@
 :ID:       5034258c-ae3e-4684-a0e8-13a5167b5a4f
 :END:
 #+title: heirical bounding volumes
+* general explanation
 this is where we have bounding volumes and then subvolumes so we can test if they are near and then recuirsevly find exactly where the intersection is
+we use simple heirarchical structures such as trees or quadtrees, this allows us to save space on collision lookups
 
 this is useful for simple interpreations of advances shapes where we want the speed of simple versions but need accuracy
+
+this is done in [[id:dbca48e0-23ea-4635-a303-335ec90b6653][spacial enumeration]] and very useful for [[id:3ce04c19-7e0f-48f8-9fed-fda00e430d43][collision detection]]
+
+often theres a increse in time complexity but this is not nearly that bad, as seen by the huge improvement in [[id:8d039b79-55d6-4a17-b2c9-7fef28893109][modulo]] path finding
+
+* specific
+we use simple shapes to encapsulate complex shapes, and this allows us to iterate and find colisions and stop testing very fast
+there are a great number of shapes we can use for this, of incresing use, but cubes are awkard and spheres arent particularly accurate, cuboids get complex which is annoying
+
+we then have these built in heirarchies and then make bigger boxes iteratively to allow quick collisions
+
+even simple large [[id:7d4fc9c5-2f71-4189-af0c-ef9af338bece][bounding volumes]] make things alot faster
+this is like a more dynamic octtree but alot more variable and from the bottom up insted of down

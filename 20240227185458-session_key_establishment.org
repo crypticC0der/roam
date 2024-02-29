@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       1e00351c-b3b5-42f2-9b17-8490adf79ed4
+:END:
+#+title: session key establishment
+[[id:7db17d03-01c5-4efd-8206-bb21efc0b6d6][session keys]] need to be generated securely in [[id:667e02d8-e41e-4f23-8bed-83a1f744e552][key management]]
+
+we need to assure secrecy and authentication and freshness
+
+* key agreement
+a shared secret key is derived by the paries as a function of information contributed by each such that no party can predetermine the resulting value
+ie the diffe hellman protocol
+* key distribution
+** with [[id:622d2212-97e9-413c-a09a-583ee7ce074e][public key cryptography]]
+one creates a session key and transfers it using the recipients public key
+** without
+session keys generated using [[id:5fb5fc5c-d6e5-4f25-a33c-c299d2aa4cb0][symmetric cryptography]] and the help of a third party this is genreally done with a heirachical approach
+this avoids the n^2 problem but relies on trusting the key distribution center and it becomes a single point of failure and a performance bottleneck
+you can have the kdc give out a session key for a pair of users and delete it afterwards
+there are more options, see topic 6, slide 32

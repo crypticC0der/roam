@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4bdb9eb0-e249-4d39-aca2-1b2f9053abf3
+:END:
+#+title: marching cube value
+there are 256 possible configurations of having points be on and off but only 14 of them are unique
+we take a triangulation table and by converting on/off to 1-0 for each part of the cube we can get an index for this table
+which shows which triangles to make our [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]]s out of
+this then is done over the entire space and you construct the mesh one marched cube at a time
+you can then interpolate this and get a better version though its a bit more complex
+
+you can make some neat things with this algorithm

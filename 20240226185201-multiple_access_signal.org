@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       0e0da9b8-a3fd-41ac-96d1-c7d9676f5ae0
+:END:
+#+title: multiple access signal
+within [[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal transmission]] the radio spectrum is pretty limited and heavily regulated and we need to have a bunch of people on it so we split it up in a number of ways
+- Frequency division duplexing
+  assign seperate frequencies for transmitting and reciving
+- time division duplexing
+  assign seperate time slots for transmitting and receiving
+
+we can have other means of multiple access via channel partioning
+- frequency
+- time
+- space
+- coding
+
+this allows multiple people to use the same signal without much annoyance

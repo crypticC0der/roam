@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8e000269-5851-493f-9742-097feae8bf0f
+:END:
+#+title: signal loss
+[[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal]] strength logarithmically decreases with distance
+
+$PL(d) = PL(d_0) + 10nlog(\frac d d_0)$
+
+where $d_0$ is the minimum distance, and n=2 for free space
+signal energy deceases due to serveral sources of losses
+and it fades with distance
+
+to allow higher bandwith we modulate signals, this is done via modulating amplitudes and frequencies

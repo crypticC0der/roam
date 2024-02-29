@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ddd9c2fc-a8cb-483c-be40-a7848b2c0dc1
+:END:
+#+title: online learning
+counter to [[id:75ad7710-d3fa-44ad-aa05-1db2697238e1][offline learning]] and generally much faster
+assume we have a learned function and then have new data to input to the [[id:3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895][learned reaction function]]
+
+the function may change due to a change in the world or the follower changing their strategy for whatever reasons (generally depends on context)
+could be youre selling petrol and diesel has been invented or electric cars, could be that followers are switching between long term and short term goals
+
+this is typically a problem of [[id:8876efd5-258b-4ed8-b5e3-5fb919be0754][updating a regression function]]

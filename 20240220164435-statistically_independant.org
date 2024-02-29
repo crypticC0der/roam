@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       feae217f-6dca-42cd-a420-66dc38d4a86e
+:END:
+#+title: statistically independant
+input and output should appear to be staistically independant

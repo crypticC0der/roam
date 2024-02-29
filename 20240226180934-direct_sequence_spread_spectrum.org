@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       657fbe9b-6ae1-4592-8734-e4af14da9f53
+:END:
+#+title: direct sequence spread spectrum
+this is where you spread the baseband data by multiplying the pulses with noise from a [[id:bebe6fb8-81c7-4c61-849a-34449b93b664][psuedo noise sequence generator]]
+the reciver then correlates the wideband signal with the appropriate PN sequence generator

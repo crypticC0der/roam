@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9cb7c7b3-d150-479a-8c33-7ab434f4cadf
+:END:
+#+title: cournot competition
+this is a special type of [[id:537c43e3-e4bc-49be-adb6-25fb2674fb9f][nash game]] where you have two players competing in production quantities and aiming to maximize profit
+it assumes no non unit costs and it assumes all things produced will be bought
+$p = P(u_1,u_2) = q - bQ = a - b(u_1 + u_2)$
+
+$C_1( u_1) = c_1 *u _1$
+
+$C_2( u_2) = c_2 *u _2$
+
+the profit being
+
+$J_1(u_1,u_2) = P(u_1,u_2)*u_1 - C_1(u_1)$
+
+$J_2(u_1,u_2) = P(u_1,u_2)*u_2 - C_2(u_2)$

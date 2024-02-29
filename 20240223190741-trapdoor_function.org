@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3ebe1ed5-897c-480d-bd4a-308285edd274
+:END:
+#+title: trapdoor function
+this is a sort of function that is difficult to reverse without the key
+- integer factorization
+- discreate logarithm

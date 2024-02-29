@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a5ce6ffa-3c42-4245-a29c-532874d81807
+:END:
+#+title: symmetry axiom
+i and j are interchangeable if they contribute the same amount to every [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][coalition]] containing other agents
+
+that is for all colition S that contains neither i nor j
+
+$$V(S \cup \{ i \}) = v(S \cup \{j \})$$
+
+under the axiom of symmetry i and j should recive the same payment, therefore
+
+$\phi _u (N,v) = \phi _j(N,v)$

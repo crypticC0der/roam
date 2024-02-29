@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1b663d4e-6568-4894-ba65-daed903cfabc
+:END:
+#+title: the osi model
+the osi stack is different to the [[id:9e499bae-9e44-4914-8d6c-61eb7292fa41][iot stack model]] as it has a presentation layer and a session layer under the application layer
+the osi stack was based on the assumption of single technology stacks
+
+the internet stack model abstracts the physical layer due to typically fully homogenous networks, but this is not the case for [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]]
+many of the low level iot devices dont fully support ip compliant communication, we have protocols to extend this functionality

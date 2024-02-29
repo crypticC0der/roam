@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ead1af72-9a5b-4449-ac83-b01990ae3226
+:END:
+#+title: electronic code book mode
+ECB mode for short,
+each block is encrypted independanctly using the same key
+the last block is padded if neccicary
+the last byte indicates the number of padded bytes
+
+same block leads to same ciphertext
+so patterns show up
+errors are minimal
+this is not reccomended
+
+[[/home/mj/Pictures/screenshots/2024-02-20-17:06:22.png]]

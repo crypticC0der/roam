@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       e9fe5f8f-ce60-4421-b974-400f46d65733
+:END:
+#+title: hash function
+a hash is a type of [[id:b242c1d8-a99a-49ee-85cd-2d1f83504d2b][cryptographic checksum]]
+we have a hash function with and the checksum is just the hash of M
+each hash function processes a block of M the output is the input for the next iteration
+
+these have the secuirty properties
+- one way
+- hard to find another value with the same hash
+  avoids forgery
+- hard to find two values with the same hash
+  ensures that the sender cannot deny what was sent
+
+these are used frequently in alot of applications, ideally salt ur hash tho

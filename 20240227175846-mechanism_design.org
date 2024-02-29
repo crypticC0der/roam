@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       3876daa6-caf3-47aa-a071-90bd4334a509
+:END:
+#+title: mechanism design
+mechanism design is a aspect of [[id:e7ee3b76-578e-419a-b07d-83845abaa81d][game theory]] about setting up a situation to reach a goal while assuming the agents act a certain way
+consider a mother diving up a cake, then coming up with the i cut you choose rule
+
+another example is selling a item to a set of retailers, if you ask for their valuation then they will give a higher valuation than is true, if you ask them to pay valuations and assign to the highest they will pay lower than they value to ensure a lower price
+the best thing to do is run a 2nd price auction as they will bet their true valuation
+
+formally mechanism design is how to design good [[id:00572b70-22f2-467b-82ff-e93fbe2591cb][game]]s to achive the desired outcome and involve multiple agents with private information
+
+formally there are N players $\Omega$ outcomes, player i has private information $\theta_i \in \Theta _i$, and gets payoff $u_i(o,\theta_i), o \in \Omega$
+each player aims to maximise their goal and you aim to construct rules that leads to the best outcome on your part

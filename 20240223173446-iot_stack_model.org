@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9e499bae-9e44-4914-8d6c-61eb7292fa41
+:END:
+#+title: iot stack model
+the [[id:bb75854c-84cf-4a04-bc12-420281cfd618][internet of things]] stack
+1) application layer
+2) transport layer
+3) network layer
+4) link layer
+5) physical layer

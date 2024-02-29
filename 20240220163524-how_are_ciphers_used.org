@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       811ecf6b-b6ef-43d0-93fd-602185a5bb86
+:END:
+#+title: how are ciphers used
+ciphers or [[id:5ab1400a-4d83-488f-b729-f8df4d6e57b6][cryptographic]] primatives are used as building blocks to contruct secuirty methods or protocols
+* algorithms
+- symmetric ciphers
+- [[id:76d9b7d2-75d0-4b90-9090-8e6e70902928][block ciphers]]
+- asymmetric ciphers
+- hashing functions
+
+* cryptographic methods
+- modes of encryptions
+- hmac message authentication
+- key distribution
+- ipsec

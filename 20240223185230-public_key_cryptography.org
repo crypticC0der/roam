@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       622d2212-97e9-413c-a09a-583ee7ce074e
+:END:
+#+title: public key cryptography
+up til now most of out [[id:5ab1400a-4d83-488f-b729-f8df4d6e57b6][cryptography]] has been based on [[id:5fb5fc5c-d6e5-4f25-a33c-c299d2aa4cb0][symmetric cryptography]]
+under this method we have a public and a private key, which are [[id:feae217f-6dca-42cd-a420-66dc38d4a86e][statistically independant]]
+encryption from one key can only be decrypted with the other
+
+this is based on the idea of a [[id:3ebe1ed5-897c-480d-bd4a-308285edd274][trapdoor function]] or a [[id:1e186726-998a-422f-91ca-895c2389c5c3][mathematically hard problem]]
+the keys are related mathematically, but hard to dervice one from the other, see algorithms.org and el gamma encryption
+
+$C = f(K,M)$ easy if K&M known
+
+$M = f^{-1}(K,C)$ easy if K&M known, infeasable if K not known
+K cannot be derived from M and C
+
+there are a great number of these algorithms
+- some for encryption
+- some for digital signatures
+- some for key agreement
+
+only few for encryption and digital signatures
+- [[id:a834840e-253b-4065-8788-fd10f048828c][RSA]]
+- ELGamal
+- Rabin
+
+typically these are much slower in hardware and software

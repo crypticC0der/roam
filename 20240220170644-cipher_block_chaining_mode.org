@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2e212b32-e480-4eea-a5ff-e0944dc18152
+:END:
+#+title: cipher block chaining mode
+cbc mode for short
+$C_0 = IV$ (initialisation vector)
+
+$C_i = E_k(M_i xor C_{i-1})$
+
+each block depends on all previous blocks
+IV should be randomly generated, doesnt need to be secret tho
+
+does lead to error propagation, but conceals patterns and block order matters

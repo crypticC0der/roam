@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       44205cee-79af-48ca-b83a-0492cf14c95f
+:END:
+#+title: threats to message security
+- content disclosure
+- traffic flow analysis
+- sender impersonation
+- content modification
+- squence modification
+- timing modification
+- repudition of tranmission
+- repuditation of receipt

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7db17d03-01c5-4efd-8206-bb21efc0b6d6
+:END:
+#+title: session keys
+a session key is used to avoid [[id:5fb5fc5c-d6e5-4f25-a33c-c299d2aa4cb0][symmetric cryptography]] keys being used alot and plausably comprimised
+the usage of a session key for one session only means less ciphertexts for analysis and lower exposure
+we only generate them when needed

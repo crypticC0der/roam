@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b242c1d8-a99a-49ee-85cd-2d1f83504d2b
+:END:
+#+title: cryptographic checksums
+these are used to ensure [[id:44205cee-79af-48ca-b83a-0492cf14c95f][threats to message security]] are under control
+they are basically check sums but used in [[id:5ab1400a-4d83-488f-b729-f8df4d6e57b6][cryptography]] and to ensure that a cannot deny sending the message
+they should be hard to forge and tamper proof

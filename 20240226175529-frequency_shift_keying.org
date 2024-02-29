@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       46e113a0-579f-41b7-8008-82ec8b81d117
+:END:
+#+title: frequency shift keying
+fsk similar to [[id:8e747ecd-d4a2-413a-be47-2ebcfd2bc243][phase shift keying]] is a way of transferring binary over a [[id:c3f36734-ab9f-4660-b15e-a59e3a6ad536][signal transmission]]
+for this the frequency changes between two values, high and low tones corresponding to a binary 1 and 0

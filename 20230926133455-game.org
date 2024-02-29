@@ -3,7 +3,7 @@
 :END:
 #+title: game
 a game is a situation wherin agents interact and have influence of an outcome,
-they can be [[id:537c43e3-e4bc-49be-adb6-25fb2674fb9f][nash game]]s or [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]]s or both, when there is a choice to be or not be the leader
+they can be [[id:537c43e3-e4bc-49be-adb6-25fb2674fb9f][nash game]]s or [[id:77f29b42-993c-466a-acbe-553990120957][stackelberg game]]s or [[id:e3ad08aa-0725-4d3c-8b72-09ecbb32225c][coalitional game]] or both, when there is a choice to be or not be the leader
 
 a great number of situations fall under this from stock market manipulation to simple board games such as hex
 

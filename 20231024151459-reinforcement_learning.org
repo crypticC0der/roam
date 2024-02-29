@@ -23,7 +23,7 @@ sometimes only good information on how good an action can be is available afterw
 there is the [[id:e7f04bae-3271-49f6-b5e6-716e23e4e2ac][explore vs exploit]] problem though
 
 
-too many states or actions requires some sort of [[id:9591f9b2-077f-4234-9ccd-ae62f60bf236][function approximation]]
+too many states or actions requires some sort of [[id:9591f9b2-077f-4234-9ccd-ae62f60bf236][function approximation]] such as [[id:3e5c9ef7-1f7e-40d5-9c64-38d2ad61a895][learning reaction functions]]
 
 * concept
 after each action, we look at the enviroment, and change the state and give a reaction accordingly

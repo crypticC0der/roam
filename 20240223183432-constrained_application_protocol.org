@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dfc41da0-80b4-413b-887c-2e4422a16b7a
+:END:
+#+title: Constrained application protocol
+this supports both request/response and resource/observe
+this is lightweight and easy
+uses udp insted of tcp
+fixed header size
+interoperable with [[id:9cef3b0d-7e02-484f-ac7f-22a28f813110][HTTP]]

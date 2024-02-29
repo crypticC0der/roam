@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       824b3a6d-658c-42ae-be42-7b77ebf1cfb6
+:END:
+#+title: feistel block cipher
+[[/home/mj/Pictures/screenshots/2024-02-20-16:45:52.png]]
+r rounds
+plaintext
+#+begin_src
+for 1 <= i <= r
+    L_i = R_{i-1}
+    R_i = L_{i-1} xor f(R_{i-1}, K_i)
+K_i is derived from K
+text = R_r,L_r
+#+end_src
+
+this is a simple [[id:76d9b7d2-75d0-4b90-9090-8e6e70902928][block cipher]]

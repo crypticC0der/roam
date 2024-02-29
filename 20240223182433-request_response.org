@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       95c66228-7fd3-4097-a3cd-cad16c2a9339
+:END:
+#+title: request/response
+[[/home/mj/Pictures/screenshots/2024-02-23-18:24:19.png]]
+this is typically [[id:9cef3b0d-7e02-484f-ac7f-22a28f813110][http]]/[[id:c50fff15-78fd-4512-85ab-e2902e8fb9ae][rest]] and [[id:dfc41da0-80b4-413b-887c-2e4422a16b7a][Constrained application protocol]]

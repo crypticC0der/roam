@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1dd9da14-76b1-4c4b-8be4-3a20b6af41f7
+:END:
+#+title: direct volume rendering
+direct volume rendering is a part of [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]] when we dont have a simple [[id:c33cff87-70e3-4cd5-8081-ac3122febdc8][polygon]] representation
+we aim to also draw the inside of things
+
+similar but different things are point clouds or volumentic [[id:8a24b1c7-5e3d-4237-8b47-97951101e110][rendering]] and voxel rendering
+youll have a 3d model with numbers and we can assign values to those and then generally interpolate between this
+you want to be assigning colours and opacities with these values
+
+then we cast a ray and build a colour of the cumulative colour and opacity and this gives us pixel values for each pixel and we can then contruct an image off the set of voxels
+this is really good when we can rotate the image and such
