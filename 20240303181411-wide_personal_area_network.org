@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       23c6acf7-51dc-48de-9a10-d2eddf6e6d31
+:END:
+#+title: wide personal area network
+a wpan is born when a device wants to transmit info and remains alive as long as such request exists
+either synchronous connection oriented channel (audio) , or asynchronous connectionless channel (files)
+wpan is 2.4ghz (same as wifi), and uses [[id:7ca257a1-118d-4262-82fe-53244dc46a22][frequency hopped spread spectrum]] to minimize interference

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       99306ffb-15fd-4b6f-b4b6-c5c6b8a79bb6
+:END:
+#+title: computational efficiency
+can be done within polynomial time

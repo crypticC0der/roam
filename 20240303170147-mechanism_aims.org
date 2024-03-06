@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ef109c38-ae37-4f4c-8835-3ac3f2c79b9b
+:END:
+#+title: mechanism aims
+- [[id:21d029d9-d39b-42dc-866a-13364e377a46][strong incentive guarantees]]
+- [[id:96cbcbdc-79a1-4210-b377-3dc9c432964a][strong performance guarantees]]
+- [[id:99306ffb-15fd-4b6f-b4b6-c5c6b8a79bb6][computational efficiency]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       3e7c4b82-ffc6-4b21-96b9-f91c39795ecb
+:END:
+#+title: truth revelation
+telling the truth in a game, in [[id:3876daa6-caf3-47aa-a071-90bd4334a509][mechanism design]] design we aim for this by having the benifits of the truth outweighing the benifits of deciept

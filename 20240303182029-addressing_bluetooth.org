@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0ae21144-0c72-4856-8795-3272676ba666
+:END:
+#+title: addressing bluetooth
+a unique 48 bit BD_ADDR is assigned to each device
+the first 24 bits are the lower address parts
+the next 8 bits are the upper address parts
+the rest are nonsignificant
+this is how addresses work in [[id:4b59427e-21dc-43c7-865a-a1fc6eeb20e8][bluetooth]]
