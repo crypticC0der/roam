@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       896bfe78-5113-4945-9427-0948dd5c2595
+:END:
+#+title: multi item auction
+this is a type of [[id:3876daa6-caf3-47aa-a071-90bd4334a509][mechanism design]] problem which is hard
+
+assume n > k (more bidders than items)
+we then give out the ith item to the ith highest bidder

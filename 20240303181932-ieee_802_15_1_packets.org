@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       db8f1be2-2cdd-42da-bce0-5d4df821cd68
+:END:
+#+title: ieee 802.15.1 packets
+
+[[/home/mj/Pictures/screenshots/2024-03-03-18:19:35.png]]
+
+they can be one slot/three slot/five slot
+the frequency is determined by the first slot
+
+there is error controll but idc

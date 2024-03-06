@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       de22d451-d683-4e99-bccf-80e56d37b9a5
+:END:
+#+title: incentive compatibility
+1) a [[id:3876daa6-caf3-47aa-a071-90bd4334a509][mechanism]] is incentive compatiable if the [[id:3e7c4b82-ffc6-4b21-96b9-f91c39795ecb][truth revelation]] is a best strategy
+2) (DSIC) a direct revelation mechanism is incentive compatable if the [[id:3e7c4b82-ffc6-4b21-96b9-f91c39795ecb][truth revelation]] is a dominant strategy

@@ -12,3 +12,7 @@ formally mechanism design is how to design good [[id:00572b70-22f2-467b-82ff-e93
 
 formally there are N players $\Omega$ outcomes, player i has private information $\theta_i \in \Theta _i$, and gets payoff $u_i(o,\theta_i), o \in \Omega$
 each player aims to maximise their goal and you aim to construct rules that leads to the best outcome on your part
+
+mecahnism $M = (S,g)$ defines
+strategy space $S^N$, so player i choses strategy $s_i(\theta_i) \in S_i, \with s_i:\Theta_i \rightarrow S_i$
+an outcome funtion $g:S^N \rightarrow \Omega$ where outcome $g(s_i(\theta_1),,...,s_N(\theta_N))$

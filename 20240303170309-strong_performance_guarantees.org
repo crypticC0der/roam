@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       96cbcbdc-79a1-4210-b377-3dc9c432964a
+:END:
+#+title: strong performance guarantees
+if bidders report truthfully then this maximizes the social surplus, being the outcome of the auctioneer

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       77b3ebb8-4a01-4d46-b2f3-37c54d3506e0
+:END:
+#+title: security in bluetooth
+- we have the 48 bit [[id:0ae21144-0c72-4856-8795-3272676ba666][bluetooth address]]
+- we have a 128 bit authentication/link key
+- a variable 8-128 bit encryption key
+- a 128 bit random number
+
+a challenge is casted, a response is received as a function of the challenge, the address and a secret key
+a exponential backoff scheme is followed for failed auth attempts

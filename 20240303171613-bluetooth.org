@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4b59427e-21dc-43c7-865a-a1fc6eeb20e8
+:END:
+#+title: bluetooth
+bluetooth is a [[id:23c6acf7-51dc-48de-9a10-d2eddf6e6d31][WPAN]]
+the bluetooth specification is [[id:db8f1be2-2cdd-42da-bce0-5d4df821cd68][IEEE 802.15.1]]
+bluetooth is short range, low power, low cost and using radio
+
+power consumption being low is critical as they are often battery operated
+typically their area is very small, and doesnt need to manage information
+
+the bluetooth protocal stack exists almost entirely in the data link layer
+
+a piconet is a master device and at least one slave device
+devices can be in multiple piconets but a master in only one (time multiplexing)
+a master can connect to multiple slaves
+
+the master controlls the frequency hopping and correction and clock

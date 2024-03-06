@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       21d029d9-d39b-42dc-866a-13364e377a46
+:END:
+#+title: strong incentive guarantees
+it is dominant strategy [[id:de22d451-d683-4e99-bccf-80e56d37b9a5][incentive compatibility]]
