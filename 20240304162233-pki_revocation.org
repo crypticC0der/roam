@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       15a00e40-9259-41fc-8422-fad1ee18274d
+:END:
+#+title: pki revocation
+we need to be able to say that a private key has been compromised or the ca has been compromised or the subject has changed
+we do this via sending out CRLs which revoke a bunch of certificates at once (via the X.509-v2 CRL format)
+the issuing [[id:607e415f-4016-439e-9f48-c0b6cacffe5d][CA]] needs to keep the CRL up to date which is annoying, and hard to scale

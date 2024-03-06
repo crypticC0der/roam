@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       607e415f-4016-439e-9f48-c0b6cacffe5d
+:END:
+#+title: certificate authorites
+they authorise certificates, under [[id:794f9723-92f5-4e6b-9fea-f17c58ad628a][public key infrastructure]]
+typically they are heirarchical and can validate eachother which is called cross-certification
+
+they can generate keys also

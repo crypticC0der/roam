@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       dee505ba-59f9-4dbe-bc3c-1c7531a249b0
+:END:
+#+title: pki functions
+we need to be able to for [[id:794f9723-92f5-4e6b-9fea-f17c58ad628a][public key infrastructure]]
+- generate keys
+- [[id:4d41dc1c-e836-40df-9808-0bcdea631460][certification]]
+- verification
+- [[id:15a00e40-9259-41fc-8422-fad1ee18274d][revocation]]
+- cross certification
+  allowing certificate agencies to trust eachother

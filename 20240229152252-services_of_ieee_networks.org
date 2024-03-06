@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9f70b132-d582-4e8b-8e52-b2e1209d7567
+:END:
+#+title: services of ieee networks
+9 services are supported
+3 are for data transfer
+the other 6 are for management
+
+authentication is obligatory as a prerequisite for association due to how you need to be authenticated to use resources
+associaton service enables the connection between devices and AP
+distribution is exploted in networks to exchange [[id:bc6d6c18-957b-45e3-a0b6-de2d07e80c72][data frames]]

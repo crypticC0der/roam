@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2380e306-3c7e-463b-a2a0-66cdcc717bd2
+:END:
+#+title: wide local area network
+wlan is an information system that supports diverse location independent network service access to portible devices
+this is standarized by IEEE (like most things)
+different modulations are employed including [[id:7ca257a1-118d-4262-82fe-53244dc46a22][frequency hopped spread spectrum]] and [[id:657fbe9b-6ae1-4592-8734-e4af14da9f53][direct sequence spread spectrum]]
+
+devices communicate via either [[id:56435f2a-d35d-4f1b-9275-dbb0f6eddd1a][bss]] or [[id:966f5325-f776-415f-b5f2-ea431f481dfa][ibss]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       794f9723-92f5-4e6b-9fea-f17c58ad628a
+:END:
+#+title: public key infrastructure
+this aims to ensure our public keys are trustworthy and reliable
+we aim to certify that it truly belongs to who it is ment to
+
+we assume you dont trust the service provider and want to send it a message
+you have a pair of private and public keys and need to get your public key certified
+
+typically to get a certificate you have to prove yourself to the [[id:607e415f-4016-439e-9f48-c0b6cacffe5d][certificate agency]], via some critera depending on the usage, typically email is okay
+you have to share information with a third party database normally as well
+

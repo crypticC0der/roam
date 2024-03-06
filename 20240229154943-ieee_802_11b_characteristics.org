@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f68e0865-4417-477c-9786-166fe086e669
+:END:
+#+title: ieee 802.11b characteristics
+it uses cck for modulation and cdma
+typically its point to multipoint with an omnidirectional antenna, with multiple clients
+the indoor range is 30m at 11mbps and 90m at 1mbps
+
+as E=Pt so the larger distance, the lower the data given the same pwoer
+
+5ghz is faster at 54mbps but goes down as necessary, 5ghz has higher losses

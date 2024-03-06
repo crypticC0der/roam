@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       966f5325-f776-415f-b5f2-ea431f481dfa
+:END:
+#+title: independant basic service set
+the devices communicate directly
+wp -> wd

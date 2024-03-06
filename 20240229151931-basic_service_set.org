@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       56435f2a-d35d-4f1b-9275-dbb0f6eddd1a
+:END:
+#+title: basic service set
+communication between two devices takes two hops
+wp to ap, ap to wd

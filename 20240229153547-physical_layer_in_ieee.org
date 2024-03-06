@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       5fb6504d-6443-4875-8ebb-1f7c81ea8f52
+:END:
+#+title: physical layer in ieee
+we have two sublayers
+- plcp
+  which recives msdus and hands them to the pmd
+- pmd
+  this is resposible for transmitting shit from the plcp over the wireless medium
+
+information delivered much have a preamble which is a pattern that depends on the modulation techniques
+
+for modulation we use [[id:7ca257a1-118d-4262-82fe-53244dc46a22][frequency hopped spread spectrum]] at 2mbps and time dependant with a dwell time of .4s, devices should be confirgured to not intefere by being on the same frequencies
+for the duration of each slot the frequencies should be dissimilar
+the center frequencies is 2.403ghz and there are 95 channels with the last channel at 2.495, but not all are allowed around the globe
+
+we can also use [[id:657fbe9b-6ae1-4592-8734-e4af14da9f53][direct sequence spread spectrum]] which only has 14 channels (lol) due to each channel having to be 5mhz wide

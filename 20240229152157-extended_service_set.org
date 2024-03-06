@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       74b4dfc4-80ef-4b69-97b3-f766d0ac281c
+:END:
+#+title: extended service set
+this is a group of [[id:56435f2a-d35d-4f1b-9275-dbb0f6eddd1a][basic service set]]s so an arbitary network size can be supported
