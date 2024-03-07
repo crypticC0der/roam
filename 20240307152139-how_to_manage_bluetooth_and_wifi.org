@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       1bc23cdc-0e1e-46b2-8557-6e201512fea5
+:END:
+#+title: how to manage bluetooth and wifi
+we need to deal with [[id:4b59427e-21dc-43c7-865a-a1fc6eeb20e8][bluetooth]] and [[id:f68e0865-4417-477c-9786-166fe086e669][wifi]] being on the same network, there are two mechanisms of coexistence, which are normally done on bluetooth devices as they can be interfered with easier due to its low power
+the interference depends on several factors
+- distance
+- amount of traffic
+- power level of the devices
+- data rates of the wlan
+
+there are a number of chips that are capable of both wifi and bluetooth and can deal somewhat well
+* collaberative
+- coordinated scheduling frame transmission
+  - AWMA
+    wherin we have some time interval between successive beacon frames and wifi and bluetooth do their traffic in non overlapping time intervals
+    there is a guard period just to clear up any traffic, and
+  - PTA
+    this supports SCO traffic, which are time sensitive
+    it dynamically coordinates sharing radio resources between the two systems
+    whenever collisions are ment to occur we order the transmissions based on simple rules
+    aknowledgement packets will be sent first and then cto second, then everything else, this is due to awk having low size and if not sent more will be made and wifi is a btich
+- hardware based notch filter
+
+* non collaberative

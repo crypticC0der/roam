@@ -3,6 +3,7 @@
 :END:
 #+title: updating a regression function
 we can modify the data we are training apon and retrain entirely
+
 * moving window
 only take into account the last n peices of information
 this discards old data which could still be useful, but is generally lighter on processing power

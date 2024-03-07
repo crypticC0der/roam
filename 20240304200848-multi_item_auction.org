@@ -6,3 +6,9 @@ this is a type of [[id:3876daa6-caf3-47aa-a071-90bd4334a509][mechanism design]] 
 
 assume n > k (more bidders than items)
 we then give out the ith item to the ith highest bidder
+you make them pay the previous value and then the i+1 th bid * the difference between the ith item and the i+1 th item
+[[/home/mj/Pictures/screenshots/2024-03-06-11:36:59.png]]
+
+keep in mind $\alpha$ is not the value of the item but the number of things ie houses in a lot and the bids are the value they find in a single thing ie house
+
+this rule follows the [[id:ef109c38-ae37-4f4c-8835-3ac3f2c79b9b][mechanism aims]] and is [[id:21d029d9-d39b-42dc-866a-13364e377a46][strong incentive guarantees]] as if you bid lower, the person getting the item above you saves money but you dont, and if you bid really lower you get fewer items, and if you bid higher you need to pay more than you should
