@@ -10,6 +10,7 @@ the interference depends on several factors
 - data rates of the wlan
 
 there are a number of chips that are capable of both wifi and bluetooth and can deal somewhat well
+
 * collaberative
 - coordinated scheduling frame transmission
   - AWMA
@@ -23,3 +24,13 @@ there are a number of chips that are capable of both wifi and bluetooth and can 
 - hardware based notch filter
 
 * non collaberative
+to estimate traffic we try guess the interference
+- adaptave packet selection
+  we select the packets based on the chnnel conditions and traffic
+  if the range is limited then we pick stronger FEC codes to be able to error correct
+  if the interference is limited we aim to get more efficent packets with lower error correction
+- packet scheduling
+  we delay packets if the interference is high
+  if they can find a good segment they throw it in
+- adaptive frequency hopping
+  have good and bad frequencies and try and avoid wlan bands, if the signal to noise is high change

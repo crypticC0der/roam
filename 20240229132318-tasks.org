@@ -2,5 +2,9 @@
 :ID:       297987f6-2708-4503-b082-3d08b64aa22c
 :END:
 #+title: tasks
-a task is from user story in agile software pipelines with a value and an effort
+a task is from [[id:e624e7f3-62d3-453d-a24a-9ffb86a9a537][user story]] in agile software pipelines with a value and an effort and we base time it takes off of effort
 it should take around 1-2 hours
+
+mapping out which tasks are dependant on others is useful, so you can then parrelise the development of these properly
+
+remember 80% of the software can be done in 20% of the time and 20% can be done in 80% of time time
