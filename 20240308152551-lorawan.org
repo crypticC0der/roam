@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ac34afc8-80c7-45fe-a505-d981568753e7
+:END:
+#+title: loRaWan
+this is a energy efficent [[id:19e09ca7-d918-42e3-bd60-ab92d0e051ff][low power wan]] which is open source and aims to address power usage and coverage it lives in the [[id:9e499bae-9e44-4914-8d6c-61eb7292fa41][iot stack model]] physical and network layers, the physical layer part is properitary though
+
+its somewhat configurable, and you can modify the spreading factor in [[id:0501c216-8ed7-4755-9fd7-7ac0de1eed01][loRa Modulation]] increasing the range
+its [[id:5d68b7b2-f5e0-442f-a66e-60ecbae400ad][code rate]] is 5/7
+and it has multiple device classes

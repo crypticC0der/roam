@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       80710655-71d4-43e6-b0f4-679627a45bc4
+:END:
+#+title: planning poker
+this is a part of decideing how many [[id:297987f6-2708-4503-b082-3d08b64aa22c][tasks]] take up [[id:e624e7f3-62d3-453d-a24a-9ffb86a9a537][user stories]]
+each person decide on the tasks that make up this story and then everyone turns their cards over and explain themselves,
+if consuensus is not achived after this we go again

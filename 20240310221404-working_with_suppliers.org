@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       903c0d72-535e-4d13-b74f-694659669aac
+:END:
+#+title: working with suppliers
+typically working with suppliers is a very useful thing to do in order to specialise, you want a great database, pull in a great database company, you want an app, pull in an app compay who can do it faster better and cheaper
+this often comes with a great number of hidden costs

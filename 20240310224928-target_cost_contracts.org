@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       af3803b4-bb8a-4ee7-9676-8d3b773df461
+:END:
+#+title: target cost contracts
+this is a type of [[id:36580c4e-e02c-47fe-9c5d-c560c16bb2ae][contracts]] aimed to avoid [[id:6b780c51-cfc7-451f-bdd5-ec9b5366aad5][big up front requirements]] they are structured so you are benifited if you deliver early or deliver cheap, but the cost is figured out after a very long meeting
+
+theyre either done via
+- cost plus fixed fee
+  this is just cost plus a fee
+- profit not to exceed x
+  this is the profit the vendor makes

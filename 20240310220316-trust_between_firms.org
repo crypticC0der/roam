@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8b7ce20f-197a-4014-9ac4-9b96c1382110
+:END:
+#+title: trust between firms
+often we use [[id:6b780c51-cfc7-451f-bdd5-ec9b5366aad5][big up front requirements]] as it leads to airtight contracts, but that doesnt really end well and often trust is useful like in toyotas experience, the trust built means people assume that they wont share secrets often properitary techniques and yeah
+
+often maintaining trust is better for long term interests than short term
+often with software the constant iterating and making major changes is the costly thing, if you work with the customer you generally get a better end product

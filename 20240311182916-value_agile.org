@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       88150e6a-20e9-4c0b-a694-f3bd208f8344
+:END:
+#+title: value (agile)
+there are 5 types of valuw for software
+- revenue generation
+- cost saving
+- competitive differentiation
+- brand projection
+- enhanced loyalty

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e8dfb06b-e6a7-4508-9fe9-330eab077947
+:END:
+#+title: challenge response protocol
+to fix the [[id:9a84f422-d9e6-4fa8-9bb0-ede11be7960e][unix passwords]] being fucked by replay [[id:cf56960f-5af8-4816-89dd-0c42a9a7d28f][attacks]] we use a new means of [[id:66e059a8-37c3-4a99-9420-4d2a92ff0182][authentication]]
+this works via the sever challenging you
+so
+send a request, it responds with a random number connected to the request, the client returns the random number hashed with the key and proves it is the correct person
+this is immune to replay attacks
+
+can also be done by the server sending an encrypted random number and the client needs to send it back
+
+this has a number of variations, like with smart cards or [[id:622d2212-97e9-413c-a09a-583ee7ce074e][public key cryptography]]

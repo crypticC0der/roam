@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2346d7d7-40c5-4419-a7db-4501630e1380
+:END:
+#+title: key to a good contract
+the key to a good [[id:36580c4e-e02c-47fe-9c5d-c560c16bb2ae][contracts]] is variable scope, and esuring collabiration with the customer and healthy [[id:6d8ea5cc-701d-452b-97bb-194782871d00][iteration]]
+while avoiding [[id:6b780c51-cfc7-451f-bdd5-ec9b5366aad5][big up front requirements]]

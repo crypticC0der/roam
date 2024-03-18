@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       19e09ca7-d918-42e3-bd60-ab92d0e051ff
+:END:
+#+title: low power wan
+often we want a wide area network but we need the [[id:db8f1be2-2cdd-42da-bce0-5d4df821cd68][ieee 802.15.1 packets]] to be able to be sent for ages
+we need devices that can deal with a very long lifetime
+lpwan has a high range yet small range
+lpwan is very good and efficent and better than low power [[id:4b59427e-21dc-43c7-865a-a1fc6eeb20e8][bluetooth]]
+there are lots of comptetitors being developed but the one we focus on is LoRa, as the spectrum is cheap the device is cheap and the gateway and base station price is low

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0501c216-8ed7-4755-9fd7-7ac0de1eed01
+:END:
+#+title: loRa Modulation
+this is part of the phyical layer of the [[id:ac34afc8-80c7-45fe-a505-d981568753e7][loRaWan]], its data range is .3 to 50 kbps, it uses [[id:e612d185-88f8-453e-bca6-00477a85888f][chirp]] [[id:07e7561f-e849-4eba-8a77-523aef510371][spread spectrum modulation]]
+ and trades data rate for sensitiviy

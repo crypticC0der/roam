@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d6b71fad-b842-4d5d-ae2c-a5738041df13
+:END:
+#+title: token based authentication
+we have another token based authentication
+- pin based
+- smart phone based
+- chip and pin
+  chip and pin are mini computers which are capable of [[id:e8dfb06b-e6a7-4508-9fe9-330eab077947][challenge response protocol]]
+  they come on board with a number of chips for specific cyber secuirty and tasks)

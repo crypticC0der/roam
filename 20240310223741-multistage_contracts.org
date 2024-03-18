@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a976d186-4151-455c-8f7b-571fe866b994
+:END:
+#+title: multistage contracts
+these are a specific type of [[id:36580c4e-e02c-47fe-9c5d-c560c16bb2ae][contracts]] where they either
+- have short contracts for initial development and learning and then lean into a large scale contract when scope is decided
+  this increses the risk of changing the contracts later on as theyve been paid higher to figure shit out, beomcing basically a [[id:6b780c51-cfc7-451f-bdd5-ec9b5366aad5][big up front requirements]] but slightly better
+- multistage
+  this is similar to agile, with lots of iterations and steps, but both side depends on the other heavily and if one bails the other has alot to loose
+  these rely alot on trust and often get expensive with lots of negoitations
+  often they have a master contract over all

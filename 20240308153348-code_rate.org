@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5d68b7b2-f5e0-442f-a66e-60ecbae400ad
+:END:
+#+title: code rate
+this is represented as a/b which indicates a information bits with b - a parity bits

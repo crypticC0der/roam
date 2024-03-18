@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b60affa9-dfc3-413d-b757-91853a5c77d9
+:END:
+#+title: user types
+identifying the people who use your application helps show more [[id:e624e7f3-62d3-453d-a24a-9ffb86a9a537][user stories]], the more specific the better

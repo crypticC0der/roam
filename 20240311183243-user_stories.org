@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e624e7f3-62d3-453d-a24a-9ffb86a9a537
+:END:
+#+title: user stories
+user stories are a brief description of the functionality a system needs
+ie "i want to see my current average overall mark for the semester and year"
+we break these down into small tasks and then assign them [[id:88150e6a-20e9-4c0b-a694-f3bd208f8344][value (agile)]]
+we build these up as the app gets bigger
+ they can have different levels of abstraction and we deabstract them to simple stories over time
+
+ each user story must be a thin end to end slice of functionality

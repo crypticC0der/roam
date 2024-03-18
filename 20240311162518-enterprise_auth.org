@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       609f6d0f-b419-44a5-88a0-0d8e4b3ab2a5
+:END:
+#+title: enterprise auth
+alot of the time each pc interacts with the right server and then the secuiry server which actually manages the password authentication
+this allows single sign on for multiple services under the same organisation
+this generally is built around the point to point protocol which is where we communicate to the ras server which communicates with the main authentication server
+this normally works around the [[id:e8dfb06b-e6a7-4508-9fe9-330eab077947][challenge response protocol]] which is pretty neat
+the communication between the client -> intermidate server and the communication between the intermediate server -> auth server have interfaaces and the internal means of doing things are entirely seperate
+the client doesnt care about how the auth server works as the intermidate server communicates for it

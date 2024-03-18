@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6b780c51-cfc7-451f-bdd5-ec9b5366aad5
+:END:
+#+title: big up front requirements
+this is where you have a big [[id:36580c4e-e02c-47fe-9c5d-c560c16bb2ae][contract]] and typically have a fixed price for what you aim to do, often the end product is unstatisfory, estimating the costs upfront is often very hard too
+this is due to the vendors often needing to recoup their losses by making features a bit shittiy,
+this sort of thing is heavily biased in order for the customer and the vendor suffers, and the customer too ultimatly suffers
+
+flexable contracts are a bunch better
+with flexible contracts the customer can get out alot easeir

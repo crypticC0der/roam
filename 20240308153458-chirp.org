@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e612d185-88f8-453e-bca6-00477a85888f
+:END:
+#+title: chirp
+a chips includes 2^SF chips and carries SF data bits
+for a given BW there are that many chips per second as it uses the whole thing, the duration of each chirp is 2^SF/BW
+and each data bit consists of 2^SF / SF chips

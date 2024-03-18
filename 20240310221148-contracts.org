@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       36580c4e-e02c-47fe-9c5d-c560c16bb2ae
+:END:
+#+title: contracts
+contracts are often built in order to minimise the choice that the person fulfilling it has and minimse the ability for the person fulfilling it to take advantage of it
